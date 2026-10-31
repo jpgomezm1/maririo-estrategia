@@ -10,7 +10,7 @@ Cascada de decisiones de *Playing to Win*:
 1. Aspiración ganadora — ✅ lista
 2. Dónde jugar — ✅ lista
 3. Cómo ganar — ✅ lista
-4. Capacidades — 🔄 en curso (vamos en la pregunta 54)
+4. Capacidades — 🔄 en curso (vamos en la pregunta 55)
 5. Sistemas de gestión — ⏳ pendiente
 
 Antes de la cascada hicimos el **paso 0: cómo está Mar i Río hoy**.
@@ -262,6 +262,12 @@ Hallazgo: **ninguna combina una estética de autor marcada con el taller como ce
      - **Feria de diciembre (preguntas 52 y 53):** cupo de **$1.656.000** (la mitad de $3.312.000) más unos **$1.000.000** de stand: **$2.656.000 en total**.
      - **Punto de equilibrio:** con ~$235.000 de margen por anillo, hacen falta unos **12 anillos** (o unas 14 piezas si se venden las más baratas, con ~$190.000 de margen). Los bonos de taller vendidos también cuentan, con ~$280.000 de margen cada uno.
      - **Meta propuesta para la feria:** cubrir costos (12 piezas o su equivalente en bonos) y **capturar al menos 100 contactos** de desconocidas para los talleres de enero. La feria es venta y también laboratorio.
+     - **Qué llevar (pregunta 54):** muestrario para tomar pedidos y algunas piezas hechas. Recomendación:
+       - **Muestrario completo:** una pieza de cada referencia para probarse, más un medidor de tallas.
+       - **Piezas hechas para venta inmediata:** las que ya tiene pendientes por ajustar talla (ajustarlas antes de la feria) y unas pocas del anillo más vendido en las tallas más comunes. En diciembre mucha compra es por impulso, y lo que se lleva puesto ese mismo día se vende mejor que un pedido.
+       - **Pedidos:** se cobra el **100% al pedir** (o mínimo 50%), con fecha de entrega escrita y antes del 24 de diciembre. El pedido sin pago se enfría.
+       - **Capacidad:** si la feria trae muchos pedidos, se juntan con el pico de diciembre. Por eso conviene tener listo el joyero por pieza y hablar antes con el taller de vaciado.
+       - **Inventario:** unas 10 piezas hechas a ~$115.000 de costo son ~$1,15 millones. No es gasto: se recupera al venderlas.
      - **Stand:** que sea barato pero con la estética de Mar i Río, y con piezas que se puedan reutilizar en el kit del taller, en otras ferias y, más adelante, en la tienda.
   3. **El sueldo de Mariana:** ✅ **no sale de la inversión** (pregunta 50). Mariana tiene de qué vivir mientras las ventas crecen, así que la inversión solo cubre la operación y el crecimiento. Los $3 a $5 millones libres al mes siguen siendo la meta que el negocio debe alcanzar.
   4. **Ventas esperadas mes a mes:** de ~3 joyas y casi cero talleres hoy, hasta la meta de 20 joyas y 4 talleres.
