@@ -10,7 +10,7 @@ Cascada de decisiones de *Playing to Win*:
 1. Aspiración ganadora — ✅ lista
 2. Dónde jugar — ✅ lista
 3. Cómo ganar — ✅ lista
-4. Capacidades — 🔄 en curso (vamos en la pregunta 51)
+4. Capacidades — 🔄 en curso (vamos en la pregunta 52)
 5. Sistemas de gestión — ⏳ pendiente
 
 Antes de la cascada hicimos el **paso 0: cómo está Mar i Río hoy**.
@@ -248,7 +248,16 @@ Hallazgo: **ninguna combina una estética de autor marcada con el taller como ce
 - **Recomendación:** el número no se escoge por intuición. Es lo que hace falta para cubrir el hueco entre lo que cuesta operar y lo que dejan las ventas, hasta que el negocio se pague solo, más una reserva.
 - **Soltar la plata por tramos, atada a pruebas:** un primer tramo ahora (feria, diciembre, enero) y el siguiente solo si las pruebas salen bien (la fecha abierta se llena, la feria vende, la agencia convierte).
 - **Pasos para calcularlo (presupuesto a 12 meses):**
-  1. **Gastos fijos del mes:** agencia, pauta, transporte, comisiones, suscripciones.
+  1. **Gastos fijos del mes** (pregunta 51):
+
+     | Gasto | Al mes |
+     |---|---|
+     | Agencia | $800.000 |
+     | Pauta | $400.000 (antes ponía "3.200 al día"; la cifra exacta está por confirmar, pero el plan es $400.000 al mes) |
+     | Taller de joyería | $250.000 |
+     | **Total** | **$1.450.000 al mes, unos $17,4 millones al año** |
+
+     **Lectura:** solo los gastos fijos ya pasan la inversión de $5 a $7 millones y se acercan a los $20 millones. Con el margen de hoy (~$700.000 al mes por ~3 joyas), el negocio quema unos $750.000 al mes. Por eso importan las condiciones a la agencia y no subir la pauta hasta arreglar el anuncio.
   2. **Inversiones de una vez:** feria, inventario para la feria, kit portátil del taller, fotógrafo por colección, herramientas, empaques.
   3. **El sueldo de Mariana:** ✅ **no sale de la inversión** (pregunta 50). Mariana tiene de qué vivir mientras las ventas crecen, así que la inversión solo cubre la operación y el crecimiento. Los $3 a $5 millones libres al mes siguen siendo la meta que el negocio debe alcanzar.
   4. **Ventas esperadas mes a mes:** de ~3 joyas y casi cero talleres hoy, hasta la meta de 20 joyas y 4 talleres.
