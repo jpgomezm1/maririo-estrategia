@@ -10,8 +10,8 @@ Cascada de decisiones de *Playing to Win*:
 1. Aspiración ganadora — ✅ lista
 2. Dónde jugar — ✅ lista
 3. Cómo ganar — ✅ lista
-4. Capacidades — 🔄 en curso (vamos en la pregunta 61)
-5. Sistemas de gestión — ⏳ pendiente
+4. Capacidades — ✅ lista (cerrada en la pregunta 61)
+5. Sistemas de gestión — 📝 borrador propuesto, por validar
 
 Antes de la cascada hicimos el **paso 0: cómo está Mar i Río hoy**.
 En las decisiones difíciles usamos el "¿qué tendría que ser cierto?" y diseñamos pruebas baratas antes de comprometer plata.
@@ -224,7 +224,7 @@ Hallazgo: **ninguna combina una estética de autor marcada con el taller como ce
 
 ---
 
-## 4. Capacidades 🔄 (en curso)
+## 4. Capacidades ✅
 
 | # | Capacidad | Estado hoy |
 |---|---|---|
@@ -344,7 +344,27 @@ Hallazgo: **ninguna combina una estética de autor marcada con el taller como ce
      - **Lectura:** el escenario de Mariana supera las metas a 12 meses (20 joyas y 4 talleres al mes) en el primer mes del año. Si pasa, la estrategia queda validada muy rápido. Pero 30 joyas en enero, sin feria y en un mes flojo de gasto, es lo más difícil de cumplir: depende de que la feria deje clientas que vuelvan y de que Instagram empiece a vender.
      - **Capacidad:** 30 joyas + 20 piezas de taller = **~50 piezas**, por encima del límite de 40 al mes. En ese escenario, el joyero por pieza deja de ser respaldo y se vuelve necesario en enero. Dar 3 a 5 talleres son 9 a 15 horas: eso sí cabe.
      - **Qué tendría que ser cierto:** hoy ninguna fecha abierta se ha llenado y la pauta no ha traído inscritas; enero además suele ser un mes flojo de gasto en Colombia. Llenar 20 talleres en enero exige que la feria, los bonos de diciembre y el nuevo anuncio funcionen a la vez.
+     - **De febrero en adelante (pregunta 61):** Mariana no sabe todavía, porque aún no empieza. **Supuesto:** la meta a 12 meses (20 joyas y 8 personas en talleres al mes): ~$3.200.000 + ~$2.160.000 − $1.450.000 ≈ **+$3.900.000 al mes**. Se corrige con los números reales de diciembre y enero.
   5. **El hueco:** gastos (1 + 2 + 3) menos el margen de las ventas (4), mes a mes. La suma de los meses en rojo, más una reserva, es la inversión.
+
+**Conclusión: la inversión es de ~$9 millones, en dos tramos, no $20 millones.**
+
+| Tramo 1: ahora (noviembre) | Monto |
+|---|---|
+| Feria (cupo + stand) | $2.656.000 |
+| Inventario para la feria (~10 piezas, se recupera al venderlas) | $1.150.000 |
+| Primer lote del anillo de entrada (20 unidades) | $850.000 |
+| Kit portátil del taller (por cotizar; estimado) | $1.000.000 |
+| **Total tramo 1** | **~$5.650.000** |
+
+| Tramo 2: reserva | Monto |
+|---|---|
+| 2 meses de gastos fijos | ~$2.900.000 |
+| Margen para imprevistos | ~$450.000 |
+| **Total tramo 2** | **~$3.350.000**, se suelta solo si diciembre o enero quedan en rojo |
+
+- Con el escenario prudente, diciembre pierde ~$1,1 millones y enero gana ~$2,85 millones. Después de enero el negocio se paga solo si se acerca a la meta.
+- **La regla:** no se pasa del tramo 1 sin mirar los números de la feria. Si la fecha abierta de enero no se llena con el nuevo anuncio, se revisa la estrategia del taller antes de gastar más.
 
 **Envíos y tallas (preguntas 38 y 39):** Mariana nunca ha enviado a otra ciudad. Lo haría por transportadora. El problema de la talla no le ha pasado, pero en venta a distancia va a aparecer.
 - **Fabricación por pedido:** casi todo se fabrica cuando alguien compra. Tiene algunas piezas hechas que están pendientes de ajustar talla (se pueden vender en la feria).
@@ -421,11 +441,50 @@ Hallazgo: **ninguna combina una estética de autor marcada con el taller como ce
 
 ---
 
-## 5. Sistemas de gestión ⏳
+## 5. Sistemas de gestión 📝 (borrador, por validar con Mariana)
 
-Pendiente. Incluye rutinas, indicadores, finanzas, equipo y calendario de contenido.
+Mariana pidió pasar a la acción (pregunta 61). En vez de seguir preguntando, este es un borrador corto:
+
+- **Rutina semanal (lunes, 30 minutos):** revisar 5 números y escoger las 3 tareas de la semana.
+- **Los 5 números:**
+  1. Joyas vendidas y margen.
+  2. Personas inscritas en talleres.
+  3. Mensajes recibidos y cuántos terminan en compra o inscripción.
+  4. Contactos nuevos de desconocidas.
+  5. Caja: lo que queda de la inversión.
+- **Revisión mensual (fin de mes, 1 hora):** comparar con las metas y con las pruebas, y decidir si se suelta el siguiente tramo, se ajusta la agencia o se cambia el anuncio.
+- **Herramienta:** una hoja de cálculo sencilla con una fila por venta (fecha, pieza, precio, para ti o regalo, cómo llegó). Nada más complejo por ahora.
 
 ---
+
+## Plan de acción (noviembre 2026)
+
+**Semana 1 (3 al 9 de noviembre)**
+- [ ] Diseñar el anillo de entrada (4 g, $150.000) y mandar a hacer el caucho y el primer vaciado.
+- [ ] Hablar con el taller de vaciado: día fijo en diciembre a cambio de volumen.
+- [ ] Pausar la pauta y escribirle a cada interesada: *"¿qué te faltó para animarte?"*.
+- [ ] Entregarle a la agencia por escrito la nueva línea y el objetivo (inscritas y ventas), con revisión a fin de diciembre.
+
+**Semana 2 (10 al 16 de noviembre)**
+- [ ] Rehacer el anuncio del taller: precio visible, anillos reales con la cara de quien los hizo, link para reservar con abono.
+- [ ] Escribir la respuesta lista para el chat.
+- [ ] Visitar 3 cafés para los talleres colectivos, con la lista de requisitos del espacio.
+- [ ] Conseguir un joyero que cobre por pieza.
+
+**Semana 3 (17 al 23 de noviembre)**
+- [ ] Fabricar las piezas para la feria: ajustar las tallas pendientes y hacer unas pocas del anillo más vendido en tallas comunes.
+- [ ] Probar el negativo en arcilla con 3 modelos de cera y vaciarlos.
+- [ ] Preparar los bonos de regalo del taller y la guía de tallas.
+- [ ] Empezar la hoja de cálculo de ventas.
+
+**Semana 4 (24 al 30 de noviembre)**
+- [ ] Armar el stand con elementos reutilizables.
+- [ ] Preparar la captura de contactos en la feria (QR a un formulario corto).
+- [ ] Abrir en preventa las fechas de taller de enero, para venderlas en la feria.
+
+**Feria (primera semana de diciembre)**
+- [ ] Metas: 12 piezas (o su equivalente en bonos) y 100 contactos de desconocidas.
+- [ ] Preguntar y anotar en cada venta: *"¿es para ti o para regalar?"*.
 
 ## Plan de corto plazo (noviembre–enero)
 

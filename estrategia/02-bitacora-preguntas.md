@@ -78,4 +78,4 @@ Registro resumido de la entrevista. Las respuestas conservan las palabras de Mar
 58. **Siendo realista, ¿cuántas joyas y cuántos talleres crees que vas a vender en diciembre?** 30 joyas y 1 taller. Son 3 días de feria y es *"gente pinchada"*.
 59. **¿Y en enero, cuántas joyas y cuántos talleres esperas?** 30 joyas y 20 talleres.
 60. **¿Son 20 talleres o 20 personas en talleres?** *"Es verdad, es un número alto. 20 talleres sería espectacular; podríamos decir 20 personas."*
-61. **PENDIENTE:** Después de enero, ¿qué sería para ti un buen mes normal en joyas y personas en talleres?
+61. **Después de enero, ¿qué sería para ti un buen mes normal?** *"No lo sé porque aún no empiezo."* Preguntó cuántas preguntas faltan: necesita definir y pasar a la acción. Se cerró capacidades, se definió la inversión (~$9 millones en dos tramos) y se armó el plan de acción de noviembre. Los sistemas de gestión quedan como borrador para validar.
