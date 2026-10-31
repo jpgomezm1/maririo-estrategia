@@ -1,6 +1,6 @@
 # Mar i Río — Diseño estratégico (Playing to Win, Roger Martin)
 
-> Estado al 2026-10-26. Documento vivo: se actualiza a medida que avanzamos.
+> Estado al 2026-10-31. Documento vivo: se actualiza a medida que avanzamos.
 > Dueña: Mariana Ríos ("la arquitecta joyera"). Acompaña: su novio, JP.
 
 ## Método
@@ -10,7 +10,7 @@ Cascada de decisiones de *Playing to Win*:
 1. Aspiración ganadora — ✅ lista
 2. Dónde jugar — ✅ lista
 3. Cómo ganar — ✅ lista
-4. Capacidades — 🔄 en curso (vamos en la pregunta 36)
+4. Capacidades — 🔄 en curso (vamos en la pregunta 51)
 5. Sistemas de gestión — ⏳ pendiente
 
 Antes de la cascada hicimos el **paso 0: cómo está Mar i Río hoy**.
@@ -33,7 +33,12 @@ En las decisiones difíciles usamos el "¿qué tendría que ser cierto?" y dise�
 | Pieza más barata | $250.000 | $60.000 | $190.000 (76%) |
 | Anillo más vendido | $350.000 | $115.000 | $235.000 (67%) |
 | Pieza más cara | $700.000 | — | — |
-| Taller (por persona) | $380.000 o $430.000 | ~$100.000 (material, domicilios, vaciado) | $280.000–$330.000 |
+| Taller (por persona) | $380.000 o $420.000 (ver modalidades) | ~$100.000 (material, domicilios, vaciado) | $280.000–$320.000 |
+
+**Taller "De Cera a Plata" (pregunta 44):**
+- Personalizado (2 o 3 personas): $420.000 por persona, con domicilio incluido.
+- Grupos de 4 personas en adelante: $380.000 por persona.
+- Fecha abierta (puertas abiertas): $380.000 por persona.
 
 El taller requiere 3 horas de Mariana, con capacidad máxima de unas 7 personas. Un taller lleno deja unos $2,1 millones en 3 horas.
 
@@ -51,7 +56,7 @@ El taller requiere 3 horas de Mariana, con capacidad máxima de unas 7 personas.
 
 **Recursos**
 - Tiempo: desde 2026-10-23 es su trabajo principal. Antes le dedicaba 4 a 6 horas por semana.
-- Plata: entre $5 y $7 millones para invertir en los próximos 12 meses (aproximado).
+- Plata: entre $5 y $7 millones para invertir en los próximos 12 meses (aproximado). En la pregunta 49 dijo que la puede ajustar a **$10 o $20 millones**. La agencia ($800.000 al mes) sale de esa inversión.
 - Ingreso: necesita mínimo $3 millones libres al mes y aspira a **$5 millones libres al mes**. Vive con sus papás, tiene carro y una cuota de $800.000.
 
 **Lo que la frena hoy:** no sabe bien cómo comunicar, la propuesta de valor no está clara, le falta constancia en redes y no está llegando al público indicado. El diagnóstico es que son síntomas de no tener definido dónde jugar y cómo ganar.
@@ -63,7 +68,9 @@ El taller requiere 3 horas de Mariana, con capacidad máxima de unas 7 personas.
 ## 1. Aspiración ganadora ✅
 
 **Borrador:**
-> Que Mar i Río sea, empezando por Medellín, **la** marca de joyería de autor en plata para mujeres que usan las joyas para expresarse. Que sus colecciones se reconozcan sin ver el logo y que su taller sea un destino de la ciudad para vivir los momentos que importan, alrededor de una comunidad que se siente parte de la marca.
+> Que Mar i Río sea **una marca nacional** de joyería de autor en plata, con la mira puesta en lo internacional, para mujeres que usan las joyas para expresarse. Empieza en Medellín. Que sus colecciones se reconozcan sin ver el logo y que su taller sea un destino de la ciudad para vivir los momentos que importan, alrededor de una comunidad que se siente parte de la marca.
+
+**Ajuste de alcance (pregunta 36):** Mar i Río nace para ser marca nacional y, ojalá, internacional, no una marca de barrio de Medellín. Medellín es el punto de partida, no el techo.
 
 **Visión a 3 años (palabras de Mariana):**
 - Las piezas se reconocen por su estética sin ver la marca.
@@ -95,15 +102,17 @@ Validación: 1 taller por semana de 2 personas (~$2,4 millones) más 20 joyas (~
 | Elemento | Decisión |
 |---|---|
 | **Clienta** | Mujeres de 22 a 40 años que usan las joyas para expresar su estilo |
-| **Ocasiones** | Uso propio, regalos y momentos importantes (compromisos, despedidas, cumpleaños) |
+| **Ocasiones** | **Sobre todo compra propia** (pregunta 39). También regalos y momentos importantes (compromisos, despedidas, cumpleaños) |
 | **Productos** | Colecciones cortas de autor en plata, un anillo de entrada y el taller de cera perdida |
-| **Geografía** | Medellín primero; Bogotá queda en la mira |
+| **Geografía** | Ambición nacional desde el inicio y, ojalá, internacional. **Confirmado (pregunta 37):** el taller arranca en Medellín y la colección se vende a todo el país desde ya, por Instagram y la web con envíos. Bogotá es la segunda ciudad del taller |
 | **Canales** | Instagram, voz a voz, ferias y bonos de regalo. A futuro, tienda física |
 | **Lo que NO hacemos** | Catálogo enorme ("nunca un H&M de joyería"), personalizados por encargo y productos para todo el mundo |
 
 **Clienta ideal (caso real):** 27 años, creadora de contenido independiente, muy estética, auténtica, chiquita de estatura pero se siente grande por cómo habla. Personalidad marcada, arriesgada con su estética, muy femenina, cool, no tradicional y con buena capacidad adquisitiva. Está próxima a su boda.
 
-**Quien compra no siempre es quien la usa:** muchas compras son regalos.
+**Compra propia primero (pregunta 39):** hasta hoy las ventas han sido sobre todo regalos de familia y amigos, pero Mariana cree que Mar i Río es, en su mayoría, compra propia. Es una pieza imperfecta para expresar un estilo y una forma de ser, y regalar algo tan arriesgado es atrevido. El regalo puede pasar, pero no es el centro.
+- **Qué tendría que ser cierto:** que las desconocidas compren para ellas mismas.
+- **Prueba barata:** en la feria y en cada venta en línea, preguntar y anotar *"¿es para ti o para regalar?"*.
 
 **Puerta de entrada:** el taller. Las razones:
 1. Es donde menos competencia hay.
@@ -176,16 +185,145 @@ Hallazgo: **ninguna combina una estética de autor marcada con el taller como ce
 | 2 | Experiencia del taller: guía, técnica de cera, espera y entrega | 🟡 En parte |
 | 3 | Producción confiable: vaciado, acabado y, a futuro, fabricación externa | 🔴 Débil |
 | 4 | Contenido y comunicación con una línea clara y constante | 🔴 Débil (ya hay línea gracias a "cómo ganar") |
-| 5 | Llenar talleres: pauta, aliados y espacios de terceros | 🔴 No existe |
+| 5 | Llenar talleres: pauta, aliados y espacios de terceros | 🔴 No existe (2 fechas abiertas sin llenar; pauta actual con mensajes y sin inscritas) |
 
 **Cuellos de botella:**
 1. **Vaciado externo:** mínimo 4 días y sin control de tiempos. Opciones:
    - Negociar un día fijo o prioridad a cambio de volumen.
    - Tener un segundo proveedor de respaldo.
    - Comprar equipo propio, pero solo cuando la demanda lo justifique.
-2. **Acabado manual:** solo lo hace Mariana y necesita un joyero. **Pregunta 36 pendiente:** ¿cuánto tiempo le toma terminar una pieza después del vaciado? Con eso se calcula cuándo contratar.
+2. **Acabado manual:** solo lo hace Mariana. Le toma **cerca de 1 hora por pieza y 4 horas como máximo** (pregunta 36).
+   - **Cálculo:** las piezas de los talleres también hay que terminarlas. Con la meta mínima a 12 meses (20 joyas más 4 talleres de 2 personas) son unas 28 piezas al mes: ~28 horas si cada una toma 1 hora y hasta ~110 horas si toman 4.
+   - **Regla para contratar:** el acabado no debería pasar de unas 40 horas al mes, una cuarta parte de su tiempo, porque el resto lo necesita para diseñar, dar talleres, crear contenido y vender. Con 1 hora por pieza, el límite está en **~40 piezas al mes**. Si las piezas se acercan a 4 horas, ese límite baja a 10.
+   - **Recomendación:** no contratar un joyero de planta todavía. Para el pico de diciembre, conseguir **un joyero que cobre por pieza**, como respaldo. Contratar fijo cuando pase las 40 piezas al mes durante 2 meses seguidos.
+   - **Prueba barata:** cronometrar el acabado de las próximas 10 piezas para saber si el número real se parece más a 1 hora o a 4.
+   - **Fabricación externa:** ya hay un vínculo. El joyero por pieza también puede ser el primer paso para pasar a diseñar y mandar a fabricar.
+
+**El guion del taller (pregunta 40):** Mariana todavía no tiene claro el contenido del taller ni cuánto hablar de la marca.
+- **Hoy:** enseña rápido técnicas de cera perdida, cuenta el proceso, dice que la pieza es única e irrepetible, escriben la intención de la pieza y el momento presente, y modelan. Ese día no se llevan nada.
+- **Idea de Mariana:** que cada persona haga en un pedazo de arcilla el negativo de su modelo. Les queda como joyero y display del anillo que reciben días después.
+- **Lectura:** la idea es muy buena. Les da algo para llevarse, algo para fotografiar y compartir, y une los dos encuentros: el día de la entrega el anillo llega a su molde.
+- **La marca no se explica, se toca:** en vez de un discurso, la colección está sobre la mesa desde el inicio para probársela. Eso despierta las ganas de crear y deja a la vista el modelo C (la colección alimenta el taller y el taller alimenta la colección).
+- **Guion propuesto en cinco momentos (~3 horas):**
+  1. **Llegada y colección (15 min):** se prueban piezas. Mariana cuenta en 3 minutos por qué lo derretido y la idea del lienzo en blanco.
+  2. **Intención (15 min):** escriben la intención y el momento presente. La nota vuelve con el anillo el día de la entrega.
+  3. **Técnica (20 min):** lo justo para empezar con confianza.
+  4. **Modelado (~1 h 45 min):** el corazón del taller.
+  5. **Cierre con arcilla (20 min):** hacen el negativo, foto del grupo con sus moldes y se explica qué pasa durante la espera.
+- **Qué tendría que ser cierto con la arcilla:** que presionar el modelo de cera no lo deforme ni le deje residuos que dañen el vaciado, y que la arcilla seque sin romperse.
+- **Prueba barata:** hacerlo ella misma con 3 modelos de cera antes de ofrecerlo, y vaciar esos modelos para revisar el resultado.
+
+**La entrega hoy (pregunta 41):**
+- **Privados:** el domicilio a una dirección va incluido.
+- **Puertas abiertas (colectivos):** deben recogerlo. Pueden ser hasta 7 direcciones a $15.000 cada una.
+- **Empaque:** de tela, con tarjeta de certificado de plata, nombre de la pieza e intención. Incluye un certificado de *"tu primer anillo hecho por ti"* con el nombre de la persona, el nombre de la pieza y una frase de Mar i Río: *"lo bueno toma tiempo, recibirás este anillo en X días"*.
+- **Foto:** antes la tarjeta llevaba una foto, pero imprimirla era tedioso y la Polaroid salía muy costosa.
+- **Idea de Mariana:** entregar el certificado de "tu primer anillo" el día del taller, junto con la arcilla.
+
+**Recomendación:**
+- **Sí al certificado el día del taller.** Con la arcilla y la frase "lo bueno toma tiempo", se van con un objeto y una fecha. La espera empieza a diseñarse ahí mismo. La intención y el certificado de plata llegan con el anillo.
+- **Foto digital, no impresa:** foto del grupo con sus moldes, enviada por WhatsApp y publicada etiquetándolas. No cuesta nada y produce contenido.
+- **Convertir el recoger en una revelación:** para los colectivos, en vez de que cada una pase a recoger cuando pueda, se anuncia en el taller un **día de revelación** (por ejemplo, 8 días después). El grupo vuelve, pone el anillo en su molde, se toma la foto y tiene la colección a la mano para comprar. Quien no pueda ir recoge o paga su domicilio. Así lo que hoy es una limitación de logística se vuelve el segundo encuentro.
+- **Qué tendría que ser cierto:** que la gente vuelva. El tráfico y la agenda en Medellín pesan.
+- **Prueba barata:** en el primer taller colectivo de enero, ofrecer el día de revelación y medir cuántas vuelven y cuántas compran colección ese día.
 
 **Diseñar la espera:** la espera no se elimina, se diseña. La entrega puede ser un segundo encuentro, un momento de revelación: la clienta vuelve, ve la colección, se genera contenido y la emoción se vive dos veces. Mariana está de acuerdo. Hoy promete 15 días; con un día fijo de vaciado podría prometer una semana.
+
+**Ambición nacional = capacidades nuevas:** vender a otras ciudades exige tienda en línea y envíos confiables (empaque, tiempos, cambios de talla), y la colección tiene que poder viajar sola, sin que Mariana la explique en persona. Más adelante, el taller fuera de Medellín (talleres itinerantes en espacios de terceros o kits para hacer en casa, como The Workbench London).
+
+**La agencia de contenido (pregunta 48):** cobra **$800.000 al mes**. Hace los guiones de los videos, graba a Mariana y edita, y también hace ciertas publicaciones e historias.
+- **Lectura:**
+  - Son **$9,6 millones al año**, más que toda la inversión de $5 a $7 millones que Mariana tiene para 12 meses.
+  - Hoy se come casi todo el margen: con ~3 joyas al mes (~$700.000 de margen), la agencia cuesta más de lo que deja la venta.
+  - Para pagarla hacen falta unos 3,5 anillos o 3 cupos de taller al mes, solo para cubrirla.
+  - Hasta ahora no ha convertido, aunque parte de la culpa era la falta de una línea clara, que ya existe gracias a "cómo ganar".
+- **Recomendación:** no cortarla a ciegas, pero **condicionarla**.
+  - Entregarle por escrito la nueva línea (cómo ganar, clienta, el taller como puerta de entrada) y **un solo objetivo medible:** inscritas al taller y ventas, no likes ni seguidores.
+  - Darle **2 meses** (noviembre y diciembre, que coinciden con la feria y la temporada).
+  - Si no mueve esos números, reducirla a solo editar o cortarla. El contenido lo pueden producir los mismos talleres (proceso, manos, revelación) y Mariana con el celular.
+- **Qué tendría que ser cierto:** que la agencia, con una línea clara, produzca contenido que convierta.
+- **Prueba barata:** los mismos 2 meses, midiendo inscritas y ventas que llegan por Instagram.
+
+**Cuánto invertir (pregunta 49):** la agencia sale de la inversión, y Mariana cree que la inversión puede subir a $10 o $20 millones.
+- **Recomendación:** el número no se escoge por intuición. Es lo que hace falta para cubrir el hueco entre lo que cuesta operar y lo que dejan las ventas, hasta que el negocio se pague solo, más una reserva.
+- **Soltar la plata por tramos, atada a pruebas:** un primer tramo ahora (feria, diciembre, enero) y el siguiente solo si las pruebas salen bien (la fecha abierta se llena, la feria vende, la agencia convierte).
+- **Pasos para calcularlo (presupuesto a 12 meses):**
+  1. **Gastos fijos del mes:** agencia, pauta, transporte, comisiones, suscripciones.
+  2. **Inversiones de una vez:** feria, inventario para la feria, kit portátil del taller, fotógrafo por colección, herramientas, empaques.
+  3. **El sueldo de Mariana:** ✅ **no sale de la inversión** (pregunta 50). Mariana tiene de qué vivir mientras las ventas crecen, así que la inversión solo cubre la operación y el crecimiento. Los $3 a $5 millones libres al mes siguen siendo la meta que el negocio debe alcanzar.
+  4. **Ventas esperadas mes a mes:** de ~3 joyas y casi cero talleres hoy, hasta la meta de 20 joyas y 4 talleres.
+  5. **El hueco:** gastos (1 + 2 + 3) menos el margen de las ventas (4), mes a mes. La suma de los meses en rojo, más una reserva, es la inversión.
+
+**Envíos y tallas (preguntas 38 y 39):** Mariana nunca ha enviado a otra ciudad. Lo haría por transportadora. El problema de la talla no le ha pasado, pero en venta a distancia va a aparecer.
+- **Fabricación por pedido:** casi todo se fabrica cuando alguien compra. Tiene algunas piezas hechas que están pendientes de ajustar talla (se pueden vender en la feria).
+- **Ajustable, descartado:** así empezó, pero hecho a la talla se siente más premium, las clientas le han dicho que lo prefieren y lo ajustable puede afectar la calidad. **Hecho a tu talla** es parte de la propuesta.
+- **Ventaja de fabricar por pedido:** la talla se confirma **antes** de fabricar, así que el cambio debería ser raro.
+- **Medir antes de fabricar:** guía de tallas en la web e Instagram (con un hilo o con un anillo que ya tengan) y, si vale la pena, un medidor de tallas barato que se envía o se entrega en la feria.
+- **Un cambio de talla gratis** por pieza, con el envío de vuelta a cargo de Mar i Río. Así se compra con confianza.
+- **Bono de regalo** como salida cuando quien regala no sabe la talla.
+- **Prueba barata:** llevar registro de los primeros 10 envíos (costo, tiempo, daños y cambios de talla) antes de pautar fuera de Medellín.
+
+**Precio del taller (pregunta 44):** las mismas 3 horas de Mariana dejan muy distinto según la modalidad (margen ≈ precio − $100.000 de costo − domicilio o consumo):
+
+| Modalidad | Personas | Margen por persona | Margen del taller |
+|---|---|---|---|
+| Personalizado | 2 | ~$305.000 | ~$610.000 |
+| Personalizado | 3 | ~$305.000 | ~$915.000 |
+| Fecha abierta en café (consumo de $24.000 incluido) | 7 | ~$256.000 | ~$1.790.000 |
+
+- **Lectura:** el personalizado cobra solo 10% más por un taller exclusivo, a domicilio y con toda la atención de Mariana, y deja menos de la mitad que una fecha abierta llena. El personalizado es justo el formato de los momentos importantes (compromisos, despedidas, cumpleaños), donde la gente paga por exclusividad.
+- **Recomendación:**
+  - **Fecha abierta:** mantener $380.000 con la bebida incluida. Es la puerta de entrada.
+  - **Personalizado:** subirlo a **$480.000 por persona**, o cobrar un mínimo por sesión.
+  - **Eventos** (despedidas, cumpleaños, empresas): más adelante, un precio aparte por grupo.
+- **Qué tendría que ser cierto:** que quien pide un taller privado pague por la exclusividad.
+- **Prueba barata:** cotizar las próximas 3 solicitudes de taller privado a $480.000 y ver cuántas aceptan.
+
+**Llenar la fecha abierta (pregunta 45): la señal más importante hasta ahora.** Ha abierto 2 fechas y nunca las llenó. Hoy tiene pauta montada: llegan varios mensajes de gente interesada, pero ninguna se inscribe.
+- **Lectura:** el interés existe (escriben); lo que falla es el paso de "me interesa" a "pago". Las causas posibles, de la más probable a la menos:
+  1. **Confianza:** pagar $380.000 por algo que nunca han visto ni vivido, a una marca que no conocen.
+  2. **Fricción:** no hay una forma fácil e inmediata de reservar (link de pago, abono para separar el cupo).
+  3. **Fecha:** la fecha no les sirve.
+  4. **Precio:** el precio asusta frente a lo que imaginan.
+- **No es un fracaso de la estrategia:** vender una experiencia cara a desconocidas con un solo anuncio es la venta más difícil. Por eso el plan ya ponía primero la feria y los bonos de diciembre (que la gente toque la marca) y los talleres colectivos en enero.
+- **Recomendación:**
+  - **No subir la pauta** hasta saber por qué no compran.
+  - **Escribirle a cada interesada** con una sola pregunta corta: *"¿qué te faltó para animarte?"*.
+  - **Bajar la fricción:** reservar con un abono del 50% por link, cupos visibles ("quedan 4 de 7") y 2 fechas para escoger.
+  - **Mostrar el resultado:** videos del proceso, anillos terminados de talleres anteriores y las palabras de las clientas.
+- **Qué preguntan (pregunta 46):** *cuánto vale* y *qué tipo de cosas se pueden hacer*. Confirma que el anuncio no responde lo básico: el precio les llega como sorpresa en el chat y no ven qué pueden lograr (confianza).
+- **Recomendación para la pauta:**
+  - **Precio en el anuncio.** Escriben menos personas, pero solo las que ya aceptan el precio. Ahorra tiempo y filtra.
+  - **Mostrar lo que se puede hacer:** carrusel o video con anillos reales hechos en talleres anteriores, cada uno con la cara de quien lo hizo y su frase.
+  - **Respuesta lista para el chat:** un solo mensaje con video, fotos de resultados, precio, qué incluye (bebida, arcilla, certificado, día de revelación), fechas y link para reservar con abono.
+  - **Medir** en qué mensaje deja de responder cada interesada.
+  - **Liderar con el anillo (pregunta 47):** en el taller se puede hacer anillo o dije. El anuncio habla de *"haz tu propio anillo"* y el dije queda como opción dentro. Es más claro, es el producto principal de la marca y encaja con el certificado de "tu primer anillo". Para quien haga dije, el certificado puede decir "tu primera pieza".
+- **Qué tendría que ser cierto:** que desconocidas paguen cerca de $400.000 por el taller (es la primera hipótesis de las pruebas). Hasta hoy la evidencia es débil o negativa.
+
+**Dónde hacer los talleres (pregunta 42):** no está resuelto. Opciones:
+
+| Espacio | A favor | En contra |
+|---|---|---|
+| Su casa (como hasta hoy) | Gratis e íntimo | No crece, no es un "destino de la ciudad" y recibe desconocidas en su casa |
+| Tienda multimarca en Provenza donde ya está Mar i Río | Sus piezas están ahí y es una zona con buen tráfico | Consumo mínimo de $24.000 por persona y 40% de comisión por cada pieza que se venda allá |
+| Un café chévere | Estética, contenido y sin comisión sobre piezas (por confirmar) | Habrá consumo mínimo |
+
+- **Números:** el consumo mínimo no es el problema. Incluido en el precio del taller ("incluye bebida"), el margen baja de ~$280.000–$330.000 a ~$256.000–$306.000 por persona. **La comisión del 40% sí lo es:** en el anillo de $350.000 son $140.000, y el margen baja de $235.000 a $95.000. Eso castiga justo lo que el modelo C necesita, que el taller lleve a comprar colección.
+- **Recomendación:**
+  - **Colectivos:** un **café aliado** fijo, con el consumo incluido en el precio del taller y sin comisión sobre las piezas. El café recibe clientas garantizadas en un horario flojo y contenido que lo etiqueta. Es el modelo de The Workbench London.
+  - **Privados:** pueden seguir en su casa.
+  - **La tienda de Provenza:** en paralelo, proponerle una comisión más baja (por ejemplo, 15–20%) para las ventas de los eventos que Mariana lleva. Si dice que sí, también puede ser sede.
+- **Qué tendría que ser cierto:** que un café acepte 7 personas durante 3 horas trabajando con cera, en un horario flojo, con consumo mínimo razonable y sin comisión.
+- **Prueba barata:** visitar 3 cafés (Provenza, Laureles, Manila) en noviembre y pedirles condiciones. Comparar con la tienda.
+
+**Lo que el taller necesita del espacio (pregunta 43):**
+- Buena luz.
+- Enchufes, o permiso para velas y mecheros (llama abierta).
+- Sin ventilador, pero fresco, porque los equipos calientan el lugar. Ideal, aire acondicionado.
+- Mesas: entre 80 y 100 cm por persona, como un escritorio. Para 7 personas son unos 6 a 7 metros de mesa, más el puesto de Mariana.
+- Una pantalla.
+
+**Recomendación: un kit portátil del taller.** Lámparas propias, extensiones y regletas, una pantalla o tablet, y herramientas eléctricas en vez de llama donde no se permita. Así el café solo pone mesas, fresco y bebida, y la luz y el ambiente dependen de Mar i Río. El mismo kit sirve después para despedidas, matrimonios y otras ciudades: es la base para que el taller viaje y para la ambición nacional. Antes de comprar nada, cotizarlo.
 
 **Tecnología y AI:** es una capacidad, no la estrategia. Hay que explorar cómo hacer la experiencia más inmersiva (la web ya tiene un probador virtual) sin reemplazar lo hecho a mano, lo imperfecto y lo humano. Se retoma en esta etapa.
 
@@ -201,7 +339,7 @@ Pendiente. Incluye rutinas, indicadores, finanzas, equipo y calendario de conten
 
 La estrategia no cambia; cambia el orden.
 
-1. **Noviembre y diciembre:** foco en vender colección, porque es temporada de regalos.
+1. **Noviembre y diciembre:** foco en vender colección, porque es temporada de regalos. Como Mar i Río es sobre todo compra propia, el mensaje de diciembre debería ser *regalarse a una misma*, y dejar el regalo a otros como segunda opción.
 2. **Feria (primera semana de diciembre):** sirve para vender, para aprender qué piezas tocan y compran, quiénes se detienen y con qué palabras describen la marca, y para capturar contactos de desconocidas.
 3. **Bonos de regalo del taller** en la feria y en Instagram durante diciembre. Mariana está de acuerdo. Pendiente: armar la activación de la feria con más ideas.
 4. **Kits de diseño en casa** como posible regalo, inspirados en The Workbench London. Es una idea por evaluar.
@@ -211,7 +349,7 @@ La estrategia no cambia; cambia el orden.
 
 | Hipótesis (qué tendría que ser cierto) | Prueba |
 |---|---|
-| Desconocidas pagan cerca de $400.000 por el taller | Abrir una fecha de taller colectivo vendida solo por Instagram con pauta, sin el círculo cercano |
+| Desconocidas pagan cerca de $400.000 por el taller | Abrir una fecha de taller colectivo vendida solo por Instagram con pauta, sin el círculo cercano. **Primer resultado (pregunta 45):** 2 fechas sin llenar y pauta actual con mensajes pero sin inscritas. Falta saber por qué |
 | Se puede llenar un taller de 4 a 7 personas | La misma fecha colectiva |
 | Quien hace el taller después compra colección | Seguir a las asistentes durante 60 días |
 | La gente paga el taller sin haberlo vivido | Venta de bonos de regalo en diciembre |
@@ -221,10 +359,24 @@ La estrategia no cambia; cambia el orden.
 ## Pendientes y acciones
 
 - [ ] Hablar con el taller de vaciado sobre un día fijo o prioridad a cambio de volumen.
-- [ ] Responder la pregunta 36: tiempo de acabado por pieza.
+- [x] Responder la pregunta 36: tiempo de acabado por pieza (~1 hora, máximo 4).
+- [ ] Cronometrar el acabado de las próximas 10 piezas.
+- [ ] Conseguir un joyero que cobre por pieza como respaldo para diciembre.
+- [ ] Probar el negativo en arcilla con 3 modelos de cera y vaciarlos.
+- [ ] Escribir el guion del taller en cinco momentos.
+- [ ] Diseñar el día de revelación para los talleres colectivos.
+- [ ] Visitar 3 cafés para los talleres colectivos y pedir condiciones, con la lista de requisitos del espacio.
+- [ ] Preguntarle a cada interesada de la pauta qué le faltó para inscribirse.
+- [ ] Montar la reserva con abono por link de pago.
+- [ ] Entregarle a la agencia la nueva línea y el objetivo medible por escrito; revisar resultados a fin de diciembre.
+- [ ] Rehacer el anuncio con precio y resultados reales, y escribir la respuesta lista para el chat.
+- [ ] Cotizar las próximas 3 solicitudes de taller privado a $480.000.
+- [ ] Cotizar el kit portátil del taller (luz, extensiones, pantalla, herramientas eléctricas).
+- [ ] Proponer a la tienda de Provenza una comisión más baja para las ventas de los eventos propios.
+- [ ] Definir la política de envíos y de cambio de talla, y publicar una guía de tallas.
 - [ ] Mariana comparte la otra competencia de talleres que tiene identificada.
 - [ ] Analizar en detalle a la competencia (Melt Coma, Elisa Maya, etc.).
 - [ ] Diseñar la activación de la feria.
 - [ ] Diseñar el anillo de entrada ($120.000–$150.000).
 - [ ] Revisar si el probador virtual de la web funciona.
-- [ ] Afinar las finanzas (inversión de $5 a $7 millones).
+- [ ] Armar el presupuesto a 12 meses con los 5 pasos y definir la inversión real (entre $5 y $20 millones), soltada por tramos.
