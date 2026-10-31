@@ -10,7 +10,7 @@ Cascada de decisiones de *Playing to Win*:
 1. Aspiración ganadora — ✅ lista
 2. Dónde jugar — ✅ lista
 3. Cómo ganar — ✅ lista
-4. Capacidades — 🔄 en curso (vamos en la pregunta 57)
+4. Capacidades — 🔄 en curso (vamos en la pregunta 58)
 5. Sistemas de gestión — ⏳ pendiente
 
 Antes de la cascada hicimos el **paso 0: cómo está Mar i Río hoy**.
@@ -149,6 +149,26 @@ Se confirma con una prueba (ver Pruebas).
 - **Recomendación de precio: $150.000.** Es el mejor margen, sigue lejos de la pieza de $250.000 y es un número redondo, propio de joyería de autor.
 - **Primer lote de 20:** ~$850.000 (plata $680.000 + vaciados $140.000 + caucho $30.000). Se recupera con unos 6 anillos vendidos.
 - **Ojo:** confirmar que con 4 gramos el anillo se siente sólido y con la firma derretida, no frágil.
+
+**Costo del empaque (pregunta 57):** tarjeta $500, marquilla $350, bolsa $4.900, y 10 metros de tela por $120.000 para bolsas que Mariana misma está haciendo: chicas de 20 × 8 cm y grandes de 15 × 40 cm (20% de la tela para las grandes y el resto para las chicas).
+- **Supuestos:** la tela mide 1,50 m de ancho (15 m² en total, ~$0,80 por cm²) y se pierde un 20% en cortes.
+
+| Bolsa de tela | Cuántas salen | Costo por bolsa |
+|---|---|---|
+| Chica (20 × 8 cm) | ~600 | **~$150** |
+| Grande (15 × 40 cm) | ~40 | **~$580** |
+
+| Empaque por joya | Costo |
+|---|---|
+| Bolsa de tela chica | $150 |
+| Tarjeta | $500 |
+| Marquilla | $350 |
+| Bolsa | $4.900 |
+| **Total** | **~$5.900** (sin la bolsa de $4.900, ~$1.000) |
+
+- **Lectura:** la bolsa de $4.900 es el 83% del empaque. Recomendación: usarla para entregas en mano y en la feria, que es donde se luce. Para envíos, mirar un empaque que proteja mejor por un costo parecido.
+- **Anillo de entrada con empaque:** ~$48.400 de costo; a $150.000 deja ~$101.600 (68%). Sigue por encima del 60%.
+- **La tela rinde para cientos de bolsas:** no es un gasto recurrente por ahora, pero cada bolsa cuesta tiempo de costura de Mariana.
 
 ---
 
