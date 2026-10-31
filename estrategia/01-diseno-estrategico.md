@@ -10,7 +10,7 @@ Cascada de decisiones de *Playing to Win*:
 1. Aspiración ganadora — ✅ lista
 2. Dónde jugar — ✅ lista
 3. Cómo ganar — ✅ lista
-4. Capacidades — 🔄 en curso (vamos en la pregunta 60)
+4. Capacidades — 🔄 en curso (vamos en la pregunta 61)
 5. Sistemas de gestión — ⏳ pendiente
 
 Antes de la cascada hicimos el **paso 0: cómo está Mar i Río hoy**.
@@ -331,9 +331,18 @@ Hallazgo: **ninguna combina una estética de autor marcada con el taller como ce
 
      - **Lectura:** 30 joyas es 10 veces lo que vende hoy, así que la feria tiene que poner unas 20 (unas 7 por día). Es posible con ese público, pero conviene **presupuestar con el escenario prudente y celebrar el de Mariana**. Aun en el prudente, la pérdida es pequeña y deja contactos y aprendizaje.
      - **Capacidad:** 30 joyas son unas 30 horas de acabado si cada una toma 1 hora, pero concentradas en las 2 o 3 semanas entre la feria y el 24 de diciembre, con el vaciado en el medio. Si las piezas se acercan a 4 horas, no alcanza. Por eso: **fabricar antes de la feria** las piezas para venta inmediata, tener el **joyero por pieza** confirmado y pedirle al taller de vaciado un día fijo en diciembre.
-     - **Enero (pregunta 59):** Mariana espera **30 joyas y 20 talleres**. Por confirmar si son 20 talleres o 20 personas (pregunta 60), porque cambia todo:
-       - **20 talleres** (~5 por semana): unas 60 horas dando talleres y, con unas 3 personas por taller, ~60 piezas de taller más 30 joyas = **~90 piezas para terminar**, más del doble del límite de 40 al mes. Exigiría joyero desde enero.
-       - **20 personas** (unos 3 a 5 talleres): encaja con la meta mínima a 12 meses (4 talleres al mes) y con la capacidad actual.
+     - **Enero (preguntas 59 y 60):** Mariana espera **30 joyas y 20 personas en talleres** (unos 3 a 5 talleres). 20 talleres sería espectacular, pero es un número muy alto.
+     - **Supuestos:** ~$160.000 de margen por joya y ~$270.000 por persona en taller (mezcla de fecha abierta en café y privados).
+
+       | Enero | Escenario de Mariana | Escenario prudente (10 joyas, 10 personas) |
+       |---|---|---|
+       | Margen de joyas | ~$4.800.000 | ~$1.600.000 |
+       | Margen de talleres | ~$5.400.000 | ~$2.700.000 |
+       | Gastos fijos | −$1.450.000 | −$1.450.000 |
+       | **Resultado del mes** | **≈ +$8.750.000** | **≈ +$2.850.000** |
+
+     - **Lectura:** el escenario de Mariana supera las metas a 12 meses (20 joyas y 4 talleres al mes) en el primer mes del año. Si pasa, la estrategia queda validada muy rápido. Pero 30 joyas en enero, sin feria y en un mes flojo de gasto, es lo más difícil de cumplir: depende de que la feria deje clientas que vuelvan y de que Instagram empiece a vender.
+     - **Capacidad:** 30 joyas + 20 piezas de taller = **~50 piezas**, por encima del límite de 40 al mes. En ese escenario, el joyero por pieza deja de ser respaldo y se vuelve necesario en enero. Dar 3 a 5 talleres son 9 a 15 horas: eso sí cabe.
      - **Qué tendría que ser cierto:** hoy ninguna fecha abierta se ha llenado y la pauta no ha traído inscritas; enero además suele ser un mes flojo de gasto en Colombia. Llenar 20 talleres en enero exige que la feria, los bonos de diciembre y el nuevo anuncio funcionen a la vez.
   5. **El hueco:** gastos (1 + 2 + 3) menos el margen de las ventas (4), mes a mes. La suma de los meses en rojo, más una reserva, es la inversión.
 

@@ -77,4 +77,5 @@ Registro resumido de la entrevista. Las respuestas conservan las palabras de Mar
 57. **¿Cuánto te cuesta el empaque de cada pieza?** La tarjeta vale $500. Compró 10 m de tela a $120.000 y está haciendo bolsas de 20 × 8 cm y de 15 × 40 cm; calcula que solo el 20% de la tela va para las grandes. Las marquillas cuestan $350 y la bolsa $4.900. Resultado: ~$160 la bolsa de tela chica, ~$600 la grande y ~$5.900 el empaque completo por joya.
 58. **Siendo realista, ¿cuántas joyas y cuántos talleres crees que vas a vender en diciembre?** 30 joyas y 1 taller. Son 3 días de feria y es *"gente pinchada"*.
 59. **¿Y en enero, cuántas joyas y cuántos talleres esperas?** 30 joyas y 20 talleres.
-60. **PENDIENTE:** ¿Son 20 talleres o 20 personas en talleres?
+60. **¿Son 20 talleres o 20 personas en talleres?** *"Es verdad, es un número alto. 20 talleres sería espectacular; podríamos decir 20 personas."*
+61. **PENDIENTE:** Después de enero, ¿qué sería para ti un buen mes normal en joyas y personas en talleres?
