@@ -10,7 +10,7 @@ Cascada de decisiones de *Playing to Win*:
 1. Aspiración ganadora — ✅ lista
 2. Dónde jugar — ✅ lista
 3. Cómo ganar — ✅ lista
-4. Capacidades — 🔄 en curso (vamos en la pregunta 56)
+4. Capacidades — 🔄 en curso (vamos en la pregunta 57)
 5. Sistemas de gestión — ⏳ pendiente
 
 Antes de la cascada hicimos el **paso 0: cómo está Mar i Río hoy**.
@@ -129,6 +129,26 @@ Se confirma con una prueba (ver Pruebas).
 - **Qué tendría que ser cierto:** que se pueda fabricar con un margen de al menos 60%. A ~$140.000, el costo no puede pasar de ~$56.000; la pieza de $250.000 cuesta $60.000, así que el de entrada tiene que llevar menos plata.
 - **Prueba barata:** cotizar esta semana el costo de un modelo más delgado. Si no da el margen, la pieza de $250.000 queda como entrada en la feria y el anillo de entrada se lanza en enero.
 - **Tiempo:** hay un mes hasta la feria para diseñar, vaciar y terminar unas 15 a 20 unidades.
+
+**Costo del anillo de entrada (pregunta 56):** plata a $8.500 el gramo, un anillo de 4 gramos, vaciado de $7.000 por pieza y un caucho de $30.000 que se paga una sola vez para poder repetirlo.
+
+| Concepto | Por anillo |
+|---|---|
+| Plata (4 g × $8.500) | $34.000 |
+| Vaciado | $7.000 |
+| Caucho ($30.000 repartido en 20 anillos) | $1.500 |
+| **Costo** | **~$42.500**, más empaque (por confirmar) y 1 hora de acabado |
+
+| Precio | Margen | % |
+|---|---|---|
+| $120.000 | $77.500 | 65% |
+| $140.000 | $97.500 | 70% |
+| **$150.000** | **$107.500** | **72%** |
+
+- **Pasa la prueba:** el costo queda por debajo del tope de ~$56.000.
+- **Recomendación de precio: $150.000.** Es el mejor margen, sigue lejos de la pieza de $250.000 y es un número redondo, propio de joyería de autor.
+- **Primer lote de 20:** ~$850.000 (plata $680.000 + vaciados $140.000 + caucho $30.000). Se recupera con unos 6 anillos vendidos.
+- **Ojo:** confirmar que con 4 gramos el anillo se siente sólido y con la firma derretida, no frágil.
 
 ---
 
@@ -403,6 +423,6 @@ La estrategia no cambia; cambia el orden.
 - [ ] Mariana comparte la otra competencia de talleres que tiene identificada.
 - [ ] Analizar en detalle a la competencia (Melt Coma, Elisa Maya, etc.).
 - [ ] Diseñar la activación de la feria.
-- [ ] Diseñar el anillo de entrada ($120.000–$150.000) y cotizar su costo esta semana (meta: máximo ~$56.000).
+- [ ] Diseñar el anillo de entrada (4 g, $150.000, costo ~$42.500) y fabricar un lote de 20 para la feria.
 - [ ] Revisar si el probador virtual de la web funciona.
 - [ ] Armar el presupuesto a 12 meses con los 5 pasos y definir la inversión real (entre $5 y $20 millones), soltada por tramos.
