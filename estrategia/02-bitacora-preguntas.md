@@ -70,4 +70,5 @@ Registro resumido de la entrevista. Las respuestas conservan las palabras de Mar
 50. **Mientras las ventas crecen, ¿la inversión también tiene que cubrir tus $3 millones al mes?** No, tiene de qué vivir mientras tanto.
 51. **Además de la agencia, ¿qué otros gastos fijos tienes al mes y cuánto le estás metiendo a la pauta?** La pauta estaba en "3.200 al día", pero podrían ser $400.000 al mes. Tiene un gasto fijo de $250.000 al mes del taller de joyería.
 52. **¿Cuánto cuesta participar en la feria de diciembre?** La mitad de $3.312.000 ($1.656.000), y ahí debe hacer una inversión para el stand.
-53. **PENDIENTE:** ¿Cuánto calculas que cuesta armar el stand?
+53. **¿Cuánto calculas que cuesta armar el stand?** Como $1 millón.
+54. **PENDIENTE:** ¿Piensas llevar a la feria piezas hechas para vender ahí mismo, o un muestrario para tomar pedidos?
