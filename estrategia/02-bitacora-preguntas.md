@@ -76,4 +76,5 @@ Registro resumido de la entrevista. Las respuestas conservan las palabras de Mar
 56. **¿Cuánto costaría fabricar un anillo más delgado, con tu firma, para venderlo entre $120.000 y $150.000?** El gramo de plata está a $8.500, un vaciado puede valer $7.000 y el caucho para poder repetirlo, que solo se hace una vez, unos $30.000. Cree que el anillo puede ser de 4 gramos. Resultado: ~$42.500 por anillo.
 57. **¿Cuánto te cuesta el empaque de cada pieza?** La tarjeta vale $500. Compró 10 m de tela a $120.000 y está haciendo bolsas de 20 × 8 cm y de 15 × 40 cm; calcula que solo el 20% de la tela va para las grandes. Las marquillas cuestan $350 y la bolsa $4.900. Resultado: ~$160 la bolsa de tela chica, ~$600 la grande y ~$5.900 el empaque completo por joya.
 58. **Siendo realista, ¿cuántas joyas y cuántos talleres crees que vas a vender en diciembre?** 30 joyas y 1 taller. Son 3 días de feria y es *"gente pinchada"*.
-59. **PENDIENTE:** ¿Y en enero, cuántas joyas y cuántos talleres esperas?
+59. **¿Y en enero, cuántas joyas y cuántos talleres esperas?** 30 joyas y 20 talleres.
+60. **PENDIENTE:** ¿Son 20 talleres o 20 personas en talleres?
