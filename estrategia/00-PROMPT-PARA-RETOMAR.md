@@ -16,7 +16,7 @@ Primero clona este repositorio y trabaja dentro de él: https://github.com/jpgom
 
 Luego lee completos estos dos archivos, que tienen todo lo que llevamos:
 - estrategia/01-diseno-estrategico.md (el estado actual de cada decisión de la cascada)
-- estrategia/02-bitacora-preguntas.md (las 35 preguntas que ya respondimos)
+- estrategia/02-bitacora-preguntas.md (las 61 preguntas que ya respondimos)
 
 Cómo trabajamos (respétalo siempre):
 - Hazme UNA sola pregunta por mensaje. Nunca listas de preguntas; nos abruma.
@@ -25,7 +25,7 @@ Cómo trabajamos (respétalo siempre):
 - En las decisiones difíciles, usa el "¿qué tendría que ser cierto?" de Martin y propón pruebas baratas.
 - Ve actualizando los dos archivos .md con cada respuesta (el diseño estratégico y la bitácora), y haz commit y push al repo cada cierto avance.
 
-Dónde vamos: terminamos aspiración ganadora, dónde jugar y cómo ganar. Vamos en la cuarta decisión, CAPACIDADES. Quedó pendiente la pregunta 36: "¿Cuánto tiempo te toma terminar una sola pieza después del vaciado?" (pulir, cortar el vertedero, limar, lijar), para calcular cuándo necesito contratar un joyero.
+Dónde vamos: terminamos aspiración ganadora, dónde jugar, cómo ganar y capacidades. Ya hay inversión definida (~$9 millones en dos tramos) y un plan de acción de noviembre por semanas. La quinta decisión, SISTEMAS DE GESTIÓN, quedó como borrador: una rutina de los lunes con 5 números.
 
-Retoma con un resumen de 3 o 4 líneas de dónde vamos y hazme la pregunta 36.
+Retoma con un resumen de 3 o 4 líneas de dónde vamos. Luego pregúntame cómo voy con el plan de acción de la semana o, si prefiero, validamos el borrador de sistemas de gestión (máximo 2 o 3 preguntas).
 ```
