@@ -10,7 +10,7 @@ Cascada de decisiones de *Playing to Win*:
 1. Aspiración ganadora — ✅ lista
 2. Dónde jugar — ✅ lista
 3. Cómo ganar — ✅ lista
-4. Capacidades — 🔄 en curso (vamos en la pregunta 58)
+4. Capacidades — 🔄 en curso (vamos en la pregunta 59)
 5. Sistemas de gestión — ⏳ pendiente
 
 Antes de la cascada hicimos el **paso 0: cómo está Mar i Río hoy**.
@@ -318,6 +318,19 @@ Hallazgo: **ninguna combina una estética de autor marcada con el taller como ce
      - **Stand:** que sea barato pero con la estética de Mar i Río, y con piezas que se puedan reutilizar en el kit del taller, en otras ferias y, más adelante, en la tienda.
   3. **El sueldo de Mariana:** ✅ **no sale de la inversión** (pregunta 50). Mariana tiene de qué vivir mientras las ventas crecen, así que la inversión solo cubre la operación y el crecimiento. Los $3 a $5 millones libres al mes siguen siendo la meta que el negocio debe alcanzar.
   4. **Ventas esperadas mes a mes:** de ~3 joyas y casi cero talleres hoy, hasta la meta de 20 joyas y 4 talleres.
+     - **Diciembre (pregunta 58):** Mariana espera **30 joyas y 1 taller**. La feria son 3 días con público de buena capacidad adquisitiva.
+     - **Supuestos:** margen promedio por joya ~$160.000 después de empaque (mezcla del anillo de entrada, la pieza de $250.000 y el anillo de $350.000). El taller es un privado de 2 personas (~$610.000).
+
+       | Diciembre | Escenario de Mariana (30 joyas) | Escenario prudente (15 joyas) |
+       |---|---|---|
+       | Margen de joyas | ~$4.800.000 | ~$2.400.000 |
+       | Margen del taller | ~$610.000 | ~$610.000 |
+       | Gastos fijos | −$1.450.000 | −$1.450.000 |
+       | Feria (cupo + stand) | −$2.656.000 | −$2.656.000 |
+       | **Resultado del mes** | **≈ +$1.300.000** | **≈ −$1.100.000** |
+
+     - **Lectura:** 30 joyas es 10 veces lo que vende hoy, así que la feria tiene que poner unas 20 (unas 7 por día). Es posible con ese público, pero conviene **presupuestar con el escenario prudente y celebrar el de Mariana**. Aun en el prudente, la pérdida es pequeña y deja contactos y aprendizaje.
+     - **Capacidad:** 30 joyas son unas 30 horas de acabado si cada una toma 1 hora, pero concentradas en las 2 o 3 semanas entre la feria y el 24 de diciembre, con el vaciado en el medio. Si las piezas se acercan a 4 horas, no alcanza. Por eso: **fabricar antes de la feria** las piezas para venta inmediata, tener el **joyero por pieza** confirmado y pedirle al taller de vaciado un día fijo en diciembre.
   5. **El hueco:** gastos (1 + 2 + 3) menos el margen de las ventas (4), mes a mes. La suma de los meses en rojo, más una reserva, es la inversión.
 
 **Envíos y tallas (preguntas 38 y 39):** Mariana nunca ha enviado a otra ciudad. Lo haría por transportadora. El problema de la talla no le ha pasado, pero en venta a distancia va a aparecer.
