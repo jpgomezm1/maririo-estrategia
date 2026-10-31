@@ -155,12 +155,12 @@ Se confirma con una prueba (ver Pruebas).
 
 | Bolsa de tela | Cuántas salen | Costo por bolsa |
 |---|---|---|
-| Chica (20 × 8 cm) | ~600 | **~$150** |
-| Grande (15 × 40 cm) | ~40 | **~$580** |
+| Chica (20 × 8 cm) | ~600 | **~$160** |
+| Grande (15 × 40 cm) | ~40 | **~$600** |
 
 | Empaque por joya | Costo |
 |---|---|
-| Bolsa de tela chica | $150 |
+| Bolsa de tela chica | $160 |
 | Tarjeta | $500 |
 | Marquilla | $350 |
 | Bolsa | $4.900 |
