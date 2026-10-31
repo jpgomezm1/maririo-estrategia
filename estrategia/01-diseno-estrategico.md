@@ -10,7 +10,7 @@ Cascada de decisiones de *Playing to Win*:
 1. Aspiración ganadora — ✅ lista
 2. Dónde jugar — ✅ lista
 3. Cómo ganar — ✅ lista
-4. Capacidades — 🔄 en curso (vamos en la pregunta 55)
+4. Capacidades — 🔄 en curso (vamos en la pregunta 56)
 5. Sistemas de gestión — ⏳ pendiente
 
 Antes de la cascada hicimos el **paso 0: cómo está Mar i Río hoy**.
@@ -122,6 +122,13 @@ Validación: 1 taller por semana de 2 personas (~$2,4 millones) más 20 joyas (~
 Se confirma con una prueba (ver Pruebas).
 
 **Producto de entrada:** un **anillo** de plata de autor, una sola referencia, entre $120.000 y $150.000 **con buen margen**. No a costo y no merch, porque eso iría contra la joyería de autor.
+
+**¿Para la feria? (pregunta 55):** Mariana puede tenerlo listo, aunque por ahora para la feria tiene la pieza de $250.000.
+- **Recomendación:** sí lanzarlo en la feria. Diciembre y una feria son el mejor momento para una compra por impulso de menor valor, y es la prueba de si atrae desconocidas que vuelven. La pieza de $250.000 sigue como el siguiente escalón.
+- **Condiciones:** una sola referencia, con la firma derretida, más liviana (menos plata) que la de $250.000 para que no le quite ventas.
+- **Qué tendría que ser cierto:** que se pueda fabricar con un margen de al menos 60%. A ~$140.000, el costo no puede pasar de ~$56.000; la pieza de $250.000 cuesta $60.000, así que el de entrada tiene que llevar menos plata.
+- **Prueba barata:** cotizar esta semana el costo de un modelo más delgado. Si no da el margen, la pieza de $250.000 queda como entrada en la feria y el anillo de entrada se lanza en enero.
+- **Tiempo:** hay un mes hasta la feria para diseñar, vaciar y terminar unas 15 a 20 unidades.
 
 ---
 
@@ -396,6 +403,6 @@ La estrategia no cambia; cambia el orden.
 - [ ] Mariana comparte la otra competencia de talleres que tiene identificada.
 - [ ] Analizar en detalle a la competencia (Melt Coma, Elisa Maya, etc.).
 - [ ] Diseñar la activación de la feria.
-- [ ] Diseñar el anillo de entrada ($120.000–$150.000).
+- [ ] Diseñar el anillo de entrada ($120.000–$150.000) y cotizar su costo esta semana (meta: máximo ~$56.000).
 - [ ] Revisar si el probador virtual de la web funciona.
 - [ ] Armar el presupuesto a 12 meses con los 5 pasos y definir la inversión real (entre $5 y $20 millones), soltada por tramos.

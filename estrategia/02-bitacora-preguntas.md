@@ -72,4 +72,5 @@ Registro resumido de la entrevista. Las respuestas conservan las palabras de Mar
 52. **¿Cuánto cuesta participar en la feria de diciembre?** La mitad de $3.312.000 ($1.656.000), y ahí debe hacer una inversión para el stand.
 53. **¿Cuánto calculas que cuesta armar el stand?** Como $1 millón.
 54. **¿Piensas llevar a la feria piezas hechas para vender ahí mismo, o un muestrario para tomar pedidos?** Muestrario y tomar pedidos, y algunas piezas hechas. Pidió recomendación.
-55. **PENDIENTE:** ¿El anillo de entrada va a estar listo para la feria?
+55. **¿El anillo de entrada va a estar listo para la feria?** Sí lo puede tener listo, pero por ahora para la feria tiene la pieza de $250.000.
+56. **PENDIENTE:** ¿Cuánto costaría fabricar un anillo más delgado, con tu firma, para venderlo entre $120.000 y $150.000?
