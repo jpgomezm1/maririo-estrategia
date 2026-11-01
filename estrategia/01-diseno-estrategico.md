@@ -35,7 +35,7 @@ En las decisiones difíciles usamos el "¿qué tendría que ser cierto?" y dise�
 | Pieza más cara | $700.000 | — | — |
 | Taller (por persona) | $380.000 o $420.000 (ver modalidades) | ~$100.000 (material, domicilios, vaciado) | $280.000–$320.000 |
 
-**Taller "De Cera a Plata" (pregunta 44):**
+**Taller "Joyas Vivas" (preguntas 44 y 65):**
 - Personalizado (2 o 3 personas): $420.000 por persona, con domicilio incluido.
 - Grupos de 4 personas en adelante: $380.000 por persona.
 - Fecha abierta (puertas abiertas): $380.000 por persona.
@@ -420,7 +420,7 @@ Hallazgo: **ninguna combina una estética de autor marcada con el taller como ce
 **Cobrar el taller por link (pregunta 64):** la tienda en línea ya funciona y cobra con la pasarela Bold. Los talleres no están en la pasarela: hoy se reservan por WhatsApp, y eso es fricción.
 - **Recomendación:** para cada fecha abierta, crear un **link de pago de Bold** desde su panel (no hace falta programar nada) y mandarlo directo a las interesadas. Si la pasarela cobra alrededor de 3%, son unos $11.000 por inscrita de $380.000, menos del 5% del margen. Perder una inscrita por la fricción cuesta $256.000.
 - **Transferencia como segunda opción** (Nequi, Bancolombia o llave Bre-B), para quien la prefiera, sin quitar el link.
-- **Ojo:** en la web el taller se llama "Joyas Vivas", y en la conversación "De Cera a Plata". Escoger un solo nombre.
+- **Nombre:** el taller se llama **Joyas Vivas** (confirmado en la pregunta 65).
 
 **Dónde hacer los talleres (pregunta 42):** no está resuelto. Opciones:
 
@@ -466,6 +466,10 @@ Mariana pidió pasar a la acción (pregunta 61). En vez de seguir preguntando, e
 - **Herramienta:** una hoja de cálculo sencilla con una fila por venta (fecha, pieza, precio, para ti o regalo, cómo llegó). Nada más complejo por ahora.
 
 ---
+
+## Embudo de e-commerce
+
+Mariana decidió dejar funcionando primero el embudo de **joyas en la web** (pregunta 65). El detalle está en `04-embudo-ecommerce.md`: 3 etapas (descubrir, visitar, comprar), un solo producto por anuncio, la oferta de diciembre y la lista de lo que necesita la ficha de producto.
 
 ## Plan de acción (noviembre 2026)
 

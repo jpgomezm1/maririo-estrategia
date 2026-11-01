@@ -12,7 +12,7 @@
 1. **Una pieza que habla por ella.** Lo derretido y lo imperfecto es una firma que se reconoce sola.
 2. **Cómo se siente al usarla:** hermosa, cool, fuerte. *"Me encanta ponérmelo, no me lo quito."*
 3. **Hecha a su talla:** no es una talla estándar, es premium.
-4. **La posibilidad de crearla ella misma** en el taller De Cera a Plata, sorprenderse con lo que logró y llevarla con el significado que solo ella le da.
+4. **La posibilidad de crearla ella misma** en el taller Joyas Vivas, sorprenderse con lo que logró y llevarla con el significado que solo ella le da.
 
 ## A quién le apuntamos
 
