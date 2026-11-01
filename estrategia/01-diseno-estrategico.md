@@ -302,7 +302,10 @@ Hallazgo: **ninguna combina una estética de autor marcada con el taller como ce
      | Agencia | $800.000 |
      | Pauta | $400.000 (antes ponía "3.200 al día"; la cifra exacta está por confirmar, pero el plan es $400.000 al mes) |
      | Taller de joyería | $250.000 |
-     | **Total** | **$1.450.000 al mes, unos $17,4 millones al año** |
+     | Claude y ChatGPT (pregunta 64) | $450.000 |
+     | **Total** | **$1.900.000 al mes, unos $22,8 millones al año** |
+
+     Recomendación: quedarse con una sola herramienta de AI si alcanza; ahorra cerca de la mitad de ese gasto.
 
      **Lectura:** solo los gastos fijos ya pasan la inversión de $5 a $7 millones y se acercan a los $20 millones. Con el margen de hoy (~$700.000 al mes por ~3 joyas), el negocio quema unos $750.000 al mes. Por eso importan las condiciones a la agencia y no subir la pauta hasta arreglar el anuncio.
   2. **Inversiones de una vez:** feria, inventario para la feria, kit portátil del taller, fotógrafo por colección, herramientas, empaques.
@@ -347,7 +350,7 @@ Hallazgo: **ninguna combina una estética de autor marcada con el taller como ce
      - **De febrero en adelante (pregunta 61):** Mariana no sabe todavía, porque aún no empieza. **Supuesto:** la meta a 12 meses (20 joyas y 8 personas en talleres al mes): ~$3.200.000 + ~$2.160.000 − $1.450.000 ≈ **+$3.900.000 al mes**. Se corrige con los números reales de diciembre y enero.
   5. **El hueco:** gastos (1 + 2 + 3) menos el margen de las ventas (4), mes a mes. La suma de los meses en rojo, más una reserva, es la inversión.
 
-**Conclusión: la inversión es de ~$9 millones, en dos tramos, no $20 millones.**
+**Conclusión: la inversión es de ~$10 millones, en dos tramos, no $20 millones.**
 
 | Tramo 1: ahora (noviembre) | Monto |
 |---|---|
@@ -359,9 +362,11 @@ Hallazgo: **ninguna combina una estética de autor marcada con el taller como ce
 
 | Tramo 2: reserva | Monto |
 |---|---|
-| 2 meses de gastos fijos | ~$2.900.000 |
+| 2 meses de gastos fijos | ~$3.800.000 |
 | Margen para imprevistos | ~$450.000 |
-| **Total tramo 2** | **~$3.350.000**, se suelta solo si diciembre o enero quedan en rojo |
+| **Total tramo 2** | **~$4.250.000**, se suelta solo si diciembre o enero quedan en rojo |
+
+**Total con el gasto de AI (pregunta 64): ~$10 millones** (antes ~$9). Con gastos fijos de $1,9 millones, diciembre prudente queda en ≈ −$1,55 millones, enero prudente en ≈ +$2,4 millones y un mes en la meta en ≈ +$3,45 millones.
 
 - Con el escenario prudente, diciembre pierde ~$1,1 millones y enero gana ~$2,85 millones. Después de enero el negocio se paga solo si se acerca a la meta.
 - **La regla:** no se pasa del tramo 1 sin mirar los números de la feria. Si la fecha abierta de enero no se llena con el nuevo anuncio, se revisa la estrategia del taller antes de gastar más.
@@ -411,6 +416,11 @@ Hallazgo: **ninguna combina una estética de autor marcada con el taller como ce
   - **Medir** en qué mensaje deja de responder cada interesada.
   - **Liderar con el anillo (pregunta 47):** en el taller se puede hacer anillo o dije. El anuncio habla de *"haz tu propio anillo"* y el dije queda como opción dentro. Es más claro, es el producto principal de la marca y encaja con el certificado de "tu primer anillo". Para quien haga dije, el certificado puede decir "tu primera pieza".
 - **Qué tendría que ser cierto:** que desconocidas paguen cerca de $400.000 por el taller (es la primera hipótesis de las pruebas). Hasta hoy la evidencia es débil o negativa.
+
+**Cobrar el taller por link (pregunta 64):** la tienda en línea ya funciona y cobra con la pasarela Bold. Los talleres no están en la pasarela: hoy se reservan por WhatsApp, y eso es fricción.
+- **Recomendación:** para cada fecha abierta, crear un **link de pago de Bold** desde su panel (no hace falta programar nada) y mandarlo directo a las interesadas. Si la pasarela cobra alrededor de 3%, son unos $11.000 por inscrita de $380.000, menos del 5% del margen. Perder una inscrita por la fricción cuesta $256.000.
+- **Transferencia como segunda opción** (Nequi, Bancolombia o llave Bre-B), para quien la prefiera, sin quitar el link.
+- **Ojo:** en la web el taller se llama "Joyas Vivas", y en la conversación "De Cera a Plata". Escoger un solo nombre.
 
 **Dónde hacer los talleres (pregunta 42):** no está resuelto. Opciones:
 
