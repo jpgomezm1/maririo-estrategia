@@ -4,6 +4,14 @@
 > El embudo de talleres (Joyas Vivas) se arma después, con la misma lógica.
 > Base: 03-propuesta-de-valor.md (clienta, tono, quién no es clienta).
 
+## Lo que dicen los números de la tienda (análisis de la sesión de UI/UX, últimos 120 días)
+
+- **Catálogo:** 13 joyas, 8 son anillos.
+- **Ventas:** 18 pedidos pagados (~4,5 al mes), ticket promedio de **$304.000**.
+- **Delta y Limo venden casi el 60%** (24 de unas 40 unidades). Son las piezas que encabezan la campaña.
+- **5 pedidos quedaron pendientes:** la clienta llenó sus datos y no pagó (1 de cada 5). Nadie les hace seguimiento. Es la plata más fácil de recuperar.
+- **Dominio de la tienda:** mar-i-rio.com.
+
 ## El diagnóstico de vendedor
 
 La tienda funciona y las fotos son lindas, pero nadie llega, y quien llega no conoce la marca. Con $400.000 al mes de pauta (~$13.000 al día) no se puede hacer lo que hacen las marcas grandes, que mandan desconocidas directo a comprar. Meta necesita unas 50 compras por semana para aprender a buscar compradoras, y Mar i Río está lejos de eso.
@@ -20,7 +28,7 @@ La tienda funciona y las fotos son lindas, pero nadie llega, y quien llega no co
 
 ## El producto que abre la puerta
 
-- **Ahora:** la pieza de $250.000 o el anillo más vendido de $350.000, que ya existen.
+- **Ahora:** **Delta y Limo**, las más vendidas, cada una con su anuncio y llevando a su propia ficha (por ejemplo `/producto/delta-ring`).
 - **Cuando esté listo el lote:** el **anillo de entrada de $150.000**. Es la primera compra de menor riesgo para una desconocida, y después se le muestra la colección.
 - **Un solo producto por anuncio.** Nunca "mira toda la colección".
 
@@ -40,7 +48,22 @@ La tienda funciona y las fotos son lindas, pero nadie llega, y quien llega no co
 6. **Testimonios** con las palabras reales de las clientas.
 7. **Botón de compra visible** sin tener que bajar, y pago con Bold.
 8. **Botón de WhatsApp** para dudas, que no reemplaza el botón de compra.
-9. **Píxel de Meta** registrando: ver producto, agregar al carrito, iniciar pago y compra. Según el código, hoy se registran ver producto, iniciar pago y compra; **agregar al carrito no aparece**.
+9. **Píxel de Meta:** ✅ instalado en mar-i-rio.com (ID terminado en 4398). Registra ver página, ver producto, agregar al carrito, iniciar pago, compra, contacto por WhatsApp y registro del popup. **Falta:** la API de Conversiones (sin ella Meta pierde compras, sobre todo en iPhone) y el catálogo de productos para anuncios dinámicos. PostHog tampoco mide todavía: falta su clave en Vercel.
+10. **Barra fija abajo en celular** con precio y botón "elegir talla / agregar". Hoy el botón queda a unos 3 pantallazos. Es el cambio que más mueve la conversión.
+11. **Etiqueta "la más vendida"** en Delta y Limo, y colecciones ordenadas por más vendidas.
+12. **Popup del 10% apagado para quien llega de la campaña,** para que no choque con la oferta del anuncio ni enseñe a esperar descuento.
+
+## Reglas del tráfico
+
+- **Anuncio de una pieza →** la ficha de esa pieza.
+- **Carrusel de anillos →** colecciones filtradas (`/colecciones?categoria=anillos`).
+- **Retargeting →** la ficha exacta que vio (con el catálogo de Meta).
+- **Marca o historia →** el inicio. **Nunca la campaña de ventas al inicio.**
+- **Todos los enlaces con UTM,** por ejemplo `?utm_source=meta&utm_campaign=navidad&utm_content=delta-video`, para saber qué anuncio vende.
+
+## Recuperar los pedidos pendientes
+
+Correo automático a la hora con el enlace para retomar el pedido y, si no paga, un WhatsApp personal de Mariana al día siguiente. Las 5 pendientes de hoy se contactan ya.
 
 ## Tráfico gratis que se suma
 
