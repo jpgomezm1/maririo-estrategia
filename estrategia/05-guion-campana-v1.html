@@ -1,0 +1,384 @@
+<title>Guion Campaña v1</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: hoja de producción en columna; una ficha por pieza, con storyboard en tabla y guion al lado. Colores y fuentes del manual de marca Mar i Río 2026. */
+:root{
+  --bg:#F5EEDE;          /* esencial */
+  --card:#FFFAF0;
+  --surface:#EFE5D2;
+  --fg:#230505;          /* sofisticado */
+  --muted:#6b4a44;
+  --line:#e2d3bb;
+  --accent:#912626;      /* pulso */
+  --hot:#E3452F;         /* sabor */
+  --warm:#E2781F;        /* alma */
+  --chip:#f3dccb;
+  --serif:"Playfair Display",Georgia,serif;
+  --sans:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#230505;--card:#2e0a0a;--surface:#3F1212;--fg:#F5EEDE;--muted:#d9bfb4;--line:#5a2020;
+  --accent:#f08a6f;--hot:#ff7a5e;--warm:#f2a050;--chip:#4a1818;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#230505;--card:#2e0a0a;--surface:#3F1212;--fg:#F5EEDE;--muted:#d9bfb4;--line:#5a2020;
+  --accent:#f08a6f;--hot:#ff7a5e;--warm:#f2a050;--chip:#4a1818;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:15px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 64px}
+.wrap{max-width:980px;margin:0 auto;display:flex;flex-direction:column;gap:40px}
+h1,h2,h3{font-family:var(--serif);font-weight:700;text-wrap:balance;margin:0;line-height:1.15}
+h1{font-size:clamp(30px,5vw,46px)}
+h2{font-size:clamp(22px,3.2vw,30px)}
+h3{font-size:20px}
+p{margin:0}
+.eyebrow{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.lede{font-size:17px;max-width:68ch;color:var(--muted)}
+header{display:flex;flex-direction:column;gap:14px;border-bottom:2px solid var(--fg);padding-bottom:24px}
+.facts{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:13px;color:var(--muted)}
+.facts b{color:var(--fg);font-weight:600}
+section{display:flex;flex-direction:column;gap:16px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.box{background:var(--card);border:1px solid var(--line);padding:18px 20px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.box h3{font-size:17px}
+ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:4px}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:620px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600;background:var(--surface)}
+tr:last-child td{border-bottom:0}
+td.t{white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--accent);font-weight:600}
+.chip{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:999px;background:var(--chip);color:var(--fg)}
+.chip.a{background:var(--accent);color:var(--bg)}
+.chip.b{background:var(--warm);color:#230505}
+.chip.c{background:var(--surface)}
+nav{display:flex;flex-wrap:wrap;gap:8px}
+nav a{font-size:13px;color:var(--fg);text-decoration:none;border:1px solid var(--line);padding:6px 12px;background:var(--card)}
+nav a:hover,nav a:focus-visible{border-color:var(--accent);outline:none}
+.piece{background:var(--card);border:1px solid var(--line);display:flex;flex-direction:column}
+.piece-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 16px;padding:20px 22px;border-bottom:1px solid var(--line)}
+.piece-head .id{font-family:var(--serif);font-size:28px;color:var(--accent);font-weight:700;margin-right:10px}
+.piece-body{padding:20px 22px;display:flex;flex-direction:column;gap:18px}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px 18px;font-size:13px}
+.meta div{display:flex;flex-direction:column;gap:2px;min-width:0}
+.meta span{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.beats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.beat{border-left:3px solid var(--hot);padding:2px 0 2px 12px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.beat span{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--hot);font-weight:700}
+.script{background:var(--surface);padding:14px 16px;font-family:var(--serif);font-style:italic;font-size:16px;line-height:1.6}
+.copy{border:1px dashed var(--line);padding:14px 16px;display:flex;flex-direction:column;gap:6px;font-size:14px}
+.copy code,.mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-size:12px;word-break:break-all;color:var(--muted)}
+.note{font-size:13px;color:var(--muted)}
+.rec{border-left:3px solid var(--accent);padding-left:14px;display:flex;flex-direction:column;gap:4px}
+footer{font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+
+<header>
+  <span class="eyebrow">Mar i Río · Campaña de ventas v1 · noviembre 2026</span>
+  <h1>Guion de contenidos: Delta y Limo</h1>
+  <p class="lede">Lo que hay que grabar para la primera campaña de pauta que lleva a la web. Son 10 piezas, con gancho, desarrollo y llamado a la acción, para que cada una termine en una visita a la página de la pieza.</p>
+  <div class="facts">
+    <span><b>Objetivo:</b> ventas en mar-i-rio.com</span>
+    <span><b>Piezas:</b> Delta $250.000 · Limo $350.000</span>
+    <span><b>Pauta:</b> $60.000/día, 7 días</span>
+    <span><b>Fecha límite de Navidad:</b> 5 de diciembre</span>
+  </div>
+</header>
+
+<nav aria-label="Secciones">
+  <a href="#resumen">Resumen</a>
+  <a href="#reglas">Reglas que venden</a>
+  <a href="#A1">A · Fundadora</a>
+  <a href="#B1">B · Cómo se siente</a>
+  <a href="#C1">C · La firma</a>
+  <a href="#F1">Fotos y carrusel</a>
+  <a href="#grabacion">Día de grabación</a>
+  <a href="#medir">Cómo medir</a>
+  <a href="#marca">Cambios a la marca</a>
+</nav>
+
+<section id="resumen">
+  <span class="eyebrow">Resumen</span>
+  <h2>10 piezas, 3 conceptos, 2 anillos</h2>
+  <p class="lede">Probamos 3 formas de contar lo mismo y dejamos que los números elijan. Cada concepto se graba con Delta y con Limo.</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>#</th><th>Pieza</th><th>Concepto</th><th>Formato</th><th>Pilar del manual</th><th>Conjunto</th></tr></thead>
+    <tbody>
+      <tr><td class="t">A1</td><td>Delta</td><td><span class="chip a">Fundadora</span></td><td>Reel 9:16 · 20 s · Mariana a cámara</td><td>Autoría y proceso</td><td>Descubrir</td></tr>
+      <tr><td class="t">A2</td><td>Limo</td><td><span class="chip a">Fundadora</span></td><td>Reel 9:16 · 20 s · Mariana a cámara</td><td>Autoría y proceso</td><td>Descubrir</td></tr>
+      <tr><td class="t">B1</td><td>Delta</td><td><span class="chip b">Cómo se siente</span></td><td>Reel 9:16 · 12–15 s · voz en off</td><td>Expresión personal</td><td>Descubrir y Calientes</td></tr>
+      <tr><td class="t">B2</td><td>Limo</td><td><span class="chip b">Cómo se siente</span></td><td>Reel 9:16 · 12–15 s · voz en off</td><td>Expresión personal</td><td>Descubrir y Calientes</td></tr>
+      <tr><td class="t">C1</td><td>Delta</td><td><span class="chip c">La firma</span></td><td>Reel 9:16 · 10 s · macro, texto</td><td>El movimiento como lenguaje</td><td>Descubrir</td></tr>
+      <tr><td class="t">C2</td><td>Limo</td><td><span class="chip c">La firma</span></td><td>Reel 9:16 · 10 s · macro, texto</td><td>El movimiento como lenguaje</td><td>Descubrir</td></tr>
+      <tr><td class="t">F1</td><td>Delta</td><td>Foto en la mano</td><td>Foto 4:5</td><td>Lujo cotidiano</td><td>Calientes</td></tr>
+      <tr><td class="t">F2</td><td>Limo</td><td>Foto en la mano</td><td>Foto 4:5</td><td>Lujo cotidiano</td><td>Calientes</td></tr>
+      <tr><td class="t">K1</td><td>Anillos</td><td>Carrusel</td><td>4 tarjetas 4:5</td><td>Exclusividad viva</td><td>Calientes</td></tr>
+      <tr><td class="t">T1</td><td>Delta o Limo</td><td>Clienta real</td><td>Foto o video 9:16</td><td>Quien la lleva (nuevo)</td><td>Calientes</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">Descubrir lleva 6 anuncios (A1, A2, B1, B2, C1, C2). Calientes lleva 6 (B1, B2, F1, F2, K1, T1). Si T1 no existe todavía, Calientes arranca con 5.</p>
+</section>
+
+<section id="reglas">
+  <span class="eyebrow">Antes de grabar</span>
+  <h2>Las reglas que hacen que un anuncio venda</h2>
+  <div class="grid2">
+    <div class="box"><h3>Gancho en 2 segundos</h3><p>Si en los primeros 2 segundos no pasa nada, la persona sigue de largo. El gancho va con voz y también escrito en pantalla, porque 8 de cada 10 ven los reels sin sonido.</p></div>
+    <div class="box"><h3>La pieza desde el segundo 1</h3><p>El anillo aparece en el primer cuadro, en la mano y de cerca. Nada de logos, intros ni paisajes antes de la joya.</p></div>
+    <div class="box"><h3>Precio y nombre al final</h3><p>Nombre, "hecho a tu talla" y precio en pantalla. Quien hace clic ya sabe cuánto vale, y así llegan menos curiosas y más compradoras.</p></div>
+    <div class="box"><h3>Un solo llamado</h3><p>"Pídelo a tu talla en mar-i-rio.com." El botón del anuncio dice "Comprar" y lleva a la página de esa pieza, nunca al inicio.</p></div>
+    <div class="box"><h3>Subtítulos siempre</h3><p>Todo lo que se dice, escrito. Texto grande y en la zona segura: lejos del 25% de abajo y del 15% de arriba, donde Instagram pone botones.</p></div>
+    <div class="box"><h3>Tono: amiga creativa</h3><p>Como dice el manual: cercana, libre, sin pedir permiso. Se le habla de tú. Nada de "elegancia atemporal" ni mayúsculas para presionar.</p></div>
+  </div>
+</section>
+
+<!-- A1 -->
+<article class="piece" id="A1">
+  <div class="piece-head">
+    <h3><span class="id">A1</span>Fundadora · Delta</h3>
+    <span class="chip a">Concepto A · la apuesta</span>
+  </div>
+  <div class="piece-body">
+    <div class="meta">
+      <div><span>Objetivo</span>Que una desconocida entienda en 20 s qué es Mar i Río y quiera ver Delta</div>
+      <div><span>Formato</span>Reel 9:16, 18–22 s, Mariana a cámara</div>
+      <div><span>Pilar</span>Autoría y proceso + Expresión personal</div>
+      <div><span>Tono</span>Segura, directa, con una sonrisa. Como contándole a una amiga.</div>
+    </div>
+    <div class="beats">
+      <div class="beat"><span>Gancho · 0–2 s</span>Mariana mira a cámara con Delta en la mano, cerca del lente. Dice y se lee: <b>"Si te gustan las joyas perfectas, esto no es para ti."</b></div>
+      <div class="beat"><span>Desarrollo · 2–16 s</span>Quién es, por qué se ve derretido y que es a propósito. Proceso en 2 planos. Delta puesto en la mano.</div>
+      <div class="beat"><span>Llamado · 16–20 s</span>Tarjeta final: Delta · plata 925 · hecho a tu talla · $250.000. Dice: "Te lo hago a tu talla. Pídelo en mar-i-rio.com."</div>
+    </div>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Tiempo</th><th>Plano</th><th>Qué se ve</th><th>Voz / texto en pantalla</th></tr></thead>
+      <tbody>
+        <tr><td class="t">0–2 s</td><td>Medio, a cámara</td><td>Mariana levanta la mano con Delta hacia el lente. Luz de ventana de lado.</td><td>"Si te gustan las joyas perfectas, esto no es para ti."</td></tr>
+        <tr><td class="t">2–6 s</td><td>Macro</td><td>Delta girando despacio entre los dedos; la luz recorre las partes derretidas.</td><td>"Soy Mariana, arquitecta, y hago joyas que parecen derretidas. Es a propósito."</td></tr>
+        <tr><td class="t">6–11 s</td><td>Detalle de manos</td><td>Cera derritiéndose con el calor; plata recién salida del vaciado.</td><td>"Nacen del movimiento: la cera se derrite y la plata guarda esa huella. Ninguna sale igual a otra."</td></tr>
+        <tr><td class="t">11–16 s</td><td>Medio corto</td><td>Mariana con Delta puesto: se toca el pelo, sostiene un café.</td><td>"Delta es para la que no quiere verse como todas."</td></tr>
+        <tr><td class="t">16–20 s</td><td>Tarjeta final</td><td>Fondo esencial, foto de Delta en la mano, texto grande.</td><td>Delta · plata 925 · hecho a tu talla · $250.000. Voz: "Te lo hago a tu talla. Pídelo en mar-i-rio.com."</td></tr>
+      </tbody>
+    </table></div>
+    <div class="script">"Si te gustan las joyas perfectas, esto no es para ti. Soy Mariana, arquitecta, y hago joyas que parecen derretidas. Es a propósito. Nacen del movimiento: la cera se derrite y la plata guarda esa huella. Ninguna sale igual a otra. Delta es para la que no quiere verse como todas. Te lo hago a tu talla. Pídelo en mar-i-rio.com."</div>
+    <div class="copy">
+      <div><b>Texto del anuncio:</b> Delta. Plata derretida, hecha a tu talla. $250.000. Una pieza que habla por ti, imposible de confundir. 🎁 Pide antes del 5 de diciembre y te llega antes del 24.</div>
+      <div><b>Título:</b> Hecho a tu talla · <b>Botón:</b> Comprar</div>
+      <div><b>Lleva a:</b> <code>https://mar-i-rio.com/producto/delta-ring?utm_source=meta&amp;utm_medium=paid&amp;utm_campaign=ventas-v1&amp;utm_content=delta-fundadora</code></div>
+      <div><b>Comentario fijado:</b> "Cada Delta se hace a tu medida 🤍 En la página encuentras la guía de tallas. ¿Dudas? Escríbeme."</div>
+    </div>
+    <p class="note"><b>Nota de producción:</b> no tiene que salir perfecto. Si te equivocas en una palabra y suena natural, déjalo. Graba la frase del gancho 5 veces con distinta energía y escogemos la mejor.</p>
+  </div>
+</article>
+
+<!-- A2 -->
+<article class="piece" id="A2">
+  <div class="piece-head">
+    <h3><span class="id">A2</span>Fundadora · Limo</h3>
+    <span class="chip a">Concepto A</span>
+  </div>
+  <div class="piece-body">
+    <div class="meta">
+      <div><span>Objetivo</span>El mismo de A1, con la pieza de mayor ticket</div>
+      <div><span>Formato</span>Reel 9:16, 18–22 s, Mariana a cámara</div>
+      <div><span>Pilar</span>Autoría y proceso + Expresión personal</div>
+      <div><span>Tono</span>Igual que A1. Se graba en la misma sesión, cambiando solo la pieza y una frase.</div>
+    </div>
+    <div class="beats">
+      <div class="beat"><span>Gancho · 0–2 s</span><b>"Si te gustan las joyas perfectas, esto no es para ti."</b> Limo cerca del lente.</div>
+      <div class="beat"><span>Desarrollo · 2–16 s</span>Mismos planos de A1. La frase propia de Limo va en el plano medio corto.</div>
+      <div class="beat"><span>Llamado · 16–20 s</span>Limo · plata 925 · hecho a tu talla · $350.000. "Pídelo en mar-i-rio.com."</div>
+    </div>
+    <div class="script">"Si te gustan las joyas perfectas, esto no es para ti. Soy Mariana, arquitecta, y hago joyas que parecen derretidas. Es a propósito. Nacen del movimiento: la cera se derrite y la plata guarda esa huella. Ninguna sale igual a otra. Limo se lleva sola: no necesita nada más. Te lo hago a tu talla. Pídelo en mar-i-rio.com."</div>
+    <div class="copy">
+      <div><b>Texto del anuncio:</b> Limo. Plata derretida, hecha a tu talla. $350.000. Una pieza que habla por ti, imposible de confundir. 🎁 Pide antes del 5 de diciembre y te llega antes del 24.</div>
+      <div><b>Lleva a:</b> <code>https://mar-i-rio.com/producto/limo-ring?utm_source=meta&amp;utm_medium=paid&amp;utm_campaign=ventas-v1&amp;utm_content=limo-fundadora</code></div>
+    </div>
+    <p class="note"><b>Sobre el envío:</b> ningún anuncio menciona envío gratis. Con la regla actual, Delta y Limo pagan $15.000 de envío a menos que se lleve Cauce, y el carrito lo ofrece solo.</p>
+  </div>
+</article>
+
+<!-- B1 -->
+<article class="piece" id="B1">
+  <div class="piece-head">
+    <h3><span class="id">B1</span>Cómo se siente · Delta</h3>
+    <span class="chip b">Concepto B</span>
+  </div>
+  <div class="piece-body">
+    <div class="meta">
+      <div><span>Objetivo</span>Vender la sensación de llevarlo, que es por lo que compran las clientas</div>
+      <div><span>Formato</span>Reel 9:16, 12–15 s, cortes rápidos, voz en off</div>
+      <div><span>Pilar</span>Expresión personal (+ Quien la lleva)</div>
+      <div><span>Tono</span>Íntimo, cotidiano, con orgullo. Nada de pose de catálogo.</div>
+    </div>
+    <div class="beats">
+      <div class="beat"><span>Gancho · 0–2 s</span>Primer plano de una mano con Delta entrando a cuadro. Se lee la frase real de una clienta: <b>"Me encanta ponérmelo. No me lo quito."</b></div>
+      <div class="beat"><span>Desarrollo · 2–11 s</span>Delta en la vida real: volante del carro, taza de café, pelo, espejo. Cada 2 s, otra frase real de clienta.</div>
+      <div class="beat"><span>Llamado · 11–14 s</span>Tarjeta final con nombre, talla y precio. Voz: "El tuyo te lo hago a tu talla. Mar-i-rio.com."</div>
+    </div>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Tiempo</th><th>Plano</th><th>Qué se ve</th><th>Voz en off / texto</th></tr></thead>
+      <tbody>
+        <tr><td class="t">0–2 s</td><td>Primer plano, celular en mano (POV)</td><td>La mano entra a cuadro con Delta puesto.</td><td>Texto: "Me encanta ponérmelo. No me lo quito." — una clienta</td></tr>
+        <tr><td class="t">2–5 s</td><td>Detalle</td><td>Mano en el volante, la luz pega en el anillo.</td><td>Texto: "wow, es muy raro"</td></tr>
+        <tr><td class="t">5–8 s</td><td>Detalle</td><td>Mano sosteniendo una taza; el anillo contra la cerámica.</td><td>Texto: "me encanta que es como derretido"</td></tr>
+        <tr><td class="t">8–11 s</td><td>Espejo</td><td>Mano en el pelo frente al espejo.</td><td>Texto: "me siento hermosa"</td></tr>
+        <tr><td class="t">11–14 s</td><td>Tarjeta final</td><td>Delta en la mano sobre fondo esencial.</td><td>Delta · hecho a tu talla · $250.000. Voz: "El tuyo te lo hago a tu talla. Mar-i-rio.com."</td></tr>
+      </tbody>
+    </table></div>
+    <div class="script">Voz en off (Mariana o una clienta, suave): "Ellas no se lo quitan. El tuyo te lo hago a tu talla. Mar-i-rio.com."</div>
+    <div class="copy">
+      <div><b>Texto del anuncio:</b> "Me encanta ponérmelo. No me lo quito." Así nos escriben quienes ya tienen Delta. Plata derretida, hecha a tu talla. $250.000.</div>
+      <div><b>Lleva a:</b> <code>https://mar-i-rio.com/producto/delta-ring?utm_source=meta&amp;utm_medium=paid&amp;utm_campaign=ventas-v1&amp;utm_content=delta-siente</code></div>
+    </div>
+    <p class="note"><b>Regla de oro:</b> solo frases reales de clientas, copiadas tal como las escribieron. Si una mano es de clienta, pídele permiso por escrito antes de usarla.</p>
+  </div>
+</article>
+
+<!-- B2 -->
+<article class="piece" id="B2">
+  <div class="piece-head">
+    <h3><span class="id">B2</span>Cómo se siente · Limo</h3>
+    <span class="chip b">Concepto B</span>
+  </div>
+  <div class="piece-body">
+    <div class="meta">
+      <div><span>Objetivo</span>El mismo de B1 con Limo</div>
+      <div><span>Formato</span>Reel 9:16, 12–15 s</div>
+      <div><span>Pilar</span>Expresión personal</div>
+      <div><span>Tono</span>Igual que B1. Otros escenarios para que no se vea repetido: calle, bolso, copa.</div>
+    </div>
+    <div class="beats">
+      <div class="beat"><span>Gancho · 0–2 s</span>Mano con Limo, texto: <b>"me siento hermosa"</b>, frase real de una clienta.</div>
+      <div class="beat"><span>Desarrollo · 2–11 s</span>Limo en 3 momentos del día, con las frases reales.</div>
+      <div class="beat"><span>Llamado · 11–14 s</span>Limo · hecho a tu talla · $350.000. "El tuyo te lo hago a tu talla. Mar-i-rio.com."</div>
+    </div>
+    <div class="copy">
+      <div><b>Lleva a:</b> <code>https://mar-i-rio.com/producto/limo-ring?utm_source=meta&amp;utm_medium=paid&amp;utm_campaign=ventas-v1&amp;utm_content=limo-siente</code></div>
+    </div>
+  </div>
+</article>
+
+<!-- C1 -->
+<article class="piece" id="C1">
+  <div class="piece-head">
+    <h3><span class="id">C1</span>La firma de cerca · Delta</h3>
+    <span class="chip c">Concepto C · control</span>
+  </div>
+  <div class="piece-body">
+    <div class="meta">
+      <div><span>Objetivo</span>Medir si la estética sola, sin persona, detiene el dedo. Es el más barato de producir.</div>
+      <div><span>Formato</span>Reel 9:16, 8–10 s, macro, sin voz</div>
+      <div><span>Pilar</span>El movimiento como lenguaje</div>
+      <div><span>Tono</span>Sensorial. Sonido real (la plata contra la piel o el metal), sin música épica.</div>
+    </div>
+    <div class="beats">
+      <div class="beat"><span>Gancho · 0–2 s</span>Macro de la parte más derretida. Texto grande: <b>"No es un defecto. Es plata derretida."</b></div>
+      <div class="beat"><span>Desarrollo · 2–7 s</span>El anillo gira; termina puesto en la mano.</div>
+      <div class="beat"><span>Llamado · 7–10 s</span>Delta · hecho a tu talla · $250.000 · mar-i-rio.com</div>
+    </div>
+    <div class="copy">
+      <div><b>Texto del anuncio:</b> No es un defecto. Es plata derretida. Delta, hecho a mano y a tu talla. $250.000.</div>
+      <div><b>Lleva a:</b> <code>https://mar-i-rio.com/producto/delta-ring?utm_source=meta&amp;utm_medium=paid&amp;utm_campaign=ventas-v1&amp;utm_content=delta-firma</code></div>
+    </div>
+  </div>
+</article>
+
+<!-- C2 -->
+<article class="piece" id="C2">
+  <div class="piece-head">
+    <h3><span class="id">C2</span>La firma de cerca · Limo</h3>
+    <span class="chip c">Concepto C</span>
+  </div>
+  <div class="piece-body">
+    <div class="beats">
+      <div class="beat"><span>Gancho · 0–2 s</span>Macro de Limo. Texto: <b>"Ninguno sale igual a otro."</b></div>
+      <div class="beat"><span>Desarrollo · 2–7 s</span>Gira con la luz y termina puesto.</div>
+      <div class="beat"><span>Llamado · 7–10 s</span>Limo · hecho a tu talla · $350.000 · mar-i-rio.com</div>
+    </div>
+    <div class="copy">
+      <div><b>Lleva a:</b> <code>https://mar-i-rio.com/producto/limo-ring?utm_source=meta&amp;utm_medium=paid&amp;utm_campaign=ventas-v1&amp;utm_content=limo-firma</code></div>
+    </div>
+  </div>
+</article>
+
+<!-- Fotos / carrusel / testimonio -->
+<section id="F1">
+  <span class="eyebrow">Para quienes ya conocen la marca (conjunto Calientes)</span>
+  <h2>Fotos, carrusel y clienta real</h2>
+  <div class="grid2">
+    <div class="box">
+      <h3>F1 y F2 · Foto en la mano</h3>
+      <ul>
+        <li>Formato 4:5 vertical. La pieza ocupa al menos un tercio de la foto.</li>
+        <li>Mano con gesto natural, luz de ventana, fondo simple (piel, lino, pared clara).</li>
+        <li>Sirven las del fotógrafo si el anillo se ve con claridad. Si se ve más la cara que la pieza, no sirve.</li>
+        <li>Texto: "Delta. Hecho a tu talla. $250.000." · Lleva a la página de la pieza.</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>K1 · Carrusel de anillos</h3>
+      <ul>
+        <li>4 tarjetas 4:5: Delta, Limo y 2 anillos más, cada uno en la mano.</li>
+        <li>Cada tarjeta con nombre y precio. Primera tarjeta: "Hechos a tu talla. Ninguno sale igual a otro."</li>
+        <li>Lleva a <span class="mono">/colecciones?categoria=anillos</span> con <span class="mono">utm_content=carrusel-anillos</span>.</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>T1 · Clienta real</h3>
+      <ul>
+        <li>Pídele a 2 o 3 clientas que tengan Delta o Limo una foto o un video de 10 s con la pieza puesta.</li>
+        <li>Su frase real como texto. Con permiso escrito.</li>
+        <li>Es la prueba social que hoy no tiene la web. Úsala también en la página de la pieza.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="grabacion">
+  <span class="eyebrow">Producción</span>
+  <h2>Todo se graba en un día</h2>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Bloque</th><th>Qué se graba</th><th>Necesitas</th></tr></thead>
+    <tbody>
+      <tr><td class="t">1 · Mañana</td><td>A1 y A2: Mariana a cámara, con luz de ventana (la mejor es entre 9 y 11 a. m.)</td><td>Trípode, celular en 4K vertical, micrófono de solapa o el celular cerca, Delta y Limo</td></tr>
+      <tr><td class="t">2 · Media mañana</td><td>Macros de C1 y C2, y los planos de proceso para A (cera, plata)</td><td>Lente macro o modo macro del celular, fondo de lino, la cera y una pieza recién vaciada</td></tr>
+      <tr><td class="t">3 · Tarde</td><td>B1 y B2: la pieza en la vida real (carro, café, espejo, calle)</td><td>Una amiga o clienta como modelo de manos, uñas limpias o pintadas en tono neutro</td></tr>
+      <tr><td class="t">4 · Cierre</td><td>Fotos F1, F2 y las 4 tarjetas del carrusel</td><td>Las mismas piezas y luz de tarde suave</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">La agencia puede editar con este guion: subtítulos, tarjeta final con la tipografía de la marca y versiones de 9:16 y 4:5. Pásale este documento tal cual.</p>
+</section>
+
+<section id="medir">
+  <span class="eyebrow">Revisión del día 4 y del día 7</span>
+  <h2>Cómo saber qué concepto gana</h2>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Qué medir</th><th>Dónde se ve en Meta</th><th>Referencia</th><th>Si no se cumple</th></tr></thead>
+    <tbody>
+      <tr><td>¿El gancho detiene el dedo?</td><td>Reproducciones de 3 s ÷ impresiones</td><td>Más de 25%</td><td>Cambiar los primeros 2 segundos, no todo el video</td></tr>
+      <tr><td>¿Dan ganas de ver la pieza?</td><td>CTR (clics en el enlace)</td><td>Más de 1%</td><td>Reforzar el desarrollo o la tarjeta final</td></tr>
+      <tr><td>¿La página convence?</td><td>Agregar al carrito ÷ visitas a la página</td><td>Más de 5%</td><td>El problema es la página o el precio, no el anuncio</td></tr>
+      <tr><td>¿Compran?</td><td>Compras y costo por compra</td><td>Menos de ~$120.000 por compra</td><td>Revisar el paso entre carrito y pago</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="marca">
+  <span class="eyebrow">Recomendaciones</span>
+  <h2>Lo que cambiaría del branding para vender</h2>
+  <div class="grid2">
+    <div class="rec"><h3>1. Vender la sensación, contar la historia después</h3><p>El manual habla de "joyas con significado" y de la historia detrás. Las clientas, en cambio, compran por cómo se sienten. En los anuncios, primero la sensación y la firma; la historia y el proceso van como respaldo.</p></div>
+    <div class="rec"><h3>2. Retirar el tono de voz viejo</h3><p>El documento de tono de abril (mar, litoral, "evitar el tú") ya no corresponde al manual 2026, que pide hablar como una amiga creativa. Recomiendo archivarlo para que la agencia no mezcle los dos.</p></div>
+    <div class="rec"><h3>3. Agregar el pilar "Quien la lleva"</h3><p>Los 5 pilares del manual no incluyen la prueba social, y es lo que más empuja una compra en línea. Lo sumaría como sexto pilar: clientas reales con su frase.</p></div>
+    <div class="rec"><h3>4. "Piezas con alma" para la marca, no para el anuncio</h3><p>Funciona como firma, pero en un anuncio no detiene a nadie porque muchas marcas dicen algo parecido. Los ganchos tienen que ser concretos: "no es un defecto, es plata derretida".</p></div>
+  </div>
+</section>
+
+<footer>Mar i Río · Guion de contenidos para la campaña de ventas v1 · Basado en el manual de marca 2026, la propuesta de valor y el embudo de e-commerce (estrategia/03 y 04).</footer>
+
+</div>

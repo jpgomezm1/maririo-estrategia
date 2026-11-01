@@ -185,6 +185,8 @@ Mariana tiene razón: un reel solo visual, sin gancho, se pasa de largo. La evid
 - Las fotos y el carrusel se mantienen para el conjunto Calientes.
 - **Antes de grabar:** revisar en la Biblioteca de anuncios de Meta qué les funciona hoy a marcas parecidas (ver el prompt en la bitácora, pregunta 70).
 
+**Guion completo de las 10 piezas:** `05-guion-campana-v1.html` (storyboard, guion, texto del anuncio, enlaces con UTM y cómo medir). Precios: Delta $250.000, Limo $350.000.
+
 ### Montar la campaña con Claude en Chrome
 - Funciona desde **PowerShell en Windows**, no desde WSL.
 - Requisitos: la extensión "Claude in Chrome" y la sesión iniciada con la misma cuenta de Claude.
