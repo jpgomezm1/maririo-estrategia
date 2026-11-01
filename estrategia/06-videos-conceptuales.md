@@ -104,3 +104,68 @@ No camera shake, no new objects, no text.
 **Sonido:** la llama y un crepitar suave, sin música épica.
 
 **Alternativa sin IA para probar:** grabarlo de verdad con una vela delgada y los 4 Delta reales, acelerando el derretido con una pistola de calor y en cámara rápida. La cera se quita de la plata con agua caliente. Así el anillo es 100 % el real.
+
+---
+
+## Brief final para Higgsfield: "Nació en cera" (31 oct)
+
+**Ajuste de Mariana:** la vela es una vela cónica clásica, delgada y que se angosta hacia la punta (más estética).
+
+**Fotos de referencia:** `higgsfield-delta-vela.zip` (en la carpeta "mar i rio planeacion", fuera del repo), con 9 fotos de `OneDrive/mar i rio/anillo 1 circon/delta`. Las claves son la 01 y la 02: el stack de los 4 colores sobre un cilindro de madera, que es casi exactamente la escena. Orden del stack según esas fotos, de arriba abajo: amarillo sol, verde alga, coral, azul profundo.
+
+**1 · Ajustar la imagen en ChatGPT** (en el mismo chat donde se hizo la imagen)
+```
+Keep everything exactly the same (background, light, rings, composition), but
+change the candle to a classic elegant taper candle: long and slender, smoothly
+narrowing toward a thin pointed tip, cream color (#F5EEDE), with a soft matte wax
+finish. The four rings stay stacked around the lower-middle part of the candle,
+where it is about as wide as a finger.
+```
+
+**2 · Cuadro final (opcional, si el modelo de Higgsfield acepta primer y último cuadro)**
+```
+Same image, same framing and light, but later in time: the candle has burned a
+little lower and thick drips of cream wax have flowed down over all four rings,
+covering them almost completely. The silver and the four zircon colors still peek
+through the thinner parts of the wax. Organic, imperfect, beautiful drips.
+```
+
+**3 · Prompt de video para Higgsfield** (imagen a video, 5–8 s, 9:16)
+```
+Start frame: the attached image. Product reference: the attached photos of the
+Delta ring. Keep the rings exactly as in the reference photos at all times: four
+thin sterling silver bands with an organic, hammered, molten texture, each with
+one small round bezel-set zircon (from top to bottom: yellow, green, pink, deep
+blue). Never change their shape, width, color or number of stones.
+
+Scene: a slender cream taper candle, narrowing to a thin tip, centered on a
+seamless deep oxblood red background. The flame is the only light.
+
+Action: the flame flickers softly. Melted cream wax gathers at the tip and runs
+down the candle in slow, thick, organic drips. The drips reach the rings and flow
+over them one by one, from the top ring to the bottom ring, until the wax covers
+all four. The wax movement is smooth and natural, like a time-lapse.
+
+Camera: locked-off tripod shot with a very slow push-in toward the rings. No
+shake, no cuts.
+
+Light and mood: warm candlelight, soft red glow on the background, highlights
+gliding over the silver and the zircons. Intimate, sensual, luxurious.
+
+Avoid: gold rings, wide or flat bands, extra stones, rings changing shape, hands,
+text, logos, extra objects, background color changes, flickering artifacts.
+```
+
+**4 · Montaje final (lo hace la agencia o CapCut, 10 s)**
+| Tiempo | Qué se ve | Texto en pantalla |
+|---|---|---|
+| 0–1 s | La vela con el stack. Gancho, sin logo. | — |
+| 1–6 s | El clip de Higgsfield: la cera cubre los anillos. | *"Nació en cera."* |
+| 6–9 s | Corte al stack real de Delta en la mano (foto 03 o un video de celular). | *"Delta · Plata 925 · Edición de 30"* |
+| 9–10 s | Se mantiene. | *"Pídelo antes del 5 de diciembre, llega antes del 24."* |
+
+- **Sonido:** la llama y un crepitar suave, sin música épica.
+- **Texto del anuncio:** *Nació en cera. 🔥 Delta se modela a mano, se funde en plata 925 y guarda la huella del fuego. Llévalo solo o en stack, en verde alga, azul profundo, coral o amarillo sol. Hecho a tu talla. $250.000. Pide antes del 5 de diciembre y te llega antes del 24.*
+- **Titular:** Delta · **Descripción:** Hecho a tu talla · Envíos a toda Colombia · **Botón:** Comprar
+- **Enlace:** `https://mar-i-rio.com/producto/delta-ring?utm_source=meta&utm_medium=paid&utm_campaign=ventas-v2&utm_content=delta-vela`
+- **Revisar antes de publicar:** cuadro por cuadro, que los anillos no cambien de forma ni ganen piedras. Si cambian, se regenera; no se publica.
