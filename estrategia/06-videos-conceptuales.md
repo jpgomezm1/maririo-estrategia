@@ -252,3 +252,98 @@ text, logos, extra objects, background color changes, flickering artifacts.
 **Texto del anuncio:** Ni mi matcha sale perfecto. Mis anillos tampoco. 🍵 Delta se modela a mano en cera y se funde en plata 925: cada uno sale distinto. Llévalo solo o en stack, en verde alga, azul profundo, coral o amarillo sol. Hecho a tu talla. $250.000. Pide antes del 5 de diciembre y te llega antes del 24.
 **Titular:** Delta · **Descripción:** Hecho a tu talla · Envíos a toda Colombia · **Botón:** Comprar
 **Enlace:** https://mar-i-rio.com/producto/delta-ring?utm_source=meta&utm_medium=paid&utm_campaign=ventas-v2&utm_content=delta-matcha
+
+---
+
+## Brief v2 del matcha (1 nov): mesón de azulejos vinotinto
+
+**Ajustes de Mariana:** toma en planta sobre un mesón de azulejos cuadrados vinotinto; estético, costoso y arriesgado; mano con uñas almendradas lindas; nada de comida; el matcha termina en un vaso con hielo y ella se lo lleva; tomas rápidas y atractivas. Objetivo: mostrar los anillos en situaciones cotidianas, en caos bonito y exagerado.
+
+**Entrega:** `delta-matcha.zip` (en la carpeta "mar i rio planeacion", fuera del repo) con 8 fotos de referencia del stack y el brief completo con el prompt para la IA (`00-BRIEF-matcha.txt`). Reemplaza el brief del matcha anterior.
+
+```
+BRIEF · VIDEO "EL MATCHA" · MAR I RÍO (v2, 1 nov 2026)
+
+Marca: Mar i Río, joyería de autor en plata, orgánica y derretida, hecha a mano en Medellín.
+Pieza: Delta. Plata 925, $250.000, edición de 30, hecho a tu talla. Stack de 4 colores en el dedo índice, de arriba abajo: amarillo sol, verde alga, coral y azul profundo.
+Formato: video vertical 9:16, 10–12 segundos, para Instagram (reel y anuncio).
+Objetivo: mostrar los anillos en una situación cotidiana, en caos bonito y exagerado.
+Mensaje: nada sale perfecto y así está bien. Ser como quieras, no como se debe ser.
+Look: estético, costoso y arriesgado. Lujo con actitud.
+
+LA ESCENA
+Una sola toma en planta, desde arriba (cenital), sobre un mesón de azulejos cuadrados vinotinto brillantes, con juntas finas. Solo se ven una mano y el antebrazo de mujer: piel cuidada, uñas almendradas lindas, largas y pulidas, en un tono nude o vino. Nada de comida. Sobre el mesón: un tazón de cerámica para matcha, el batidor de bambú, una cuchara de bambú con polvo de matcha y un vaso alto de vidrio con hielo y leche. Luz natural lateral, dura y elegante, con sombras marcadas y brillos en los azulejos y la plata.
+
+LO QUE PASA (tomas rápidas y atractivas, cortes al ritmo de la música)
+0–1 s: el mesón en orden, perfecto. La mano entra con el stack de 4 Delta.
+1–2 s: el polvo de matcha cae al tazón desde la cuchara.
+2–5 s: bate cada vez más rápido. Cortes rápidos entre la mano batiendo, el stack de cerca y las salpicaduras. El matcha salpica los azulejos, la mano y los anillos; sale una nube de polvo verde. Cámara lenta en las salpicaduras sobre el vinotinto.
+   Texto: "Ni mi matcha sale perfecto."
+5–7 s: vierte el matcha en el vaso con hielo, regándolo por fuera. El verde baja entre la leche.
+7–9 s: pasa una servilleta de afán y lo riega más. Se rinde.
+9–10 s: agarra el vaso (el stack en primer plano, con una gota verde en la plata) y sale de cuadro.
+10–12 s: queda solo el mesón: el desastre verde sobre los azulejos vinotinto, bien hecho, como una obra.
+   Texto: "Caos bonito."
+   Luego: "Delta · Plata 925 · Edición de 30 · $250.000"
+
+EL CAOS TIENE QUE VERSE COSTOSO, NO SUCIO
+Salpicaduras verdes con forma sobre el vinotinto brillante (verde y vino es el contraste de la pieza), el polvo como nube y los brillos de la plata. Exagerado, pero con intención: cada cuadro tiene que poder ser una foto de campaña.
+
+CÓMO ES DELTA (NO PUEDE CAMBIAR)
+Banda delgada de plata con textura orgánica, martillada y como derretida, con un solo circón redondo pequeño engastado en bisel. Igual a las fotos de referencia. Nada dorado, ni banda ancha o lisa, ni piedras de más.
+
+SONIDO
+El batidor, el tazón y el hielo, muy presentes. Música con ritmo que acelera con el batido y para en seco en el desastre.
+
+EVITAR
+La cara, comida, logos al inicio y que parezca un error o una torpeza: es una mujer que goza su caos.
+
+FOTOS DE REFERENCIA (en esta carpeta)
+01–02: el stack de los 4 colores en la mano (cómo se ve puesto).
+03: el stack de cerca, la textura.
+04: el orden de los colores en el stack.
+05–07: cada piedra en su bisel, de frente y de lado.
+08: la textura derretida de la banda.
+
+TEXTO DEL ANUNCIO
+Ni mi matcha sale perfecto. Mis anillos tampoco. 🍵 Delta se modela a mano en cera y se funde en plata 925: cada uno sale distinto. Llévalo solo o en stack, en verde alga, azul profundo, coral o amarillo sol. Hecho a tu talla. $250.000. Pide antes del 5 de diciembre y te llega antes del 24.
+Titular: Delta · Descripción: Hecho a tu talla · Envíos a toda Colombia · Botón: Comprar
+Enlace: https://mar-i-rio.com/producto/delta-ring?utm_source=meta&utm_medium=paid&utm_campaign=ventas-v2&utm_content=delta-matcha
+
+
+---------------------------------------------------------------
+PROMPT PARA LA IA (en inglés, porque la sigue mejor así)
+---------------------------------------------------------------
+
+Vertical 9:16 video, 10–12 seconds, fast attractive cuts on the beat. Strict
+top-down overhead view of a glossy square wine-red (burgundy) tiled countertop
+with thin grout lines. Only a woman's hand and forearm are visible, never her
+face: groomed skin, beautiful long almond-shaped polished nails in nude or wine.
+No food anywhere. On the counter: a ceramic matcha bowl, a bamboo chasen whisk, a
+bamboo scoop with matcha powder and a tall clear glass with ice and milk. Natural
+side light, crisp and elegant, defined shadows, highlights on the glossy tiles
+and on the silver.
+
+The rings (keep them exactly like the attached reference photos at all times):
+on her index finger, a stack of four thin sterling silver rings with an organic,
+hammered, molten texture, each with one small round bezel-set zircon, from top to
+bottom: yellow, green, pink, deep blue. Never change their shape, width, metal or
+number of stones.
+
+Action: the counter starts perfectly tidy. The hand enters and drops matcha
+powder into the bowl. She whisks faster and faster; quick cuts between the
+whisking hand, close-ups of the ring stack and slow-motion splashes. Bright green
+matcha splashes across the wine-red tiles, her hand and the rings, with a soft
+cloud of green powder. She pours the matcha into the glass of ice, spilling it
+over the sides, green swirling into the milk. She wipes once with a napkin in a
+hurry, smearing it more, gives up, grabs the glass (ring stack in the foreground,
+a green drop on the silver) and leaves the frame. Final shot: only the counter,
+a beautiful, artistic green mess on the glossy burgundy tiles, like an abstract
+painting.
+
+Mood: aesthetic, expensive, bold and playful. Beautiful exaggerated chaos, never
+dirty. Every frame should look like a luxury campaign photo.
+
+Avoid: face, food, gold rings, wide or flat bands, extra stones, rings changing
+shape, text, logos, extra objects.
+```
