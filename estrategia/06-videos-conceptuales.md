@@ -202,3 +202,15 @@ text, logos, extra objects, background color changes, flickering artifacts.
 **Titular:** Delta · **Descripción:** Hecho a tu talla · Envíos a toda Colombia · **Botón:** Comprar
 **Enlace:** https://mar-i-rio.com/producto/delta-ring?utm_source=meta&utm_medium=paid&utm_campaign=ventas-v2&utm_content=delta-vela
 **Referencias que se entregan:** fotos reales de Delta (stack de los 4 colores, cada color de frente y de lado, la textura y el anillo puesto) y la imagen de la vela ya creada.
+
+---
+
+## Ronda 3 de conceptos (1 nov): más auténticos y atrevidos
+
+**Por qué:** Mariana siente que la vela está muy usada. Busca algo auténtico, atrevido, que "hable duro" como Mar i Río y que tenga personalidad: **ser como quieras, no como se debe ser.**
+
+1. **"Nada en mí es simétrico"** (recomendado): planos macro de piel real, una peca, una cicatriz, un tatuaje, el esmalte saltado o un rizo rebelde, y en medio la mano con el stack de Delta. Texto: *"Nada en mí es simétrico. ¿Por qué mi anillo tendría que serlo?"* Une la imperfección de la pieza con la de quien la lleva. Se graba de verdad, sin IA.
+2. **"¿Otro anillo?"**: una mujer se va poniendo Delta tras Delta mientras se oyen voces fuera de cuadro: *"¿Otro?"*, *"Eso no combina"*, *"Se ve muy grande"*, *"¿Vas a salir así?"*. Ella no responde, se pone el cuarto y sonríe a cámara. Cierre: *"Combina conmigo."* Humor y personalidad, con voces muy paisas.
+3. **"Lo perfecto lo derrito"**: un anillo de cera perfecto, liso y simétrico, se derrite con calor y queda con la forma orgánica de Delta. Corte a la plata. Texto: *"Perfecto era aburrido."* Es el proceso real, contado como una postura.
+4. **"Las reglas"**: una página de manual de etiqueta (*"Una joya a la vez. No mezcles colores. Menos es más."*). Una mano con 4 Delta tacha cada regla con un marcador. Cierre: *"Menos es más. ¿Según quién?"*
+5. **"Mi dress code: yo"**: una tarjeta de invitación que dice *"Dress code: joyas discretas"*. La mano con el stack de 4 colores la dobla y la bota. Texto: *"Mi dress code: yo."*
