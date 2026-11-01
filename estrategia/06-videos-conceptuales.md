@@ -169,3 +169,36 @@ text, logos, extra objects, background color changes, flickering artifacts.
 - **Titular:** Delta · **Descripción:** Hecho a tu talla · Envíos a toda Colombia · **Botón:** Comprar
 - **Enlace:** `https://mar-i-rio.com/producto/delta-ring?utm_source=meta&utm_medium=paid&utm_campaign=ventas-v2&utm_content=delta-vela`
 - **Revisar antes de publicar:** cuadro por cuadro, que los anillos no cambien de forma ni ganen piedras. Si cambian, se regenera; no se publica.
+
+---
+
+## Brief general (sin herramientas): "Nació en cera"
+
+**Marca:** Mar i Río, joyería de autor en plata, orgánica y derretida, hecha a mano en Medellín.
+**Pieza:** Delta, anillo de plata 925, $250.000, edición de 30, hecho a la talla de la clienta.
+**Formato:** video vertical 9:16, 10 segundos, para Instagram (reel y anuncio).
+**Objetivo:** detener a quien no conoce la marca y llevarla a la página de Delta.
+**Mensaje:** lo derretido y lo imperfecto es bello. Cada Delta nace en cera, y uno solo no basta: se lleva en stack.
+**Clienta:** mujer de 22 a 40 años que usa las joyas para expresar su estilo; le gusta lo diferente, lo imperfecto y lo orgánico.
+**Tono:** íntimo, sensual, atrevido y cálido. Lujo sin pose.
+
+**La escena:** sobre un fondo rojo profundo (#3F1212), una sola vela cónica, delgada y elegante, color crema (#F5EEDE), que se angosta hacia la punta. La llama es la única luz y tiñe el fondo de un rojo cálido (#912626). En la parte media de la vela, como en un dedo, hay un stack de 4 Delta, de arriba abajo: amarillo sol, verde alga, coral y azul profundo.
+
+**Lo que pasa:**
+| Tiempo | Qué se ve | Texto en pantalla |
+|---|---|---|
+| 0–1 s | La vela encendida con el stack. Es el gancho, sin logo. | — |
+| 1–6 s | La cera se derrite desde la punta y baja en gotas gruesas y orgánicas. Cubre los anillos uno por uno, de arriba abajo, hasta taparlos todos. La cámara, quieta, se acerca muy despacio a los anillos. | *"Nació en cera."* |
+| 6–9 s | Corte al stack real de Delta en una mano. | *"Delta · Plata 925 · Edición de 30"* |
+| 9–10 s | Se mantiene el plano. | *"Pídelo antes del 5 de diciembre, llega antes del 24."* |
+
+**Cómo es Delta (no puede cambiar):** banda delgada de plata con textura orgánica, martillada y como derretida, con un solo circón redondo pequeño engastado en bisel. Ni dorado, ni banda ancha o lisa, ni piedras de más. Debe verse igual a las fotos reales de referencia.
+
+**Sonido:** la llama y un crepitar suave de la cera. Sin música épica.
+
+**Evitar:** logos al inicio, manos en la escena de la vela, objetos extra, cambios en el color del fondo, anillos que cambian de forma.
+
+**Texto del anuncio:** Nació en cera. 🔥 Delta se modela a mano, se funde en plata 925 y guarda la huella del fuego. Llévalo solo o en stack, en verde alga, azul profundo, coral o amarillo sol. Hecho a tu talla. $250.000. Pide antes del 5 de diciembre y te llega antes del 24.
+**Titular:** Delta · **Descripción:** Hecho a tu talla · Envíos a toda Colombia · **Botón:** Comprar
+**Enlace:** https://mar-i-rio.com/producto/delta-ring?utm_source=meta&utm_medium=paid&utm_campaign=ventas-v2&utm_content=delta-vela
+**Referencias que se entregan:** fotos reales de Delta (stack de los 4 colores, cada color de frente y de lado, la textura y el anillo puesto) y la imagen de la vela ya creada.
