@@ -1,0 +1,312 @@
+<title>Campaña Delta</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+<style>
+/* Explicador de campaña: columna de lectura cómoda, fondo beige de marca, acento vinotinto. Sin naranja por pedido de Mariana. */
+:root{
+  --bg:#F5EEDE;          /* esencial */
+  --card:#FBF7EE;
+  --soft:#EDE3CF;
+  --fg:#230505;          /* sofisticado */
+  --muted:#5e4540;
+  --line:#dccdb2;
+  --wine:#912626;        /* pulso */
+  --deep:#3F1212;        /* pasión */
+  --ok:#3d5a3a;
+  --serif:"Playfair Display",Georgia,serif;
+  --sans:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:light;
+}
+/* Mariana pidió beige: el modo oscuro conserva la misma paleta clara. */
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#F5EEDE;--card:#FBF7EE;--soft:#EDE3CF;--fg:#230505;--muted:#5e4540;--line:#dccdb2;color-scheme:light}}
+:root[data-theme="dark"]{--bg:#F5EEDE;--card:#FBF7EE;--soft:#EDE3CF;--fg:#230505;--muted:#5e4540;--line:#dccdb2;color-scheme:light}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:17px;line-height:1.65;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 80px}
+.wrap{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:56px}
+h1,h2,h3{font-family:var(--serif);font-weight:700;margin:0;line-height:1.2;text-wrap:balance}
+h1{font-size:clamp(32px,6vw,48px)}
+h2{font-size:clamp(25px,4vw,32px)}
+h3{font-size:22px}
+p{margin:0}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--wine);font-weight:700}
+.lede{font-size:19px;color:var(--muted)}
+header{display:flex;flex-direction:column;gap:16px;padding-bottom:28px;border-bottom:2px solid var(--deep)}
+section{display:flex;flex-direction:column;gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 24px;display:flex;flex-direction:column;gap:10px}
+.callout{background:var(--deep);color:#F5EEDE;border-radius:14px;padding:24px;display:flex;flex-direction:column;gap:10px}
+.callout h3{color:#F5EEDE}
+.callout b{color:#fff}
+ul,ol{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}
+.step{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:6px}
+.step .n{font-family:var(--serif);font-size:30px;color:var(--wine);line-height:1}
+.step b{font-size:16px}
+.step p{font-size:15px;color:var(--muted)}
+.eq{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;text-align:center;font-family:var(--serif);font-size:clamp(17px,3vw,21px);line-height:1.5}
+.eq .top{border-bottom:2px solid var(--fg);padding-bottom:8px;margin-bottom:8px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.temp{border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:6px;border:1px solid var(--line);background:var(--card)}
+.temp .tag{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--wine)}
+nav{display:flex;flex-wrap:wrap;gap:8px}
+nav a{font-size:14px;color:var(--fg);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:7px 14px;background:var(--card)}
+nav a:hover,nav a:focus-visible{border-color:var(--wine);outline:none}
+.ad{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.ad-head{padding:20px 24px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:6px;background:var(--soft)}
+.ad-head .row{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.code{font-family:var(--serif);font-size:26px;font-weight:700;color:var(--wine)}
+.pill{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:999px;border:1px solid var(--deep);color:var(--deep)}
+.pill.fill{background:var(--deep);color:#F5EEDE}
+.ad-body{padding:6px 24px 22px;display:flex;flex-direction:column}
+.f{display:grid;grid-template-columns:150px 1fr;gap:6px 18px;padding:14px 0;border-bottom:1px solid var(--line)}
+.f:last-child{border-bottom:0}
+.f dt{font-size:13px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--wine);padding-top:3px}
+.f dd{margin:0}
+.hook{font-family:var(--serif);font-style:italic;font-size:20px;line-height:1.4}
+.no{color:var(--muted)}
+@media (max-width:560px){.f{grid-template-columns:1fr;gap:2px}}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:15px;min-width:540px}
+th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--soft)}
+tr:last-child td{border-bottom:0}
+.mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-size:12.5px;word-break:break-all;color:var(--muted)}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:18px}
+</style>
+
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">Mar i Río · Campaña de ventas de Delta · versión final · noviembre 2026</p>
+  <h1>Delta: 6 anuncios para vender</h1>
+  <p class="lede">La campaña definida con el análisis de anuncios de venta (05c). Todos llevan a la ficha de Delta, y 5 de los 6 se hacen con fotos que ya tienes.</p>
+</header>
+
+<nav aria-label="Secciones">
+  <a href="#decision">Lo que decidimos</a>
+  <a href="#aprendizajes">Lo que aprendimos</a>
+  <a href="#campana">La campaña</a>
+  <a href="#anuncios">Los 6 anuncios</a>
+  <a href="#honestidad">Lo que no decimos</a>
+  <a href="#confirmar">Por confirmar</a>
+  <a href="#medir">Cómo saber si vende</a>
+</nav>
+
+<section id="decision">
+  <p class="eyebrow">Lo que decidimos</p>
+  <h2>El matcha sale de la campaña de ventas</h2>
+  <div class="callout">
+    <h3>Tienes razón</h3>
+    <p>El video quedó lindo, pero <b>parece un anuncio de una tienda de matcha</b>: el protagonista es la bebida, no el anillo. Un anuncio de venta no puede hacer dudar de qué se vende.</p>
+    <p><b>La regla desde hoy:</b> el anillo es el protagonista de cada cuadro. Si tapas el logo y no se entiende que es un anuncio de joyas, no sirve para vender.</p>
+  </div>
+  <p>El matcha puede vivir en tu Instagram como contenido de marca. Para la pauta, el análisis dice algo claro: <b>lo que vende joyería de plata hecha a mano es una buena foto de la pieza con un texto bien escrito</b>, no un video conceptual.</p>
+</section>
+
+<section id="aprendizajes">
+  <p class="eyebrow">El análisis de anuncios de venta (05c)</p>
+  <h2>Lo que aprendimos, en 6 ideas</h2>
+  <div class="steps">
+    <div class="step"><span class="n">1</span><b>Foto, no video</b><p>87 % de los anuncios de venta que llevan más de 90 días activos son fotos fijas.</p></div>
+    <div class="step"><span class="n">2</span><b>Texto en primera persona</b><p>Salty Dagger, la marca de plata que más dura, escribe como su fundador: 5 a 8 líneas sobre de dónde viene la pieza.</p></div>
+    <div class="step"><span class="n">3</span><b>Una pieza, una ficha</b><p>Los anuncios más longevos llevan directo a la página del anillo, no al inicio.</p></div>
+    <div class="step"><span class="n">4</span><b>Precio en el titular</b><p>"Delta · Plata 925 · $250.000". Quien hace clic ya aceptó el precio y llega a comprar.</p></div>
+    <div class="step"><span class="n">5</span><b>Sin descuento</b><p>Las marcas que más duran venden la historia y el material. Las de descuento rotan cada semana.</p></div>
+    <div class="step"><span class="n">6</span><b>La web te diferencia</b><p>3 de cada 4 anuncios de plata en Colombia mandan a WhatsApp. Precio visible y pago en línea ya te pone en otra liga.</p></div>
+  </div>
+  <div class="card">
+    <h3>Los dolores que más venden, y cómo los resuelve Delta</h3>
+    <div class="tablewrap"><table>
+      <thead><tr><th>El dolor de ella</th><th>La respuesta de Delta</th><th>Anuncio</th></tr></thead>
+      <tbody>
+        <tr><td><b>"El anillo barato se peló o me dejó el dedo verde."</b> El más fuerte.</td><td>Plata 925 maciza, no un baño que se cae.</td><td>2</td></tr>
+        <tr><td><b>"Todo es hecho en serie, igual al de todas."</b></td><td>Diseñado a mano en cera por ti, terminado a mano, edición de 30.</td><td>1 y 6</td></tr>
+        <tr><td><b>"No sé cuál escoger."</b></td><td>4 colores, y la invitación a llevar más de uno.</td><td>3</td></tr>
+        <tr><td><b>"¿Me va a quedar?"</b></td><td>Hecho a su talla, con guía en la web y ayuda por WhatsApp. Va en todos los textos.</td><td>Todos</td></tr>
+        <tr><td><b>"¿Esta marca es seria?"</b></td><td>Tu cara, tu taller y tu voz.</td><td>5</td></tr>
+        <tr><td><b>"Quiero darme algo en diciembre."</b></td><td>Fecha clara: pide antes del 5 y llega antes del 24.</td><td>4</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<section id="campana">
+  <p class="eyebrow">Cómo se arma en Meta</p>
+  <h2>La campaña: simple, para que Meta aprenda rápido</h2>
+  <div class="tablewrap"><table>
+    <tbody>
+      <tr><td><b>Nombre</b></td><td>MIR | Ventas | Delta | v4</td></tr>
+      <tr><td><b>Objetivo</b></td><td>Ventas, optimizando por compra (píxel 4398)</td></tr>
+      <tr><td><b>Conjuntos</b></td><td><b>Uno solo</b>, con los 6 anuncios. Más conjuntos dividen los $60.000 y Meta aprende más lento.</td></tr>
+      <tr><td><b>Público</b></td><td>Mujeres de 22 a 40, Colombia, amplio (Advantage+). El texto de cada anuncio filtra a tu clienta.</td></tr>
+      <tr><td><b>Presupuesto</b></td><td>$60.000 al día. Se sube a $100.000 solo si el día 14 hay un anuncio que vende.</td></tr>
+      <tr><td><b>Destino</b></td><td>Siempre la ficha: mar-i-rio.com/producto/delta-ring</td></tr>
+      <tr><td><b>Botón</b></td><td>Comprar</td></tr>
+      <tr><td><b>Enlace</b></td><td><span class="mono">https://mar-i-rio.com/producto/delta-ring?utm_source=meta&amp;utm_medium=paid&amp;utm_campaign=delta-v4&amp;utm_content=CÓDIGO</span><br><span class="no">Cambia CÓDIGO por el de cada anuncio (por ejemplo, delta-proceso).</span></td></tr>
+    </tbody>
+  </table></div>
+  <p><b>Para arrancar ya:</b> los anuncios 1, 2, 3 y 6 salen con las fotos de tu carpeta <i>OneDrive › mar i rio › anillo 1 circon › delta</i>. El 4 necesita una foto con el empaque y el 5 un video tuyo: se suman cuando los tengas.</p>
+</section>
+
+<section id="anuncios">
+  <p class="eyebrow">Los anuncios</p>
+  <h2>Los 6 anuncios, listos para copiar</h2>
+
+  <!-- 1 -->
+  <article class="ad">
+    <div class="ad-head">
+      <div class="row"><span class="code">1</span><h3>El proceso</h3></div>
+      <div class="row"><span class="pill fill">Foto + texto largo</span><span class="pill">delta-proceso</span><span class="pill">Foto lista</span></div>
+    </div>
+    <dl class="ad-body">
+      <div class="f"><dt>La imagen</dt><dd>La mano con los 4 Delta apilados (foto <i>20260605_205051887</i>), recortada en 4:5.</dd></div>
+      <div class="f"><dt>Gancho</dt><dd><p class="hook">"Pude haber diseñado el Delta en un computador e imprimirlo en 3D en una hora."</p></dd></div>
+      <div class="f"><dt>Dolor</dt><dd>"Todo es hecho en serie." Ella quiere algo hecho por una persona.</dd></div>
+      <div class="f"><dt>A quién atrae</dt><dd>A la que valora lo hecho a mano y paga más por una pieza con autora.</dd></div>
+      <div class="f"><dt>Por qué vende</dt><dd>Es el formato de Salty Dagger, su anuncio de 377 días: la fundadora contando por qué hace las cosas a mano. Justifica el precio sin nombrarlo.</dd></div>
+      <div class="f"><dt>Texto</dt><dd>Pude haber diseñado el Delta en un computador e imprimirlo en 3D en una hora.<br><br>Preferí modelarlo a mano, en cera, hasta que la plata pareciera derretida. Cada Delta se funde en plata 925, lo termino a mano y le monto la piedra en bisel.<br><br>Lo hago cuando lo pides, en tu talla. Tarda de 10 a 15 días, y vale la pena.<br><br>Verde alga, azul profundo, coral o amarillo sol. ¿No sabes tu talla? Te ayudo por WhatsApp.<br><br>Elige el tuyo en mar-i-rio.com</dd></div>
+      <div class="f"><dt>Titular</dt><dd>Delta · Plata 925 · $250.000</dd></div>
+      <div class="f"><dt>Descripción</dt><dd>Hecho a mano en Colombia, en tu talla</dd></div>
+    </dl>
+  </article>
+
+  <!-- 2 -->
+  <article class="ad">
+    <div class="ad-head">
+      <div class="row"><span class="code">2</span><h3>El dedo verde</h3></div>
+      <div class="row"><span class="pill fill">Foto macro</span><span class="pill">delta-dedoverde</span><span class="pill">Foto lista</span></div>
+    </div>
+    <dl class="ad-body">
+      <div class="f"><dt>La imagen</dt><dd>Delta muy de cerca, donde se vea la textura derretida y el brillo de la piedra (foto <i>20260605_202847048</i>). En letra pequeña encima: "Plata 925".</dd></div>
+      <div class="f"><dt>Gancho</dt><dd><p class="hook">"Ese anillo bonito de $40.000 que a las tres semanas te dejó el dedo verde."</p></dd></div>
+      <div class="f"><dt>Dolor</dt><dd><b>El más fuerte del mercado:</b> haber pagado por algo que se peló.</dd></div>
+      <div class="f"><dt>A quién atrae</dt><dd>A la que ya compra joyas, ya se quemó con bisutería y está lista para pagar por algo que dure.</dd></div>
+      <div class="f"><dt>Por qué vende</dt><dd>Nombra una mala experiencia que casi todas han tenido, y convierte $250.000 en una inversión: plata de verdad, para siempre.</dd></div>
+      <div class="f"><dt>Texto</dt><dd>Ese anillo bonito de $40.000 que a las tres semanas te dejó el dedo verde.<br><br>No era plata. Era un baño, y el baño siempre se cae.<br><br>El Delta es plata 925 maciza: no tiene baño que se pele. Si con el tiempo pierde brillo, se limpia y queda como nuevo.<br><br>Hecho a mano en Colombia, en tu talla. Tiene 3 meses de garantía.</dd></div>
+      <div class="f"><dt>Titular</dt><dd>Plata 925 real. No se pela.</dd></div>
+      <div class="f"><dt>Descripción</dt><dd>Envío gratis llevando 2 piezas</dd></div>
+    </dl>
+  </article>
+
+  <!-- 3 -->
+  <article class="ad">
+    <div class="ad-head">
+      <div class="row"><span class="code">3</span><h3>Los 4 colores</h3></div>
+      <div class="row"><span class="pill fill">Carrusel</span><span class="pill">delta-colores</span><span class="pill">Fotos listas</span></div>
+    </div>
+    <dl class="ad-body">
+      <div class="f"><dt>Las imágenes</dt><dd>5 tarjetas cuadradas. 1 a 4: Delta de cada color sostenido entre los dedos (fotos <i>202813852</i> verde, <i>202827020</i> coral, <i>202801147</i> amarillo y <i>205149157</i> azul puesto). 5: los 4 apilados (foto <i>205439456</i>), con el texto "¿O por qué no los cuatro?".</dd></div>
+      <div class="f"><dt>Gancho</dt><dd><p class="hook">"Verde alga, azul profundo, coral o amarillo sol. ¿Cuál eres?"</p></dd></div>
+      <div class="f"><dt>Dolor</dt><dd>La indecisión, y la ganas de expresarse con el color.</dd></div>
+      <div class="f"><dt>A quién atrae</dt><dd>A la que juega con su estilo y le gusta escoger.</dd></div>
+      <div class="f"><dt>Por qué vende</dt><dd>La pregunta la hace participar: deslizar ya es escoger. La última tarjeta empuja a llevar más de uno, y con 2 el envío es gratis.</dd></div>
+      <div class="f"><dt>Texto</dt><dd>Verde alga, azul profundo, coral o amarillo sol.<br><br>¿Cuál eres?<br><br>El Delta se hace a pedido, en tu talla, en plata 925 con piedra en bisel. Llevando 2, el envío es gratis. Desliza y elige.</dd></div>
+      <div class="f"><dt>Titulares</dt><dd>Verde alga · Azul profundo · Coral · Amarillo sol · Los cuatro</dd></div>
+      <div class="f"><dt>Descripción</dt><dd>$250.000 · Hecho a mano</dd></div>
+    </dl>
+  </article>
+
+  <!-- 4 -->
+  <article class="ad">
+    <div class="ad-head">
+      <div class="row"><span class="code">4</span><h3>Regálatelo</h3></div>
+      <div class="row"><span class="pill fill">Foto</span><span class="pill">delta-regalate</span><span class="pill">Foto por tomar</span></div>
+    </div>
+    <dl class="ad-body">
+      <div class="f"><dt>La imagen</dt><dd>El stack de Delta saliendo de su bolsa de tela, con la tarjeta, sobre lino. Sobrio, con la estética de la marca, sin rojo y verde de catálogo navideño.</dd></div>
+      <div class="f"><dt>Gancho</dt><dd><p class="hook">"Este diciembre, el regalo es para ti."</p></dd></div>
+      <div class="f"><dt>Dolor</dt><dd>Diciembre siempre es para los demás. Ella también se merece algo.</dd></div>
+      <div class="f"><dt>A quién atrae</dt><dd>A tu clienta, que según tus ventas compra sobre todo para ella misma. Y de paso a quien quiere regalar.</dd></div>
+      <div class="f"><dt>Por qué vende</dt><dd>Usa la fecha real como urgencia, y le da permiso de gastar en ella.</dd></div>
+      <div class="f"><dt>Texto</dt><dd>Este diciembre, el regalo es para ti.<br><br>El Delta, en plata 925, hecho a mano y en tu talla. Para ponértelo todos los días y no quitártelo.<br><br>¿Es para alguien más? Te ayudamos a calcular su talla.<br><br>Pide antes del 5 de diciembre y te llega antes del 24.</dd></div>
+      <div class="f"><dt>Titular</dt><dd>Pide antes del 5 dic · llega antes del 24</dd></div>
+      <div class="f"><dt>Descripción</dt><dd>Delta · $250.000 · Plata 925</dd></div>
+    </dl>
+  </article>
+
+  <!-- 5 -->
+  <article class="ad">
+    <div class="ad-head">
+      <div class="row"><span class="code">5</span><h3>La fundadora</h3></div>
+      <div class="row"><span class="pill fill">Video 20–30 s</span><span class="pill">delta-fundadora</span><span class="pill">Por grabar · tú</span></div>
+    </div>
+    <dl class="ad-body">
+      <div class="f"><dt>Qué es</dt><dd>El único video. Tú a cámara, con el celular, subtítulos todo el tiempo. Delta en la mano desde el primer segundo, cerca del lente.</dd></div>
+      <div class="f"><dt>Gancho</dt><dd><p class="hook">"Si te gustan las joyas perfectas, esto no es para ti."</p></dd></div>
+      <div class="f"><dt>Guion</dt><dd>"Si te gustan las joyas perfectas, esto no es para ti. Soy Mariana, arquitecta, y diseño joyas que parecen derretidas. Es a propósito. Este es Delta: lo modelé a mano en cera, se funde en plata 925 y yo lo termino. Viene en cuatro colores y te lo hago a tu talla. Y si no sabes tu talla, escríbeme y te ayudo. Pídelo en mar-i-rio.com."</dd></div>
+      <div class="f"><dt>Dolor</dt><dd>"¿Esta marca es seria? ¿Hay alguien detrás?"</dd></div>
+      <div class="f"><dt>A quién atrae</dt><dd>A la que se siente retada por la frase y a la que le gusta comprarle a una persona.</dd></div>
+      <div class="f"><dt>Por qué vende</dt><dd>La gente le compra a la gente. Tu cara da confianza, el gancho filtra, y el video sirve además para volver a impactar después a quien lo vio.</dd></div>
+      <div class="f"><dt>Titular</dt><dd>Delta · Plata 925 · $250.000</dd></div>
+      <div class="f"><dt>Descripción</dt><dd>Hecho a mano en Colombia, en tu talla</dd></div>
+    </dl>
+  </article>
+
+  <!-- 6 -->
+  <article class="ad">
+    <div class="ad-head">
+      <div class="row"><span class="code">6</span><h3>La edición de 30</h3></div>
+      <div class="row"><span class="pill fill">Foto + número</span><span class="pill">delta-edicion</span><span class="pill">Por confirmar</span></div>
+    </div>
+    <dl class="ad-body">
+      <div class="f"><dt>La imagen</dt><dd>Delta solo, centrado, sobre fondo liso (foto <i>202739655</i>), con "Edición de 30" grande y elegante.</dd></div>
+      <div class="f"><dt>Gancho</dt><dd><p class="hook">"Delta: edición de 30. Cuando se acaben, no vuelven."</p></dd></div>
+      <div class="f"><dt>Dolor</dt><dd>Quedarse sin la pieza, y tener lo mismo que todas.</dd></div>
+      <div class="f"><dt>A quién atrae</dt><dd>A la que ya lo quiere y lo está dejando para después.</dd></div>
+      <div class="f"><dt>Por qué vende</dt><dd>La escasez real empuja a decidir hoy. Funciona solo si es verdad: ver "por confirmar".</dd></div>
+      <div class="f"><dt>Texto</dt><dd>Delta: edición de 30.<br><br>Cuando se acaben, no vuelven.<br><br>Lo hago a mano y en tu talla, en plata 925 con piedra en bisel. Cuatro colores: verde alga, azul profundo, coral y amarillo sol.<br><br>Elige el tuyo en mar-i-rio.com</dd></div>
+      <div class="f"><dt>Titular</dt><dd>Delta · Plata 925 · $250.000</dd></div>
+      <div class="f"><dt>Descripción</dt><dd>Hecho a mano en Colombia</dd></div>
+    </dl>
+  </article>
+</section>
+
+<section id="honestidad">
+  <p class="eyebrow">Corregido del análisis</p>
+  <h2>Lo que no decimos, porque no sería cierto</h2>
+  <div class="card">
+    <ul>
+      <li><b>"Lo tallo en cera uno por uno."</b> Delta tiene molde de caucho: el original lo modelaste a mano y las copias salen de ese molde. Lo cierto, y lo que dicen los anuncios: <i>lo modelé a mano en cera, cada uno se funde en plata y lo termino a mano.</i></li>
+      <li><b>"Van 12 de 30."</b> No sabemos cuántos llevas vendidos. No se pone un número hasta confirmarlo.</li>
+      <li><b>"No te tiñe la piel."</b> La plata 925 tiene un poco de cobre y, en algunas pieles, puede manchar levemente. Decimos lo seguro: <i>no tiene baño que se pele.</i></li>
+      <li><b>"Ningún Delta queda igual."</b> Viene del mismo molde: se parecen mucho. Lo cierto es que el acabado a mano hace que cada uno tenga pequeñas diferencias.</li>
+      <li><b>Contraentrega, cuotas y cambio de talla:</b> no los ofreces hoy, así que no se mencionan.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="confirmar">
+  <p class="eyebrow">Antes de publicar</p>
+  <h2>Por confirmar</h2>
+  <div class="card">
+    <ol>
+      <li><b>La edición de 30 (anuncio 6):</b> ¿cuántos Delta has vendido, y es verdad que no harás más después de los 30?</li>
+      <li><b>El ajuste de talla:</b> si lo puedes ofrecer gratis, va en todos los textos. Es lo que más quita el miedo a comprar un anillo por internet.</li>
+      <li><b>Los mensajes de clientas:</b> si tienes pantallazos con permiso, sumamos un anuncio de prueba social.</li>
+    </ol>
+  </div>
+</section>
+
+<section id="medir">
+  <p class="eyebrow">Sin enredos</p>
+  <h2>Cómo saber si vende</h2>
+  <ul>
+    <li><b>Días 1 a 7:</b> no se toca nada.</li>
+    <li><b>Día 7:</b> se apagan los 2 anuncios con el costo por "agregar al carrito" más alto (con $60.000 al día habrá pocas compras para comparar).</li>
+    <li><b>Día 14:</b> el anuncio que más venda sube a $100.000 al día.</li>
+    <li><b>Día 30:</b> el anuncio que siga vendiendo es tu "anuncio de 377 días": se deja correr y se hacen versiones con otros ganchos.</li>
+  </ul>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Pregunta</th><th>El número en Meta</th><th>Bien si…</th><th>Si no, se cambia…</th></tr></thead>
+    <tbody>
+      <tr><td>¿Dan ganas de entrar?</td><td>CTR (clics en el enlace)</td><td>Más de 1 %</td><td>La primera línea o la foto</td></tr>
+      <tr><td>¿La web convence?</td><td>Agregar al carrito ÷ visitas</td><td>Más de 5 %</td><td>La ficha, el precio o la oferta</td></tr>
+      <tr><td>¿Compran?</td><td>Costo por compra</td><td>Menos de ~$120.000</td><td>El paso del carrito al pago (talla, envío)</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<footer>Mar i Río · Campaña de ventas de Delta · versión final · 1 de noviembre de 2026 · Basada en 05c (anuncios de venta) y 06-guiones-delta, corregidos con los datos reales: molde de caucho, garantía de 3 meses, entrega de 10 a 15 días y envío gratis llevando 2. Reemplaza las versiones 1 a 3.</footer>
+</div>
