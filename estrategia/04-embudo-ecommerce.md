@@ -131,7 +131,7 @@ En el conjunto 2 se puede sumar un sexto anuncio: foto de una clienta con su fra
 **Texto base (se ajusta por pieza):**
 > Delta. Plata derretida, hecha a tu talla. $[precio].
 > Una pieza que habla por ti, imposible de confundir.
-> 🎁 Pide antes del [fecha límite] y te llega antes del 24.
+> 🎁 Pide antes del 5 de diciembre y te llega antes del 24.
 
 **Título:** "Hecha a tu talla". **Botón:** "Comprar".
 
@@ -150,7 +150,9 @@ No es otra campaña. Es **una línea en el texto** del anuncio, porque la campa�
 
 ### Antes de encender (pendientes en la web)
 - [x] **Popup del 10%: se mantiene.** Mariana lo valora para recoger correos de quien no compra. No choca con la campaña porque no aparece en las fichas de producto (donde aterrizan los anuncios) ni en el pago; sale en el inicio y en colecciones.
-- [x] **Envío gratis a toda Colombia con cualquier joya:** listo en el código (commit `47d12fa` en el repo de la web). **Falta publicarlo** con `vercel --prod`.
+- [x] **Envío: se queda como está** (gratis llevando 2 productos o con una pieza desde $400.000). Se probó el cambio a "gratis con cualquier joya", pero se deshizo antes de publicar. La regla actual sube el ticket con Cauce (el paño): por $5.000 más que el envío, la clienta se lleva un producto. Además, en una prueba no se cambian dos cosas a la vez.
+  - **Qué tendría que ser cierto para dar envío gratis:** que el costo del envío sea la razón por la que la gente abandona el pago.
+  - **Cómo saberlo:** comparar en Meta "inicios de pago" contra "compras". Si muchas inician y no pagan, se prueba el envío gratis en la versión 2.
 - [ ] Unificar la fecha límite de Navidad entre web y anuncio (hoy la web dice 5 de diciembre).
 
 ### La base de datos de interesadas que no compran
@@ -163,7 +165,7 @@ No es otra campaña. Es **una línea en el texto** del anuncio, porque la campa�
 - **Reel de Delta / Limo (9:16, 8–15 s, con celular y luz natural):**
   - 0–2 s: la pieza de cerca en la mano, moviéndose con la luz para que se vea lo derretido. Es el gancho.
   - 2–8 s: la mano en gestos naturales (ponérselo, tocarse el pelo, una taza).
-  - 8–12 s: texto encima: "Delta · plata 925 · hecha a tu talla · $[precio] · envío gratis".
+  - 8–12 s: texto encima: "Delta · plata 925 · hecha a tu talla · $[precio]".
   - Sin hablar, con música suave.
 - **Foto de Delta / Limo (4:5):** en la mano, de cerca y con fondo simple. Sirven las del fotógrafo si la pieza se ve bien.
 - **Carrusel:** 4 fotos de producto (Delta, Limo y 2 anillos más), cada una con nombre y precio.
