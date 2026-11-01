@@ -170,6 +170,21 @@ No es otra campaña. Es **una línea en el texto** del anuncio, porque la campa�
 - **Foto de Delta / Limo (4:5):** en la mano, de cerca y con fondo simple. Sirven las del fotógrafo si la pieza se ve bien.
 - **Carrusel:** 4 fotos de producto (Delta, Limo y 2 anillos más), cada una con nombre y precio.
 
+### Los ángulos del contenido (pregunta 70): reemplaza el reel sin voz como único formato
+Mariana tiene razón: un reel solo visual, sin gancho, se pasa de largo. La evidencia de las clientas dice que compran por **cómo se sienten** (hermosa, diva, "no me lo quito"), no por el significado. El manifiesto de lo imperfecto sirve como **razón** y para responder la duda de "¿está mal hecho?". Por eso se prueban 3 conceptos, cada uno con Delta y con Limo, y Meta decide cuál funciona:
+
+| # | Concepto | Quién y cómo | Gancho (primeros 2 segundos, con voz y texto en pantalla) |
+|---|---|---|---|
+| A | **La fundadora** (manifiesto corto) | Mariana a cámara, 15–25 s, hablando | *"Si te gustan las joyas perfectas, esto no es para ti."* → lo imperfecto es intencional, nace del movimiento, un caos bonito → la pieza en la mano → nombre y precio |
+| B | **Cómo se siente** | Una clienta o Mariana usándolo, 10–15 s, texto en pantalla y voz en off | *"Me lo puse y no me lo he vuelto a quitar."* → frases reales de clientas → nombre y precio |
+| C | **La firma de cerca** (control) | Solo la pieza en la mano, 8–12 s | Texto: *"No es un defecto. Es plata derretida."* → nombre y precio |
+
+- **Por qué A:** el gancho polariza y filtra a quien no es clienta (03-propuesta-de-valor), y la fundadora como cara de la marca es parte de la aspiración ("la arquitecta joyera").
+- **Por qué B:** es el motivo real de compra según las clientas.
+- **Por qué C:** es el más barato de producir y sirve para comparar.
+- Las fotos y el carrusel se mantienen para el conjunto Calientes.
+- **Antes de grabar:** revisar en la Biblioteca de anuncios de Meta qué les funciona hoy a marcas parecidas (ver el prompt en la bitácora, pregunta 70).
+
 ### Montar la campaña con Claude en Chrome
 - Funciona desde **PowerShell en Windows**, no desde WSL.
 - Requisitos: la extensión "Claude in Chrome" y la sesión iniciada con la misma cuenta de Claude.
