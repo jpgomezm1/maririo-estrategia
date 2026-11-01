@@ -9,7 +9,7 @@
 - **Catálogo:** 13 joyas, 8 son anillos.
 - **Ventas:** 18 pedidos pagados (~4,5 al mes), ticket promedio de **$304.000**.
 - **Delta y Limo venden casi el 60%** (24 de unas 40 unidades). Son las piezas que encabezan la campaña.
-- **5 pedidos quedaron pendientes:** la clienta llenó sus datos y no pagó (1 de cada 5). Nadie les hace seguimiento. Es la plata más fácil de recuperar.
+- **Pedidos pendientes:** de los 5, la mayoría eran pedidos de prueba y se borraron. Quedan 2 reales del 26 de julio (por confirmar si pagaron). Desde ahora, los pedidos sin pagar pasan solos a "abandonados" en el admin.
 - **Dominio de la tienda:** mar-i-rio.com.
 
 ## El diagnóstico de vendedor
@@ -63,7 +63,7 @@ La tienda funciona y las fotos son lindas, pero nadie llega, y quien llega no co
 
 ## Recuperar los pedidos pendientes
 
-Correo automático a la hora con el enlace para retomar el pedido y, si no paga, un WhatsApp personal de Mariana al día siguiente. Las 5 pendientes de hoy se contactan ya.
+El admin ya tiene el filtro "Abandonados", con nombre, teléfono y pieza. Mariana les escribe por WhatsApp al día siguiente. Más adelante, un correo automático a la hora.
 
 ## Tráfico gratis que se suma
 
@@ -92,3 +92,63 @@ Correo automático a la hora con el enlace para retomar el pedido y, si no paga,
 3. Grabar 3 o 4 reels de la firma (la agencia, con la nueva línea).
 4. Crear las 3 campañas con los públicos de arriba.
 5. Revisar los números cada lunes.
+
+---
+
+## Montaje de la pauta, versión 1 (prueba de 7 días, desde el 2026-10-31)
+
+**La idea en una línea:** 1 campaña de ventas, 2 conjuntos de anuncios (gente nueva y gente que ya conoce la marca) y 5 anuncios de Delta y Limo, cada uno llevando a su ficha.
+
+### Campaña
+- **Nombre:** `MIR | Ventas | Delta-Limo | v1`
+- **Objetivo:** Ventas. **Evento:** Compra, con el píxel terminado en 4398.
+- **Presupuesto por conjunto**, no por campaña, para que el conjunto pequeño reciba plata.
+- **Total: $60.000 al día durante 7 días (~$420.000).** Se puede llegar a $100.000 al día, pero solo después de ver los números del día 7. Primero se prueba y después se escala.
+
+### Conjunto 1: Descubrir (gente nueva), $45.000 al día
+- **Ubicación:** Colombia, ciudades principales (Medellín, Bogotá, Cali, Barranquilla, Bucaramanga, Pereira).
+- **Público:** mujeres de 22 a 40, con público Advantage+ y sugerencias de intereses: joyería artesanal, joyería de plata, diseño independiente, moda de autor.
+- **Excluir:** compradoras de los últimos 30 días.
+- **Ubicaciones:** solo Instagram (feed, historias, reels y explorar). Ahí vive la clienta, y el material es vertical.
+
+### Conjunto 2: Calientes (ya conocen la marca), $15.000 al día
+- **Público:** quienes interactuaron con Instagram en los últimos 365 días, visitantes de la web de los últimos 30 días y la lista de clientas e inscritas (CSV `publico-meta-todos`, ~62 personas).
+- **Excluir:** compradoras de los últimos 30 días.
+- **Nota:** la lista tiene menos de 100 personas, así que todavía no sirve para un público similar (lookalike). Sí sirve para mostrarles anuncios.
+
+### Los 5 anuncios (los mismos en ambos conjuntos)
+
+| # | Formato | Pieza | Lleva a |
+|---|---|---|---|
+| 1 | Reel 9:16, 8–15 s, la pieza en la mano y de cerca | Delta | `/producto/delta-ring` |
+| 2 | Reel 9:16, 8–15 s | Limo | `/producto/limo-ring` |
+| 3 | Foto 4:5 en la mano | Delta | `/producto/delta-ring` |
+| 4 | Foto 4:5 en la mano | Limo | `/producto/limo-ring` |
+| 5 | Carrusel: Delta, Limo y 2 anillos más | Anillos | `/colecciones?categoria=anillos` |
+
+En el conjunto 2 se puede sumar un sexto anuncio: foto de una clienta con su frase (*"me encanta ponérmelo, no me lo quito"*).
+
+**Texto base (se ajusta por pieza):**
+> Delta. Plata derretida, hecha a tu talla. $[precio].
+> Una pieza que habla por ti, imposible de confundir.
+> 🎁 Pide antes del [fecha límite] y te llega antes del 24.
+
+**Título:** "Hecha a tu talla". **Botón:** "Comprar".
+
+**UTM de cada anuncio:** `?utm_source=meta&utm_medium=paid&utm_campaign=ventas-v1&utm_content=delta-reel` (cambiando `utm_content` por anuncio).
+
+### Navidad, sin complicarse
+No es otra campaña. Es **una línea en el texto** del anuncio, porque la campaña corre en temporada de regalos y la web ya muestra la franja de Navidad. La fecha del anuncio y la de la web tienen que ser la misma (hoy la web dice 5 de diciembre; la recomendación era el 3).
+
+### Reglas de los 7 días
+- **Días 1 a 3: no tocar nada.** Meta está aprendiendo.
+- **Día 4:** apagar los anuncios con menos de 0,7% de clics después de ~3.000 impresiones.
+- **Día 7, revisión:**
+  - Si hay compras a menos de ~$120.000 cada una: subir 20% cada 3 días, hasta $100.000 al día.
+  - Si hay visitas y carritos pero no compras: el problema es la ficha o la oferta, no la pauta.
+  - Si casi no hay clics: el problema es el material (los reels).
+
+### Antes de encender (pendientes en la web)
+- [ ] Apagar el popup del 10% para quien llega de la campaña (`utm_source=meta`).
+- [ ] Decidir el envío gratis para todos durante la campaña (hoy es con 2 productos o desde $400.000).
+- [ ] Unificar la fecha límite de Navidad entre web y anuncio.
