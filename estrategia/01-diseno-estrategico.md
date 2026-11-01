@@ -445,8 +445,8 @@ Hallazgo: **ninguna combina una estética de autor marcada con el taller como ce
 
 Mariana pidió pasar a la acción (pregunta 61). En vez de seguir preguntando, este es un borrador corto:
 
-- **Rutina semanal (lunes, 30 minutos):** revisar 5 números y escoger las 3 tareas de la semana.
-- **Los 5 números:**
+- **Rutina semanal (lunes, 30 minutos; ✅ confirmado en la pregunta 63):** revisar 5 números y escoger las 3 tareas de la semana.
+- **Los 5 números** (✅ validados tal cual en la pregunta 62):
   1. Joyas vendidas y margen.
   2. Personas inscritas en talleres.
   3. Mensajes recibidos y cuántos terminan en compra o inscripción.

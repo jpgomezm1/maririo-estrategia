@@ -79,3 +79,9 @@ Registro resumido de la entrevista. Las respuestas conservan las palabras de Mar
 59. **¿Y en enero, cuántas joyas y cuántos talleres esperas?** 30 joyas y 20 talleres.
 60. **¿Son 20 talleres o 20 personas en talleres?** *"Es verdad, es un número alto. 20 talleres sería espectacular; podríamos decir 20 personas."*
 61. **Después de enero, ¿qué sería para ti un buen mes normal?** *"No lo sé porque aún no empiezo."* Preguntó cuántas preguntas faltan: necesita definir y pasar a la acción. Se cerró capacidades, se definió la inversión (~$9 millones en dos tramos) y se armó el plan de acción de noviembre. Los sistemas de gestión quedan como borrador para validar.
+
+## Sistemas de gestión
+
+62. **¿Los 5 números del lunes te sirven tal cual?** Sí, le sirven tal cual.
+63. **¿El lunes funciona para la revisión semanal?** Sí. Pidió además: un visualizador del plan como agenda dentro del panel de administrador de la web; activar ya el e-commerce (está montado, con fotos lindas y capacidad de producción, pero no llegan clientes; hizo un estudio de UI/UX y conectó PostHub); planear diciembre para moverlo; tener clara la propuesta de valor, la clienta, cómo comunicarse con ella y quién no es clienta; y mejorar la campaña de talleres. *"Necesito actuar ya, necesito plata y empezar a moverme. No sé cómo empezar. Socorro."* Respuesta: se escribió 03-propuesta-de-valor.md y se propuso un orden de ataque.
+64. **PENDIENTE:** ¿La tienda en línea ya cobra de verdad (pasarela de pago activa) y tiene definidos los envíos?
