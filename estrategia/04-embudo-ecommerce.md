@@ -149,6 +149,27 @@ No es otra campaña. Es **una línea en el texto** del anuncio, porque la campa�
   - Si casi no hay clics: el problema es el material (los reels).
 
 ### Antes de encender (pendientes en la web)
-- [ ] Apagar el popup del 10% para quien llega de la campaña (`utm_source=meta`).
-- [ ] Decidir el envío gratis para todos durante la campaña (hoy es con 2 productos o desde $400.000).
-- [ ] Unificar la fecha límite de Navidad entre web y anuncio.
+- [x] **Popup del 10%: se mantiene.** Mariana lo valora para recoger correos de quien no compra. No choca con la campaña porque no aparece en las fichas de producto (donde aterrizan los anuncios) ni en el pago; sale en el inicio y en colecciones.
+- [x] **Envío gratis a toda Colombia con cualquier joya:** listo en el código (commit `47d12fa` en el repo de la web). **Falta publicarlo** con `vercel --prod`.
+- [ ] Unificar la fecha límite de Navidad entre web y anuncio (hoy la web dice 5 de diciembre).
+
+### La base de datos de interesadas que no compran
+1. **El píxel** guarda a cada visitante para mostrarle anuncios después (conjunto Calientes): es la base más grande, aunque anónima.
+2. **El popup** recoge correos en el inicio y en colecciones.
+3. **Los pedidos abandonados** dejan nombre, teléfono y pieza en el admin.
+
+### El material, anuncio por anuncio
+- **Ficha** = la página de la pieza en la web, donde está el precio, la talla y el botón de compra (por ejemplo, mar-i-rio.com/producto/delta-ring).
+- **Reel de Delta / Limo (9:16, 8–15 s, con celular y luz natural):**
+  - 0–2 s: la pieza de cerca en la mano, moviéndose con la luz para que se vea lo derretido. Es el gancho.
+  - 2–8 s: la mano en gestos naturales (ponérselo, tocarse el pelo, una taza).
+  - 8–12 s: texto encima: "Delta · plata 925 · hecha a tu talla · $[precio] · envío gratis".
+  - Sin hablar, con música suave.
+- **Foto de Delta / Limo (4:5):** en la mano, de cerca y con fondo simple. Sirven las del fotógrafo si la pieza se ve bien.
+- **Carrusel:** 4 fotos de producto (Delta, Limo y 2 anillos más), cada una con nombre y precio.
+
+### Montar la campaña con Claude en Chrome
+- Funciona desde **PowerShell en Windows**, no desde WSL.
+- Requisitos: la extensión "Claude in Chrome" y la sesión iniciada con la misma cuenta de Claude.
+- Se abre con `claude --chrome` y se revisa con `/chrome` (debe decir Enabled).
+- La campaña se deja **en pausa** para que Mariana la revise antes de gastar.
