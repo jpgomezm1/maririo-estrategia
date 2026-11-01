@@ -1,0 +1,448 @@
+<title>Guion Campaña v2</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: hoja de producción en columna; una ficha por pieza, con storyboard en tabla y guion al lado. Colores y fuentes del manual de marca Mar i Río 2026. */
+:root{
+  --bg:#F5EEDE;          /* esencial */
+  --card:#FFFAF0;
+  --surface:#EFE5D2;
+  --fg:#230505;          /* sofisticado */
+  --muted:#6b4a44;
+  --line:#e2d3bb;
+  --accent:#912626;      /* pulso */
+  --hot:#E3452F;         /* sabor */
+  --warm:#E2781F;        /* alma */
+  --chip:#f3dccb;
+  --serif:"Playfair Display",Georgia,serif;
+  --sans:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#230505;--card:#2e0a0a;--surface:#3F1212;--fg:#F5EEDE;--muted:#d9bfb4;--line:#5a2020;
+  --accent:#f08a6f;--hot:#ff7a5e;--warm:#f2a050;--chip:#4a1818;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#230505;--card:#2e0a0a;--surface:#3F1212;--fg:#F5EEDE;--muted:#d9bfb4;--line:#5a2020;
+  --accent:#f08a6f;--hot:#ff7a5e;--warm:#f2a050;--chip:#4a1818;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:15px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 64px}
+.wrap{max-width:980px;margin:0 auto;display:flex;flex-direction:column;gap:40px}
+h1,h2,h3{font-family:var(--serif);font-weight:700;text-wrap:balance;margin:0;line-height:1.15}
+h1{font-size:clamp(30px,5vw,46px)}
+h2{font-size:clamp(22px,3.2vw,30px)}
+h3{font-size:20px}
+p{margin:0}
+.eyebrow{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.lede{font-size:17px;max-width:68ch;color:var(--muted)}
+header{display:flex;flex-direction:column;gap:14px;border-bottom:2px solid var(--fg);padding-bottom:24px}
+.facts{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:13px;color:var(--muted)}
+.facts b{color:var(--fg);font-weight:600}
+section{display:flex;flex-direction:column;gap:16px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.box{background:var(--card);border:1px solid var(--line);padding:18px 20px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.box h3{font-size:17px}
+ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:4px}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:620px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600;background:var(--surface)}
+tr:last-child td{border-bottom:0}
+td.t{white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--accent);font-weight:600}
+.chip{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:999px;background:var(--chip);color:var(--fg)}
+.chip.a{background:var(--accent);color:var(--bg)}
+.chip.b{background:var(--warm);color:#230505}
+.chip.c{background:var(--surface)}
+nav{display:flex;flex-wrap:wrap;gap:8px}
+nav a{font-size:13px;color:var(--fg);text-decoration:none;border:1px solid var(--line);padding:6px 12px;background:var(--card)}
+nav a:hover,nav a:focus-visible{border-color:var(--accent);outline:none}
+.piece{background:var(--card);border:1px solid var(--line);display:flex;flex-direction:column}
+.piece-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 16px;padding:20px 22px;border-bottom:1px solid var(--line)}
+.piece-head .id{font-family:var(--serif);font-size:28px;color:var(--accent);font-weight:700;margin-right:10px}
+.piece-body{padding:20px 22px;display:flex;flex-direction:column;gap:18px}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px 18px;font-size:13px}
+.meta div{display:flex;flex-direction:column;gap:2px;min-width:0}
+.meta span{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.beats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.beat{border-left:3px solid var(--hot);padding:2px 0 2px 12px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.beat span{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--hot);font-weight:700}
+.script{background:var(--surface);padding:14px 16px;font-family:var(--serif);font-style:italic;font-size:16px;line-height:1.6}
+.copy{border:1px dashed var(--line);padding:14px 16px;display:flex;flex-direction:column;gap:6px;font-size:14px}
+.copy code,.mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-size:12px;word-break:break-all;color:var(--muted)}
+.note{font-size:13px;color:var(--muted)}
+.rec{border-left:3px solid var(--accent);padding-left:14px;display:flex;flex-direction:column;gap:4px}
+footer{font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">Mar i Río · Campaña de ventas · versión 2 · noviembre 2026</p>
+  <h1>Guion de contenidos v2: lo que hoy funciona en el mercado</h1>
+  <p class="lede">Rehecho con el análisis de la Biblioteca de anuncios de Meta (estrategia/05b). Son 8 piezas en vez de 10, con los formatos que más tiempo duran activos en marcas parecidas, contados con la historia real de Mar i Río: cera, fuego y plata derretida.</p>
+  <div class="facts">
+    <span><b>Objetivo:</b> ventas en mar-i-rio.com</span>
+    <span><b>Piezas:</b> Delta $250.000 · Limo $350.000</span>
+    <span><b>Pauta:</b> $60.000/día, 7 días</span>
+    <span><b>Navidad:</b> pedir antes del 5 de diciembre</span>
+  </div>
+</header>
+
+<nav aria-label="Secciones">
+  <a href="#cambios">Qué cambió</a>
+  <a href="#resumen">Las 8 piezas</a>
+  <a href="#reglas">Reglas</a>
+  <a href="#o1">O1 Origen</a>
+  <a href="#c1">C1 Firma</a>
+  <a href="#s1">S1 Stack</a>
+  <a href="#u1">U1 Fit check</a>
+  <a href="#b1">B1 Bandeja</a>
+  <a href="#calientes">Calientes</a>
+  <a href="#organico">Orgánico</a>
+  <a href="#grabacion">Grabación</a>
+  <a href="#medir">Medir</a>
+</nav>
+
+<section id="cambios">
+  <p class="eyebrow">De la v1 a la v2</p>
+  <h2>Qué cambió y por qué</h2>
+  <div class="grid2">
+    <div class="box">
+      <h3>Lo que nos enseñó el mercado</h3>
+      <ul>
+        <li><b>El video de origen de 12 s es el más longevo:</b> Lila Clare lleva 1.033 días con "esto era un cactus → plata → puesto → la artesana". Es exactamente tu historia, con cera.</li>
+        <li><b>Los loops de 6–10 s sin voz duran meses</b> (Missoma, Arena Roja, Astrid &amp; Miyu). Una frase fija en pantalla y la joya desde el primer cuadro.</li>
+        <li><b>La fundadora o la creadora con bandeja</b> (40–60 s) funciona para mostrar varias piezas, como un menú.</li>
+        <li><b>El stack</b> (varios anillos en una mano) vende más de una pieza por pedido.</li>
+        <li><b>Las marcas de autor no hacen descuento:</b> Arena Roja (0 %) y Daniela Salcedo venden con concepto, novedad y escasez.</li>
+        <li><b>Prueban por tandas:</b> lanzan 5–6 variantes el mismo día y dejan vivas las que funcionan.</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>Cómo queda tu campaña</h3>
+      <ul>
+        <li><b>Nuevo, la apuesta principal:</b> O1, el video de origen "Esto era cera".</li>
+        <li><b>Nuevo:</b> S1, el stack, el único anuncio que puede decir envío gratis (llevando 2 piezas sí aplica).</li>
+        <li><b>Nuevo:</b> U1, fit check con celular, sin hablar.</li>
+        <li><b>Cambia:</b> la fundadora pasa de 20 s a una bandeja de 40–50 s (B1). Si no quieres hablar a cámara, O1 y U1 cubren ese lugar.</li>
+        <li><b>Se queda:</b> la firma de cerca (C1), ahora en formato loop.</li>
+        <li><b>Nuevo en Calientes:</b> la carta de la fundadora y la respuesta al precio.</li>
+        <li><b>Sale:</b> repetir cada concepto con Delta y con Limo. Ahora cada pieza lleva un anillo y grabas menos.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="rec">
+    <p><b>Lo que NO copiamos del análisis, porque no sería cierto para Mar i Río:</b></p>
+    <ul>
+      <li><b>"Fundimos 12. Quedan 4" y "se agotó dos veces":</b> tus piezas son hechas a pedido, no se agotan. La escasez real es la fecha de Navidad (5 de diciembre) y que nadie tiene el mismo anillo.</li>
+      <li><b>"Envío gratis a toda Colombia" en todas las tarjetas:</b> con tu regla, Delta o Limo solos pagan $15.000. Solo el stack (2 piezas) puede decirlo.</li>
+      <li><b>"Paga en cuotas" y "garantía":</b> solo si de verdad los ofreces. Si no, no van.</li>
+      <li><b>"$290.000" y "7 días de taller":</b> los precios reales son $250.000 y $350.000, y la entrega es de 10 a 15 días.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="resumen">
+  <p class="eyebrow">Resumen</p>
+  <h2>8 piezas, 5 formatos probados</h2>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>#</th><th>Pieza</th><th>Formato (patrón de origen)</th><th>Duración</th><th>Lleva a</th><th>Conjunto</th></tr></thead>
+      <tbody>
+        <tr><td class="t">O1</td><td>Delta</td><td>Origen y proceso con texto (Lila Clare)</td><td>12 s</td><td>Ficha de Delta</td><td>Descubrir</td></tr>
+        <tr><td class="t">C1</td><td>Limo</td><td>Loop de la firma, macro (Arena Roja, Missoma)</td><td>8 s</td><td>Ficha de Limo</td><td>Descubrir</td></tr>
+        <tr><td class="t">S1</td><td>Delta + Limo</td><td>Loop de stack (Astrid &amp; Miyu, NUUK)</td><td>8 s</td><td>Colección de anillos</td><td>Descubrir</td></tr>
+        <tr><td class="t">U1</td><td>Delta o Limo</td><td>Fit check con celular (Daniela Salcedo)</td><td>15–20 s</td><td>Colección de anillos</td><td>Descubrir</td></tr>
+        <tr><td class="t">B1</td><td>Bandeja</td><td>Fundadora con bandeja, subtitulado (Missoma)</td><td>40–50 s</td><td>Colección de anillos</td><td>Descubrir</td></tr>
+        <tr><td class="t">K1</td><td>Delta</td><td>Foto + carta de la fundadora (Salty Dagger)</td><td>Imagen 4:5</td><td>Ficha de Delta</td><td>Calientes</td></tr>
+        <tr><td class="t">R1</td><td>Limo</td><td>Respuesta al precio, carrusel</td><td>4 tarjetas 4:5</td><td>Ficha de Limo</td><td>Calientes</td></tr>
+        <tr><td class="t">T1</td><td>Delta o Limo</td><td>Clienta real con su frase</td><td>Foto o video</td><td>Ficha de la pieza</td><td>Calientes</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">Descubrir ($45.000/día) lleva 5 anuncios: O1, C1, S1, U1 y B1. Si no grabas B1, arranca con 4. Calientes ($15.000/día) lleva K1, R1, T1 y también O1. Si T1 no existe todavía, arranca sin él. Delta y Limo se reparten entre las piezas: así comparamos formatos sin grabar todo dos veces.</p>
+</section>
+
+<section id="reglas">
+  <p class="eyebrow">Antes de grabar</p>
+  <h2>Las reglas que se repiten en los anuncios que duran</h2>
+  <div class="grid2">
+    <div class="box"><h3>La joya en el primer cuadro</h3><p>Puesta o en primer plano desde el segundo 0. Ningún anuncio que sobrevive empieza con logo, pantalla negra o paisaje. El film de 49 s de Entrelazos, que tarda en mostrar la joya, es el que menos dura.</p></div>
+    <div class="box"><h3>Una frase, no un párrafo</h3><p>En los loops, una sola frase en pantalla de principio a fin. En los videos con historia, una frase corta por plano. Grande y lejos del 25 % de abajo y del 15 % de arriba.</p></div>
+    <div class="box"><h3>Hecho a mano, con ciudad</h3><p>"Hecho a mano en Medellín", "modelado en cera". Las marcas que duran nombran su taller y su ciudad: justifica el precio sin decirlo.</p></div>
+    <div class="box"><h3>Escasez, pero real</h3><p>La tuya: "pide antes del 5 de diciembre", "hecho a pedido, a tu talla", "ninguno sale igual a otro". Nunca números inventados.</p></div>
+    <div class="box"><h3>El texto del anuncio en 3 partes</h3><p>Línea 1: el gancho, lo único que se lee sin abrir. Líneas 2–3: la prueba (cera, plata, a mano, a tu talla). Cierre: precio y fecha de Navidad, con un emoji como máximo.</p></div>
+    <div class="box"><h3>La tarjeta quita miedos</h3><p>Titular: el nombre de la pieza. Descripción: <i>"Hecho a tu talla · Envíos a toda Colombia"</i>. Botón: <b>Comprar</b>, siempre. El botón no diferencia a nadie; el gancho sí.</p></div>
+  </div>
+</section>
+
+<!-- O1 -->
+<article class="piece" id="o1">
+  <div class="piece-head">
+    <div><span class="id">O1</span><h3 style="display:inline">Origen · "Esto era cera" · Delta</h3></div>
+    <span class="chip a">La apuesta principal</span>
+  </div>
+  <div class="piece-body">
+    <div class="meta">
+      <div><span>Objetivo</span>Despertar curiosidad por cómo se hace y mostrar que lo derretido es a propósito</div>
+      <div><span>Formato</span>Reel 9:16, 12 s, sin voz, una frase por plano</div>
+      <div><span>Patrón</span>Lila Clare: 1.033 días activo</div>
+      <div><span>Pilar</span>Autoría y proceso + El movimiento como lenguaje</div>
+    </div>
+    <div class="beats">
+      <div class="beat"><span>Gancho · 0–3 s</span>El modelo de cera junto a Delta terminado, lado a lado. Se lee: <b>"Esto era cera."</b></div>
+      <div class="beat"><span>Desarrollo · 3–10 s</span>Fuego o plata fundida, la textura de cerca y el anillo puesto en la mano.</div>
+      <div class="beat"><span>Cierre · 10–12 s</span>Tus manos en el banco de trabajo. "Hecho a mano en Medellín · Delta $250.000".</div>
+    </div>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Tiempo</th><th>Plano</th><th>Qué se ve</th><th>Texto en pantalla</th></tr></thead>
+      <tbody>
+        <tr><td class="t">0–3 s</td><td>Detalle, cenital</td><td>Modelo de cera y Delta en plata, lado a lado sobre lino. Una mano toma el anillo.</td><td>"Esto era cera."</td></tr>
+        <tr><td class="t">3–5 s</td><td>Detalle</td><td>La cera moviéndose con el calor, o la plata fundida entrando al molde.</td><td>"La dejo derretirse."</td></tr>
+        <tr><td class="t">5–8 s</td><td>Macro</td><td>La parte más derretida de Delta, girando con la luz.</td><td>"La plata guarda la huella del fuego."</td></tr>
+        <tr><td class="t">8–10 s</td><td>Mano puesta</td><td>Delta en una mano con gesto natural (pelo, taza).</td><td>"Hecho a tu talla."</td></tr>
+        <tr><td class="t">10–12 s</td><td>Medio, manos</td><td>Tus manos trabajando en el banco. No hace falta mostrar la cara.</td><td>"Hecho a mano en Medellín · Delta · $250.000"</td></tr>
+      </tbody>
+    </table></div>
+    <div class="copy">
+      <p><b>Texto del anuncio:</b> Esto era cera. 🔥<br>Delta se modela a mano, se funde en plata 925 y conserva la huella del fuego. Por eso ninguno sale igual a otro. Hecho a tu talla. $250.000.<br>Pide antes del 5 de diciembre y te llega antes del 24.</p>
+      <p><b>Titular:</b> Delta · <b>Descripción:</b> Hecho a tu talla · Envíos a toda Colombia · <b>Botón:</b> Comprar</p>
+      <p><b>Lleva a:</b> <code>https://mar-i-rio.com/producto/delta-ring?utm_source=meta&amp;utm_medium=paid&amp;utm_campaign=ventas-v2&amp;utm_content=delta-origen</code></p>
+    </div>
+    <p class="note"><b>Nota de producción:</b> necesitas un modelo de cera parecido a Delta y, si se puede, 2 segundos del vaciado. Pídele al taller de joyería que grabe el vaciado con tu celular la próxima vez que funda. Variante para la segunda tanda: el gancho "Ningún anillo de Mar i Río sale de una impresora 3D", solo si es 100 % cierto.</p>
+  </div>
+</article>
+
+<!-- C1 -->
+<article class="piece" id="c1">
+  <div class="piece-head">
+    <div><span class="id">C1</span><h3 style="display:inline">La firma en loop · Limo</h3></div>
+    <span class="chip c">Viene de la v1</span>
+  </div>
+  <div class="piece-body">
+    <div class="meta">
+      <div><span>Objetivo</span>Detener el dedo solo con la estética. Es el más barato de producir.</div>
+      <div><span>Formato</span>Reel 9:16, 8 s, una sola toma o stop-motion, frase fija</div>
+      <div><span>Patrón</span>Loop de producto: Missoma 116–270 días, Arena Roja 140 días</div>
+      <div><span>Pilar</span>El movimiento como lenguaje</div>
+    </div>
+    <div class="beats">
+      <div class="beat"><span>Todo el video · 0–8 s</span>Macro de Limo girando despacio con la luz, que termina puesto en la mano. Sonido real, sin música épica.</div>
+      <div class="beat"><span>Frase fija</span>Arriba: <b>"No es un defecto. Es plata derretida."</b> Abajo, desde el segundo 5: "Limo · hecho a tu talla · $350.000".</div>
+    </div>
+    <div class="copy">
+      <p><b>Texto del anuncio:</b> No es un defecto. Es plata derretida.<br>Limo, modelado a mano en cera y fundido en plata 925. Ninguno sale igual a otro. Hecho a tu talla. $350.000.<br>Pide antes del 5 de diciembre y te llega antes del 24.</p>
+      <p><b>Titular:</b> Limo · <b>Descripción:</b> Hecho a tu talla · Envíos a toda Colombia · <b>Botón:</b> Comprar</p>
+      <p><b>Lleva a:</b> <code>https://mar-i-rio.com/producto/limo-ring?utm_source=meta&amp;utm_medium=paid&amp;utm_campaign=ventas-v2&amp;utm_content=limo-firma</code></p>
+    </div>
+    <p class="note"><b>Variante para la segunda tanda:</b> el patrón "Bite the ice": Limo dentro de un cubo de hielo que se derrite, con el texto "Lo único que se derrite a propósito." Encaja con tu firma.</p>
+  </div>
+</article>
+
+<!-- S1 -->
+<article class="piece" id="s1">
+  <div class="piece-head">
+    <div><span class="id">S1</span><h3 style="display:inline">Stack · Delta + Limo</h3></div>
+    <span class="chip b">Nuevo · sube el ticket</span>
+  </div>
+  <div class="piece-body">
+    <div class="meta">
+      <div><span>Objetivo</span>Vender más de una pieza por pedido (y con eso el envío sale gratis)</div>
+      <div><span>Formato</span>Reel 9:16, 8 s, sin voz, frase fija</div>
+      <div><span>Patrón</span>Astrid &amp; Miyu: stack en el 56 % de sus anuncios. NUUK: "Stack Diaries"</div>
+      <div><span>Pilar</span>Expresión personal + Lujo cotidiano</div>
+    </div>
+    <div class="beats">
+      <div class="beat"><span>Todo el video · 0–8 s</span>Una mano con Delta, Limo y un tercer anillo agarra algo cotidiano: un tinto, el volante, una lata, un libro. 3 tomas cortas de 2–3 s.</div>
+      <div class="beat"><span>Frase fija</span>Arriba: <b>"Un anillo es un accesorio. Tres son una postura."</b> Abajo, al final: "Llevando 2, el envío es gratis".</div>
+    </div>
+    <div class="copy">
+      <p><b>Texto del anuncio:</b> Un anillo es un accesorio. Tres son una postura.<br>Delta ($250.000) y Limo ($350.000), modelados a mano y fundidos en plata 925, a tu talla. Llevando dos piezas, el envío es gratis.<br>Pide antes del 5 de diciembre y te llega antes del 24.</p>
+      <p><b>Titular:</b> Anillos Mar i Río · <b>Descripción:</b> Llevando 2, envío gratis · <b>Botón:</b> Comprar</p>
+      <p><b>Lleva a:</b> <code>https://mar-i-rio.com/colecciones?categoria=anillos&amp;utm_source=meta&amp;utm_medium=paid&amp;utm_campaign=ventas-v2&amp;utm_content=stack</code></p>
+    </div>
+    <p class="note">Es el único anuncio que dice envío gratis, porque con dos piezas sí aplica tu regla.</p>
+  </div>
+</article>
+
+<!-- U1 -->
+<article class="piece" id="u1">
+  <div class="piece-head">
+    <div><span class="id">U1</span><h3 style="display:inline">Fit check · "Joyas de hoy"</h3></div>
+    <span class="chip b">Nuevo · no parece anuncio</span>
+  </div>
+  <div class="piece-body">
+    <div class="meta">
+      <div><span>Objetivo</span>Mostrar el anillo puesto con un estilo real, como contenido de una amiga</div>
+      <div><span>Formato</span>Reel 9:16, 15–20 s, grabado con celular, sin hablar</div>
+      <div><span>Patrón</span>Daniela Salcedo "back in stock" (22 s); Arena Roja lanzó 5 así el mismo día</div>
+      <div><span>Pilar</span>Expresión personal (+ Quien la lleva)</div>
+    </div>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Tiempo</th><th>Plano</th><th>Qué se ve</th><th>Texto en pantalla</th></tr></thead>
+      <tbody>
+        <tr><td class="t">0–2 s</td><td>Espejo, celular en mano</td><td>La mano con el anillo tapa parte del celular en el reflejo.</td><td>"Joyas de hoy:"</td></tr>
+        <tr><td class="t">2–8 s</td><td>Cuerpo entero</td><td>El outfit completo; un giro natural.</td><td>(van apareciendo) "Delta · Mar i Río"</td></tr>
+        <tr><td class="t">8–14 s</td><td>Detalle</td><td>La mano: se acomoda el pelo, toma el bolso.</td><td>"plata derretida, hecha a mi talla"</td></tr>
+        <tr><td class="t">14–18 s</td><td>Macro</td><td>El anillo de cerca, con la luz de la calle o de la ventana.</td><td>"$250.000 · mar-i-rio.com"</td></tr>
+      </tbody>
+    </table></div>
+    <div class="copy">
+      <p><b>Texto del anuncio:</b> Joyas de hoy: Delta. 🤍<br>Plata derretida, modelada a mano en Medellín y hecha a tu talla. $250.000.<br>Pide antes del 5 de diciembre y te llega antes del 24.</p>
+      <p><b>Titular:</b> Delta · <b>Descripción:</b> Hecho a tu talla · Envíos a toda Colombia · <b>Botón:</b> Comprar</p>
+      <p><b>Lleva a:</b> <code>https://mar-i-rio.com/colecciones?categoria=anillos&amp;utm_source=meta&amp;utm_medium=paid&amp;utm_campaign=ventas-v2&amp;utm_content=fitcheck</code></p>
+    </div>
+    <p class="note"><b>Quién lo graba:</b> una amiga o clienta de 22 a 40 con estilo marcado, o tú misma sin hablar. Mientras menos producido se vea, mejor: celular, luz natural, un solo outfit.</p>
+  </div>
+</article>
+
+<!-- B1 -->
+<article class="piece" id="b1">
+  <div class="piece-head">
+    <div><span class="id">B1</span><h3 style="display:inline">La fundadora con bandeja</h3></div>
+    <span class="chip c">Cambia · depende de ti</span>
+  </div>
+  <div class="piece-body">
+    <div class="meta">
+      <div><span>Objetivo</span>Que una desconocida conozca a la persona detrás de la marca y vea la colección como un menú</div>
+      <div><span>Formato</span>Reel 9:16, 40–50 s, Mariana a cámara, subtítulos todo el tiempo</div>
+      <div><span>Patrón</span>Missoma con creadoras: 86–93 días, 20 copias</div>
+      <div><span>Pilar</span>Autoría y proceso + Expresión personal</div>
+    </div>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Tiempo</th><th>Plano</th><th>Qué se ve</th><th>Voz (y subtítulo)</th></tr></thead>
+      <tbody>
+        <tr><td class="t">0–3 s</td><td>Medio, a cámara</td><td>Sentada frente a una bandeja con 5 o 6 piezas. Levanta un anillo hacia el lente.</td><td>"Si te gustan las joyas perfectas, esto no es para ti."</td></tr>
+        <tr><td class="t">3–8 s</td><td>Medio</td><td>Señala la bandeja.</td><td>"Soy Mariana, arquitecta, y estas son las piezas que más me piden. Te las muestro."</td></tr>
+        <tr><td class="t">8–20 s</td><td>Medio y detalle</td><td>Toma Delta, se lo pone y lo gira frente a la cámara.</td><td>"Delta, la más vendida. Lo modelo en cera, lo fundo en plata y la plata se queda con esa forma derretida. Ninguno sale igual."</td></tr>
+        <tr><td class="t">20–32 s</td><td>Medio y detalle</td><td>Se pone Limo, junto a Delta.</td><td>"Limo es para la que no necesita nada más. Y si los llevas juntos, mira."</td></tr>
+        <tr><td class="t">32–42 s</td><td>Detalles</td><td>Mano con stack, oreja, cuello: planos cortos con las piezas puestas.</td><td>(sin voz, música suave)</td></tr>
+        <tr><td class="t">42–48 s</td><td>Medio, a cámara</td><td>Sonríe con las piezas puestas.</td><td>"Todas te las hago a tu talla. Pídelas antes del 5 de diciembre para que lleguen antes del 24. Mar-i-rio.com."</td></tr>
+      </tbody>
+    </table></div>
+    <div class="script">"Si te gustan las joyas perfectas, esto no es para ti. Soy Mariana, arquitecta, y estas son las piezas que más me piden. Te las muestro. Delta, la más vendida. Lo modelo en cera, lo fundo en plata y la plata se queda con esa forma derretida. Ninguno sale igual. Limo es para la que no necesita nada más. Y si los llevas juntos, mira. […] Todas te las hago a tu talla. Pídelas antes del 5 de diciembre para que lleguen antes del 24. Mar-i-rio.com."</div>
+    <div class="copy">
+      <p><b>Texto del anuncio:</b> Si te gustan las joyas perfectas, esto no es para ti.<br>Te muestro las piezas que más me piden: modeladas a mano en cera, fundidas en plata 925 y hechas a tu talla. Delta $250.000 · Limo $350.000.<br>Pide antes del 5 de diciembre y te llega antes del 24.</p>
+      <p><b>Titular:</b> Las más pedidas · <b>Descripción:</b> Hecho a tu talla · Envíos a toda Colombia · <b>Botón:</b> Comprar</p>
+      <p><b>Lleva a:</b> <code>https://mar-i-rio.com/colecciones?categoria=anillos&amp;utm_source=meta&amp;utm_medium=paid&amp;utm_campaign=ventas-v2&amp;utm_content=fundadora-bandeja</code></p>
+    </div>
+    <p class="note"><b>Nota de producción:</b> no tiene que salir perfecto. Graba el gancho 5 veces con distinta energía y escogemos la mejor. Si no te sientes cómoda a cámara, este anuncio se puede hacer después, y la campaña arranca con O1, C1, S1 y U1.</p>
+  </div>
+</article>
+
+<section id="calientes">
+  <p class="eyebrow">Para quienes ya conocen la marca (conjunto Calientes)</p>
+  <h2>Carta, precio y clienta real</h2>
+  <p class="lede">Quien ya vio tu Instagram o visitó la web no necesita que la sorprendan: necesita una razón para pagar. Aquí van piezas que responden "¿por qué cuesta eso?" y "¿será que sí?".</p>
+
+  <article class="piece" id="k1">
+    <div class="piece-head">
+      <div><span class="id">K1</span><h3 style="display:inline">Foto + carta de la fundadora · Delta</h3></div>
+      <span class="chip b">Nuevo</span>
+    </div>
+    <div class="piece-body">
+      <div class="meta">
+        <div><span>Patrón</span>Salty Dagger: carta del fundador de ~250 palabras, 376 días activa</div>
+        <div><span>Imagen</span>Foto 4:5 simple de Delta en la mano o junto a su modelo de cera</div>
+        <div><span>Pilar</span>Autoría y proceso</div>
+      </div>
+      <div class="script">Podría hacer anillos perfectos, todos iguales. No quiero.<br><br>Cada pieza de Mar i Río empieza en cera, en mis manos. La dejo moverse con el calor y la detengo cuando la forma me gusta. Después se funde en plata 925, y la plata guarda esa huella: lo que parece derretido es el fuego que pasó por ahí.<br><br>Por eso ninguna sale igual a otra. Y por eso no tengo una bodega llena: la tuya se hace cuando la pides, a tu talla.<br><br>Soy arquitecta. Pasé años dibujando líneas rectas. Esto es lo contrario.<br><br>Si buscas una joya discreta, hay muchas marcas mejores para eso. Si quieres una que hable por ti, te hago la tuya.<br><br>— Mariana<br><br>Delta · $250.000 · Pide antes del 5 de diciembre y te llega antes del 24.</div>
+      <div class="copy">
+        <p><b>Titular:</b> Delta · <b>Descripción:</b> Hecho a tu talla · Envíos a toda Colombia · <b>Botón:</b> Comprar</p>
+        <p><b>Lleva a:</b> <code>https://mar-i-rio.com/producto/delta-ring?utm_source=meta&amp;utm_medium=paid&amp;utm_campaign=ventas-v2&amp;utm_content=delta-carta</code></p>
+      </div>
+      <p class="note"><b>Revísala tú:</b> es un borrador con tu voz. Cambia cualquier frase que no describa tu proceso real; la carta solo funciona si es 100 % tuya.</p>
+    </div>
+  </article>
+
+  <article class="piece" id="r1">
+    <div class="piece-head">
+      <div><span class="id">R1</span><h3 style="display:inline">Respuesta al precio · Limo</h3></div>
+      <span class="chip b">Nuevo</span>
+    </div>
+    <div class="piece-body">
+      <div class="meta">
+        <div><span>Formato</span>Carrusel de 4 tarjetas 4:5 (o una imagen con los 4 puntos)</div>
+        <div><span>Para quién</span>Visitó la ficha y no compró</div>
+        <div><span>Pilar</span>Exclusividad viva</div>
+      </div>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Tarjeta</th><th>Imagen</th><th>Texto</th></tr></thead>
+        <tbody>
+          <tr><td class="t">1</td><td>Limo sobre la palma</td><td>"¿$350.000 por un anillo? Esto es lo que pagas:"</td></tr>
+          <tr><td class="t">2</td><td>Modelo de cera en tus manos</td><td>"Modelado a mano en cera, en Medellín."</td></tr>
+          <tr><td class="t">3</td><td>Macro de la textura</td><td>"Plata 925. La forma la decide el fuego."</td></tr>
+          <tr><td class="t">4</td><td>Limo puesto</td><td>"Hecho a tu talla. Nadie más tiene el tuyo."</td></tr>
+        </tbody>
+      </table></div>
+      <div class="copy">
+        <p><b>Texto del anuncio:</b> ¿$350.000 por un anillo? Esto es lo que pagas. 👉<br>Pide antes del 5 de diciembre y te llega antes del 24.</p>
+        <p><b>Lleva a:</b> <code>https://mar-i-rio.com/producto/limo-ring?utm_source=meta&amp;utm_medium=paid&amp;utm_campaign=ventas-v2&amp;utm_content=limo-precio</code></p>
+      </div>
+    </div>
+  </article>
+
+  <article class="piece" id="t1">
+    <div class="piece-head">
+      <div><span class="id">T1</span><h3 style="display:inline">Clienta real</h3></div>
+      <span class="chip c">Viene de la v1</span>
+    </div>
+    <div class="piece-body">
+      <ul>
+        <li>Pídeles a 2 o 3 clientas con Delta o Limo una foto o un video de 10 s con la pieza puesta.</li>
+        <li>Su frase real como texto, copiada tal como la escribió: <i>"Me encanta ponérmelo. No me lo quito."</i></li>
+        <li>Siempre con permiso por escrito.</li>
+        <li>Si alguna graba un fit check, sirve también como segunda versión de U1.</li>
+      </ul>
+      <p class="mono">utm_content=clienta-real · lleva a la ficha de la pieza que tiene puesta</p>
+    </div>
+  </article>
+</section>
+
+<section id="organico">
+  <p class="eyebrow">Para tu Instagram, no para la pauta</p>
+  <h2>El contenido raro atrae; el producto limpio vende</h2>
+  <p class="lede">Los reels con más vistas de Arena Roja, Simuero y Melt Coma no muestran la joya en fondo blanco: la ponen en una situación inesperada. Eso trae seguidoras. Los anuncios de esta campaña cierran la venta. Ideas con tu firma:</p>
+  <div class="grid2">
+    <div class="box"><h3>Lo que se derrite</h3><p>Un anillo dentro de un cubo de hielo derritiéndose, o junto a una vela goteando. Texto: "Las dos cosas que se derriten en mi taller."</p></div>
+    <div class="box"><h3>Lo cotidiano y "feo-bonito"</h3><p>Anillos en un buñuelo, en una arepa o en una taza de tinto. La joya de autor en lo más colombiano.</p></div>
+    <div class="box"><h3>Lo que nunca enseñaría</h3><p>Las piezas que salieron mal del vaciado. Detrás de cámaras honesto, como el de Arena Roja (89 mil vistas).</p></div>
+  </div>
+</section>
+
+<section id="grabacion">
+  <p class="eyebrow">Producción</p>
+  <h2>Todo cabe en un día, en 4 bloques</h2>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Bloque</th><th>Qué se graba</th><th>Necesitas</th></tr></thead>
+    <tbody>
+      <tr><td class="t">1 · Taller</td><td>O1 completo (cera, fuego, manos en el banco) y los macros de C1 y R1</td><td>Un modelo de cera parecido a Delta, Delta y Limo, fondo de lino, modo macro del celular. Si alguien funde ese día, 2 segundos del vaciado.</td></tr>
+      <tr><td class="t">2 · Mañana con luz</td><td>B1, tú con la bandeja (solo si decides hacerlo)</td><td>Trípode, celular vertical en 4K, luz de ventana entre 9 y 11 a. m., bandeja con 5 o 6 piezas, micrófono de solapa o el celular cerca</td></tr>
+      <tr><td class="t">3 · Salida</td><td>S1 (stack con tinto, volante, lata) y U1 (fit check en el espejo)</td><td>Una amiga o clienta como modelo, o tú; 3 anillos; un outfit con personalidad</td></tr>
+      <tr><td class="t">4 · Fotos</td><td>La foto de K1 y las 4 tarjetas de R1</td><td>Luz suave de tarde y las mismas piezas</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">La agencia edita con este documento: subtítulos, frases en pantalla con la tipografía de la marca y versiones 9:16 y 4:5.</p>
+</section>
+
+<section id="medir">
+  <p class="eyebrow">La prueba por tandas</p>
+  <h2>Cómo saber qué formato gana</h2>
+  <div class="grid2">
+    <div class="box"><h3>Días 1–3: no tocar nada</h3><p>Todos los anuncios salen el mismo día, con el mismo público. Meta necesita esos días para aprender.</p></div>
+    <div class="box"><h3>Día 7: apagar y duplicar</h3><p>Se apagan los 2 de peor costo por "agregar al carrito" (con este presupuesto habrá pocas compras para comparar). Del ganador se hacen 2 versiones nuevas cambiando solo el gancho de los primeros 2 segundos.</p></div>
+  </div>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Qué medir</th><th>Dónde se ve en Meta</th><th>Referencia</th><th>Si no se cumple</th></tr></thead>
+    <tbody>
+      <tr><td>¿El gancho detiene el dedo?</td><td>Reproducciones de 3 s ÷ impresiones</td><td>Más de 25 %</td><td>Cambiar los primeros 2 segundos, no todo el video</td></tr>
+      <tr><td>¿Dan ganas de ver la pieza?</td><td>CTR (clics en el enlace)</td><td>Más de 1 %</td><td>Reforzar la frase o el cierre</td></tr>
+      <tr><td>¿La página convence?</td><td>Agregar al carrito ÷ visitas a la página</td><td>Más de 5 %</td><td>El problema es la página o el precio, no el anuncio</td></tr>
+      <tr><td>¿Compran?</td><td>Compras y costo por compra</td><td>Menos de ~$120.000 por compra</td><td>Revisar el paso entre carrito y pago</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">La segunda tanda ya está pensada: "Ningún anillo sale de una impresora 3D" (O1, si es cierto), el cubo de hielo (C1), "Tu mamá va a decir que es muy grande" y "Demasiado para la oficina. Justo para ti" (S1 o U1).</p>
+</section>
+
+<footer>Mar i Río · Guion de contenidos v2 · 31 de octubre de 2026 · Basado en el análisis de la Biblioteca de anuncios de Meta (estrategia/05 y 05b), el manual de marca 2026, la propuesta de valor (03) y el embudo (04). Reemplaza a la v1.</footer>
+</div>

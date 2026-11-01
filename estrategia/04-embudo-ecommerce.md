@@ -187,6 +187,19 @@ Mariana tiene razón: un reel solo visual, sin gancho, se pasa de largo. La evid
 
 **Guion completo de las 10 piezas:** `05-guion-campana-v1.html` (storyboard, guion, texto del anuncio, enlaces con UTM y cómo medir). Precios: Delta $250.000, Limo $350.000.
 
+### Guion v2 (31 oct): reemplaza a la v1 con lo que hoy funciona en Meta
+Sale del análisis de la Biblioteca de anuncios (`05-referencias-meta.md` y `05b-referencias-meta-profundo.md`). Guion completo: `05-guion-campana-v2.html` (publicado en la misma página que la v1).
+- **8 piezas en vez de 10.** Cada una lleva un solo anillo, así se graba menos.
+  - **Descubrir:** O1 origen "Esto era cera" (12 s, sin voz, la apuesta principal), C1 la firma en loop (8 s), S1 stack (8 s), U1 fit check con celular (15–20 s) y B1 fundadora con bandeja (40–50 s, opcional).
+  - **Calientes:** K1 foto + carta de la fundadora, R1 respuesta al precio (carrusel), T1 clienta real, y O1.
+- **Por qué:** los formatos que más tiempo duran activos son el video de origen de 12 s (Lila Clare, 1.033 días), los loops de 6–10 s y la creadora con bandeja. Las marcas de autor no hacen descuento.
+- **Lo que no se copió por no ser cierto para Mar i Río:**
+  - Escasez inventada ("quedan 4", "se agotó"): las piezas son hechas a pedido. La escasez real es la fecha de Navidad.
+  - Envío gratis en todas las tarjetas: solo aplica en el stack (2 piezas).
+  - Cuotas y garantía: solo si se ofrecen de verdad.
+- **Prueba por tandas:** todos salen el mismo día. El día 7 se apagan los 2 de peor costo por agregar al carrito, y del ganador se hacen 2 versiones cambiando solo el gancho.
+- **UTM:** `utm_campaign=ventas-v2`. La campaña que se armó en pausa con la v1 mantiene la estructura (2 conjuntos, $45.000 + $15.000); solo cambian los anuncios.
+
 ### Montar la campaña con Claude en Chrome
 - Funciona desde **PowerShell en Windows**, no desde WSL.
 - Requisitos: la extensión "Claude in Chrome" y la sesión iniciada con la misma cuenta de Claude.
