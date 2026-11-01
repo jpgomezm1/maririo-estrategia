@@ -1,0 +1,396 @@
+<title>Campaña que vende</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+<style>
+/* Explicador de campaña: columna de lectura cómoda, fondo beige de marca, acento vinotinto. Sin naranja por pedido de Mariana. */
+:root{
+  --bg:#F5EEDE;          /* esencial */
+  --card:#FBF7EE;
+  --soft:#EDE3CF;
+  --fg:#230505;          /* sofisticado */
+  --muted:#5e4540;
+  --line:#dccdb2;
+  --wine:#912626;        /* pulso */
+  --deep:#3F1212;        /* pasión */
+  --ok:#3d5a3a;
+  --serif:"Playfair Display",Georgia,serif;
+  --sans:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:light;
+}
+/* Mariana pidió beige: el modo oscuro conserva la misma paleta clara. */
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#F5EEDE;--card:#FBF7EE;--soft:#EDE3CF;--fg:#230505;--muted:#5e4540;--line:#dccdb2;color-scheme:light}}
+:root[data-theme="dark"]{--bg:#F5EEDE;--card:#FBF7EE;--soft:#EDE3CF;--fg:#230505;--muted:#5e4540;--line:#dccdb2;color-scheme:light}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:17px;line-height:1.65;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 80px}
+.wrap{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:56px}
+h1,h2,h3{font-family:var(--serif);font-weight:700;margin:0;line-height:1.2;text-wrap:balance}
+h1{font-size:clamp(32px,6vw,48px)}
+h2{font-size:clamp(25px,4vw,32px)}
+h3{font-size:22px}
+p{margin:0}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--wine);font-weight:700}
+.lede{font-size:19px;color:var(--muted)}
+header{display:flex;flex-direction:column;gap:16px;padding-bottom:28px;border-bottom:2px solid var(--deep)}
+section{display:flex;flex-direction:column;gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 24px;display:flex;flex-direction:column;gap:10px}
+.callout{background:var(--deep);color:#F5EEDE;border-radius:14px;padding:24px;display:flex;flex-direction:column;gap:10px}
+.callout h3{color:#F5EEDE}
+.callout b{color:#fff}
+ul,ol{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}
+.step{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:6px}
+.step .n{font-family:var(--serif);font-size:30px;color:var(--wine);line-height:1}
+.step b{font-size:16px}
+.step p{font-size:15px;color:var(--muted)}
+.eq{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;text-align:center;font-family:var(--serif);font-size:clamp(17px,3vw,21px);line-height:1.5}
+.eq .top{border-bottom:2px solid var(--fg);padding-bottom:8px;margin-bottom:8px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.temp{border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:6px;border:1px solid var(--line);background:var(--card)}
+.temp .tag{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--wine)}
+nav{display:flex;flex-wrap:wrap;gap:8px}
+nav a{font-size:14px;color:var(--fg);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:7px 14px;background:var(--card)}
+nav a:hover,nav a:focus-visible{border-color:var(--wine);outline:none}
+.ad{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.ad-head{padding:20px 24px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:6px;background:var(--soft)}
+.ad-head .row{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.code{font-family:var(--serif);font-size:26px;font-weight:700;color:var(--wine)}
+.pill{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:999px;border:1px solid var(--deep);color:var(--deep)}
+.pill.fill{background:var(--deep);color:#F5EEDE}
+.ad-body{padding:6px 24px 22px;display:flex;flex-direction:column}
+.f{display:grid;grid-template-columns:150px 1fr;gap:6px 18px;padding:14px 0;border-bottom:1px solid var(--line)}
+.f:last-child{border-bottom:0}
+.f dt{font-size:13px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--wine);padding-top:3px}
+.f dd{margin:0}
+.hook{font-family:var(--serif);font-style:italic;font-size:20px;line-height:1.4}
+.no{color:var(--muted)}
+@media (max-width:560px){.f{grid-template-columns:1fr;gap:2px}}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:15px;min-width:540px}
+th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--soft)}
+tr:last-child td{border-bottom:0}
+.mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-size:12.5px;word-break:break-all;color:var(--muted)}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:18px}
+</style>
+
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">Mar i Río · Campaña de pauta · versión 3 · noviembre 2026</p>
+  <h1>Una campaña que vende, explicada fácil</h1>
+  <p class="lede">Por qué un video bonito no vende solo, qué tiene que tener un anuncio para que alguien compre, y los 9 anuncios de la campaña, cada uno con su gancho, a quién le habla y por qué lleva a la compra.</p>
+</header>
+
+<nav aria-label="Secciones">
+  <a href="#verdad">Tu duda</a>
+  <a href="#pasos">Cómo vende un anuncio</a>
+  <a href="#formula">La fórmula</a>
+  <a href="#temperaturas">Frías, tibias, calientes</a>
+  <a href="#oferta">La oferta</a>
+  <a href="#anuncios">Los 9 anuncios</a>
+  <a href="#armado">Cómo se arma</a>
+  <a href="#medir">Cómo saber si sirve</a>
+</nav>
+
+<section id="verdad">
+  <p class="eyebrow">Tu duda es correcta</p>
+  <h2>El video del matcha, solo, no vende. Y está bien.</h2>
+  <div class="callout">
+    <h3>La verdad en una frase</h3>
+    <p>Un video bonito <b>detiene el dedo</b>. Pero nadie compra un anillo de $250.000 porque algo se vio bonito: compra cuando <b>lo desea</b>, <b>le cree</b> a la marca, <b>no le da miedo</b> pagar y <b>siente que es ahora</b>.</p>
+  </div>
+  <p>Ningún anuncio hace todo eso solo. Por eso una campaña es un <b>equipo</b> de anuncios, donde cada uno tiene un trabajo:</p>
+  <ul>
+    <li><b>Los que atraen</b> (como el matcha) paran a una desconocida y la hacen mirar. Su trabajo es que vea la marca y entre a la web o mire el video completo.</li>
+    <li><b>Los que convencen</b> le muestran que otras mujeres lo usan y lo aman, y que la pieza es real.</li>
+    <li><b>Los que cierran</b> le quitan los miedos (talla, precio, si llega) y le dan una razón para comprar hoy.</li>
+  </ul>
+  <p>Meta junta a quien vio el matcha y le muestra después los anuncios que convencen y cierran. Así el matcha <b>sí termina en ventas</b>, pero no solo.</p>
+  <div class="card">
+    <h3>Cómo hacer que el matcha venda más (3 cambios)</h3>
+    <ol>
+      <li><b>Una frase en el primer segundo que llame a tu clienta.</b> Hoy el video empieza sin decir nada. Ponle encima: <i>"Para las que nunca han sido de joyas discretas."</i> Así la que se identifica se queda, y la que no, se va (y no gastas en ella).</li>
+      <li><b>Nombre y precio en pantalla al final:</b> <i>"Delta · plata 925 · $250.000 · edición de 30"</i>. Quien hace clic ya sabe cuánto vale: llegan menos curiosas y más compradoras.</li>
+      <li><b>El texto del anuncio hace la venta</b> que el video no hace: el deseo, la prueba, la oferta y la fecha (está más abajo, en A1).</li>
+    </ol>
+  </div>
+</section>
+
+<section id="pasos">
+  <p class="eyebrow">Lo básico</p>
+  <h2>Cómo vende un anuncio, en 5 pasos</h2>
+  <p>Todo anuncio que vende hace estos 5 pasos. Si falla uno, la venta se cae en ese punto.</p>
+  <div class="steps">
+    <div class="step"><span class="n">1</span><b>Detener</b><p>El gancho de los primeros 2 segundos. Si no para el dedo, nada más importa.</p></div>
+    <div class="step"><span class="n">2</span><b>Llamar a la clienta</b><p>Que ella piense "esto es para mí". Y que la que no es clienta se vaya.</p></div>
+    <div class="step"><span class="n">3</span><b>Dar ganas</b><p>Mostrar cómo se va a sentir: distinta, segura, que le pregunten "¿dónde lo compraste?".</p></div>
+    <div class="step"><span class="n">4</span><b>Dar confianza</b><p>Prueba: clientas reales, la pieza de verdad, la fundadora con su cara, garantía.</p></div>
+    <div class="step"><span class="n">5</span><b>Empujar a comprar ya</b><p>Una oferta clara, sin miedos, y una fecha: "pide antes del 5 de diciembre".</p></div>
+  </div>
+</section>
+
+<section id="formula">
+  <p class="eyebrow">Lo que enseña Alex Hormozi</p>
+  <h2>Por qué alguien paga $250.000 por un anillo</h2>
+  <p>Hormozi, uno de los vendedores más reconocidos hoy, explica que la gente compra cuando el <b>valor</b> que siente es más grande que el precio. Y el valor se arma así:</p>
+  <div class="eq">
+    <div class="top">Lo que sueña tener × Qué tan segura está de que lo va a lograr</div>
+    <div>Cuánto tiene que esperar × Cuánto esfuerzo o miedo le cuesta</div>
+  </div>
+  <p>Para subir el valor, se sube lo de arriba y se baja lo de abajo. Aplicado a Delta:</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>La parte</th><th>Qué es para tu clienta</th><th>Cómo lo mueve la campaña</th></tr></thead>
+    <tbody>
+      <tr><td><b>Lo que sueña</b> ⬆</td><td>Verse distinta, no como todas. Que le pregunten dónde lo compró. Sentirse "hermosa", "diva". No quitárselo.</td><td>Anuncios que muestran la actitud y el stack (A1, C2, C3).</td></tr>
+      <tr><td><b>Qué tan segura está</b> ⬆</td><td>"¿Será que se ve así en persona? ¿Es buena la plata? ¿Esta marca es seria?"</td><td>Clientas reales, fotos sin filtro, tú dando la cara, plata 925 y 3 meses de garantía (C1, A3, D1).</td></tr>
+      <tr><td><b>Cuánto espera</b> ⬇</td><td>Hecho a pedido: 10 a 15 días. Eso se siente lento.</td><td>Se cuenta como algo bueno, "se hace para ti", y con fecha clara: "pide antes del 5, llega antes del 24" (D3).</td></tr>
+      <tr><td><b>Esfuerzo o miedo</b> ⬇</td><td>El miedo número 1 de comprar un anillo por internet: <b>"¿y si no me queda?"</b>. Después: pagarle a una marca pequeña y el precio.</td><td>Un anuncio solo para la talla (D2), el precio explicado (D1) y, ojalá, el ajuste de talla gratis (ver la oferta).</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="temperaturas">
+  <p class="eyebrow">A quién le habla cada anuncio</p>
+  <h2>Frías, tibias y calientes</h2>
+  <p>No se le habla igual a quien nunca ha oído de Mar i Río que a quien ya visitó la web. Eugene Schwartz, un clásico de la publicidad, lo explica así: entre menos te conoce la persona, más tienes que empezar por ella y menos por el producto.</p>
+  <div class="grid2">
+    <div class="temp"><span class="tag">Fría · no te conoce</span><p>Le hablas de ella: su estilo, su actitud, lo cansada que está de ver las mismas joyas. El producto aparece, pero no se le explica todo.</p><p><b>Anuncios:</b> A1, A2, A3, C3</p></div>
+    <div class="temp"><span class="tag">Tibia · te vio, no compró</span><p>Ya le gustó. Ahora necesita creer: clientas reales, el stack puesto, cómo se ve en la vida diaria.</p><p><b>Anuncios:</b> C1, C2</p></div>
+    <div class="temp"><span class="tag">Caliente · visitó la web</span><p>Ya quiere el anillo. Le faltan los miedos resueltos y una razón para comprar hoy.</p><p><b>Anuncios:</b> D1, D2, D3</p></div>
+  </div>
+  <div class="card">
+    <h3>¿Cómo encuentra Meta a tu nicho?</h3>
+    <p>Hoy en Meta <b>el anuncio es el que escoge a la gente</b>, más que los filtros de edad o intereses. Si el gancho dice <i>"Si te gustan las joyas perfectas, esto no es para ti"</i>, la mujer que es como tu clienta se queda mirando y hace clic. Meta aprende de ella y le muestra el anuncio a más mujeres parecidas. Por eso cada gancho tiene que <b>llamar a tu clienta y espantar a la que no es</b>: un gancho para todo el mundo no encuentra a nadie.</p>
+  </div>
+</section>
+
+<section id="oferta">
+  <p class="eyebrow">Lo que hace que compren hoy</p>
+  <h2>La oferta: sin descuento, pero irresistible</h2>
+  <p>Hormozi dice que la mejor oferta no baja el precio: <b>sube lo que recibes y quita el riesgo</b>. Tu oferta de diciembre:</p>
+  <div class="card">
+    <ul>
+      <li><b>Delta hecho a tu talla, en plata 925, edición de 30.</b> Lo de la edición limitada es cierto y está en tu web: úsalo.</li>
+      <li><b>Arma tu stack:</b> llevando 2 piezas, el envío es gratis. Es tu regla de hoy y sube el ticket.</li>
+      <li><b>3 meses de garantía</b> por fabricación (está en tus políticas: díselo a la gente).</li>
+      <li><b>Llega antes del 24</b> si pides antes del 5 de diciembre. Es la urgencia real.</li>
+      <li><b>Te ayudo con tu talla por WhatsApp</b> antes de comprar.</li>
+    </ul>
+  </div>
+  <div class="callout">
+    <h3>La palanca más fuerte que falta: el ajuste de talla gratis</h3>
+    <p>Hoy, si la talla no le queda, no hay cambio. Ese es el miedo que más frena la compra de anillos por internet. Si ofreces <b>"Si no te queda, te la ajustamos gratis"</b>, quitas el riesgo y la compra se vuelve fácil.</p>
+    <p><b>Qué tendría que ser cierto:</b> que ajustar Delta una talla arriba o abajo te cueste poco con tu joyero, y que pocas clientas lo pidan (con la guía de tallas y la ayuda por WhatsApp, deberían ser pocas). <b>Prueba barata:</b> pregúntale a tu joyero cuánto cobra por ajustar un Delta.</p>
+  </div>
+</section>
+
+<section id="anuncios">
+  <p class="eyebrow">La campaña completa</p>
+  <h2>Los 9 anuncios, uno por uno</h2>
+  <p>Cada anuncio dice qué es, su gancho, qué dolor o deseo toca, a quién atrae, por qué conecta, con quién no conecta y por qué lleva a la compra.</p>
+
+  <!-- A1 -->
+  <article class="ad">
+    <div class="ad-head">
+      <div class="row"><span class="code">A1</span><h3>El matcha · caos bonito</h3></div>
+      <div class="row"><span class="pill fill">Atraer</span><span class="pill">Fría</span><span class="pill">Ya está hecho</span></div>
+    </div>
+    <dl class="ad-body">
+      <div class="f"><dt>Qué es</dt><dd>El video que ya hiciste: la mano con el stack batiendo matcha sobre los azulejos vinotinto, el desastre bonito y ella se va con su vaso.</dd></div>
+      <div class="f"><dt>Gancho</dt><dd><p class="hook">"Para las que nunca han sido de joyas discretas."</p><p class="no">(Texto encima del primer segundo. Lo visual hace el resto: el verde sobre el vino detiene el dedo.)</p></dd></div>
+      <div class="f"><dt>Dolor o deseo</dt><dd>Deseo: ser auténtica y no vivir "como se debe". El dolor escondido: sentirse obligada a ser perfecta y ordenada.</dd></div>
+      <div class="f"><dt>A quién atrae</dt><dd>A la mujer de 22 a 40 con estética marcada, que toma matcha, ve contenido de estilo y se identifica con el "caos bonito".</dd></div>
+      <div class="f"><dt>Por qué conecta</dt><dd>No parece un anuncio: parece un reel que ella guardaría. Se ve a sí misma en el gesto cotidiano y en la actitud de irse sin limpiar.</dd></div>
+      <div class="f"><dt>Con quién no conecta</dt><dd>Con quien busca joyería clásica o un regalo seguro. Bien: no es tu clienta.</dd></div>
+      <div class="f"><dt>Por qué vende</dt><dd>Solo, vende poco. Su trabajo es <b>llenar la lista de mujeres interesadas</b> (las que lo ven completo o hacen clic) para que después vean C1, C2 y los anuncios que cierran. Se mide por clics y "agregar al carrito", no por vistas.</dd></div>
+      <div class="f"><dt>Texto del anuncio</dt><dd>Ni mi matcha sale perfecto. Mis anillos tampoco. 🍵<br>Delta se modela a mano en cera y se funde en plata 925: ninguno sale igual. Edición de 30, hecho a tu talla. $250.000.<br>Arma tu stack: llevando 2, el envío es gratis. Pide antes del 5 de diciembre y te llega antes del 24.</dd></div>
+      <div class="f"><dt>Lleva a</dt><dd><span class="mono">mar-i-rio.com/producto/delta-ring?utm_source=meta&amp;utm_medium=paid&amp;utm_campaign=ventas-v3&amp;utm_content=a1-matcha</span></dd></div>
+    </dl>
+  </article>
+
+  <!-- A2 -->
+  <article class="ad">
+    <div class="ad-head">
+      <div class="row"><span class="code">A2</span><h3>"Esto era cera" · el origen</h3></div>
+      <div class="row"><span class="pill fill">Atraer</span><span class="pill">Fría</span><span class="pill">Por grabar</span></div>
+    </div>
+    <dl class="ad-body">
+      <div class="f"><dt>Qué es</dt><dd>12 segundos sin hablar: el modelo de cera al lado de Delta → la cera o la plata derritiéndose → la textura de cerca → el anillo puesto → tus manos en el taller. Una frase corta por plano.</dd></div>
+      <div class="f"><dt>Gancho</dt><dd><p class="hook">"Esto era cera."</p></dd></div>
+      <div class="f"><dt>Dolor o deseo</dt><dd>El dolor: "todo es igual, todo es hecho en serie". El deseo: tener algo hecho a mano, que nadie más tiene.</dd></div>
+      <div class="f"><dt>A quién atrae</dt><dd>A la curiosa que valora lo artesanal, lo hecho a mano y el proceso. Es la que paga más por una pieza con historia.</dd></div>
+      <div class="f"><dt>Por qué conecta</dt><dd>La curiosidad: "¿cómo así que era cera?". Es el formato que más tiempo dura activo en el mercado (Lila Clare lleva casi 3 años con uno igual).</dd></div>
+      <div class="f"><dt>Con quién no conecta</dt><dd>Con quien solo busca algo barato y rápido.</dd></div>
+      <div class="f"><dt>Por qué vende</dt><dd><b>Justifica el precio sin decirlo:</b> después de ver que se hace a mano, $250.000 se siente justo. Y responde la duda de "¿por qué se ve derretido, está mal hecho?".</dd></div>
+      <div class="f"><dt>Texto del anuncio</dt><dd>Esto era cera. 🔥<br>Delta se modela a mano en Medellín, se funde en plata 925 y guarda la huella del fuego. Por eso ninguno sale igual. Edición de 30, hecho a tu talla. $250.000.<br>Pide antes del 5 de diciembre y te llega antes del 24.</dd></div>
+      <div class="f"><dt>Lleva a</dt><dd><span class="mono">mar-i-rio.com/producto/delta-ring?…&amp;utm_content=a2-origen</span></dd></div>
+    </dl>
+  </article>
+
+  <!-- A3 -->
+  <article class="ad">
+    <div class="ad-head">
+      <div class="row"><span class="code">A3</span><h3>La fundadora con la bandeja</h3></div>
+      <div class="row"><span class="pill fill">Atraer</span><span class="pill">Fría</span><span class="pill">Por grabar · tú a cámara</span></div>
+    </div>
+    <dl class="ad-body">
+      <div class="f"><dt>Qué es</dt><dd>Tú, sentada con una bandeja de piezas, 40–50 segundos con subtítulos. Te pones Delta, luego Limo, muestras el stack y cierras con la talla y la fecha.</dd></div>
+      <div class="f"><dt>Gancho</dt><dd><p class="hook">"Si te gustan las joyas perfectas, esto no es para ti."</p></dd></div>
+      <div class="f"><dt>Dolor o deseo</dt><dd>Deseo: comprarle a una persona real, no a una fábrica. El dolor: la desconfianza de comprar por internet a una marca que no conoce.</dd></div>
+      <div class="f"><dt>A quién atrae</dt><dd>A la que se siente retada por la frase ("¿cómo así que no es para mí?") y a la que le gustan las marcas con alguien detrás.</dd></div>
+      <div class="f"><dt>Por qué conecta</dt><dd>El gancho provoca y filtra al mismo tiempo. Ver tu cara crea confianza: la gente le compra a la gente. Es el formato que usa Missoma con creadoras y le dura meses.</dd></div>
+      <div class="f"><dt>Con quién no conecta</dt><dd>Con quien quiere lo clásico y simétrico. El anuncio se lo dice en la cara, y eso ahorra plata.</dd></div>
+      <div class="f"><dt>Por qué vende</dt><dd>Sube la <b>confianza</b> (la parte de "qué tan segura está" de la fórmula) y muestra varias piezas, lo que empuja el stack.</dd></div>
+      <div class="f"><dt>Lleva a</dt><dd><span class="mono">mar-i-rio.com/colecciones?categoria=anillos&amp;…&amp;utm_content=a3-fundadora</span></dd></div>
+    </dl>
+  </article>
+
+  <!-- C3 -->
+  <article class="ad">
+    <div class="ad-head">
+      <div class="row"><span class="code">C3</span><h3>"Las mismas joyas que todas"</h3></div>
+      <div class="row"><span class="pill fill">Convencer</span><span class="pill">Fría</span><span class="pill">Nuevo · por grabar</span></div>
+    </div>
+    <dl class="ad-body">
+      <div class="f"><dt>Qué es</dt><dd>15–20 segundos, problema → solución. Arranca con una mano llena de las argollas doradas que tiene todo el mundo; corte a la mano con el stack de Delta. Puede ir con tu voz o solo con texto.</dd></div>
+      <div class="f"><dt>Gancho</dt><dd><p class="hook">"Me cansé de tener las mismas joyas que todas."</p></dd></div>
+      <div class="f"><dt>Dolor o deseo</dt><dd><b>El dolor más claro de tu clienta:</b> verse igual a todas, con las mismas joyas de moda. El deseo: que la reconozcan por su estilo.</dd></div>
+      <div class="f"><dt>A quién atrae</dt><dd>A la que ya compra joyas (tiene presupuesto) pero siente que se ve básica.</dd></div>
+      <div class="f"><dt>Por qué conecta</dt><dd>Pone en palabras algo que ella siente y nunca había dicho. Cuando un anuncio nombra tu problema, sientes que la marca te entiende.</dd></div>
+      <div class="f"><dt>Con quién no conecta</dt><dd>Con quien está feliz con lo que todas usan.</dd></div>
+      <div class="f"><dt>Por qué vende</dt><dd>Es el formato clásico de venta directa: <b>dolor → solución → prueba → oferta</b>. Le habla a quien ya gasta en joyas y solo tiene que cambiar de marca.</dd></div>
+      <div class="f"><dt>Texto del anuncio</dt><dd>Me cansé de tener las mismas joyas que todas.<br>Delta: plata 925 modelada a mano, imposible de confundir. Edición de 30, hecho a tu talla. $250.000.<br>Llevando 2, el envío es gratis. Pide antes del 5 de diciembre y te llega antes del 24.</dd></div>
+      <div class="f"><dt>Lleva a</dt><dd><span class="mono">mar-i-rio.com/producto/delta-ring?…&amp;utm_content=c3-mismas-joyas</span></dd></div>
+    </dl>
+  </article>
+
+  <!-- C1 -->
+  <article class="ad">
+    <div class="ad-head">
+      <div class="row"><span class="code">C1</span><h3>Lo que dicen las clientas</h3></div>
+      <div class="row"><span class="pill fill">Convencer</span><span class="pill">Tibia</span><span class="pill">Nuevo · el más barato</span></div>
+    </div>
+    <dl class="ad-body">
+      <div class="f"><dt>Qué es</dt><dd>Pantallazos reales de mensajes de clientas (con permiso y sin su número), uno tras otro, encima de fotos de Delta puesto. Puede ser carrusel o video de 10 s.</dd></div>
+      <div class="f"><dt>Gancho</dt><dd><p class="hook">"Me encanta ponérmelo. No me lo quito."</p></dd></div>
+      <div class="f"><dt>Dolor o deseo</dt><dd>El miedo: "¿y si me arrepiento?". El deseo: sentirse como ellas, "hermosa", "diva".</dd></div>
+      <div class="f"><dt>A quién atrae</dt><dd>A la que ya vio la marca y le gustó, pero duda.</dd></div>
+      <div class="f"><dt>Por qué conecta</dt><dd>Le cree más a otra mujer que a la marca. Un pantallazo de WhatsApp se siente real porque no está producido.</dd></div>
+      <div class="f"><dt>Con quién no conecta</dt><dd>Con quien nunca ha visto la marca: por eso va a las tibias.</dd></div>
+      <div class="f"><dt>Por qué vende</dt><dd>Es <b>prueba social</b>: la forma más fuerte de subir el "qué tan segura está". Las marcas pequeñas que venden en línea viven de esto.</dd></div>
+      <div class="f"><dt>Lleva a</dt><dd><span class="mono">mar-i-rio.com/producto/delta-ring?…&amp;utm_content=c1-clientas</span></dd></div>
+    </dl>
+  </article>
+
+  <!-- C2 -->
+  <article class="ad">
+    <div class="ad-head">
+      <div class="row"><span class="code">C2</span><h3>El stack en la vida real</h3></div>
+      <div class="row"><span class="pill fill">Convencer</span><span class="pill">Tibia</span><span class="pill">Por grabar · celular</span></div>
+    </div>
+    <dl class="ad-body">
+      <div class="f"><dt>Qué es</dt><dd>8–15 segundos con celular: la mano con 3 o 4 Delta agarrando cosas del día (el volante, el café, el bolso, el celular), cortes rápidos.</dd></div>
+      <div class="f"><dt>Gancho</dt><dd><p class="hook">"Un anillo es un accesorio. Tres son una postura."</p></dd></div>
+      <div class="f"><dt>Dolor o deseo</dt><dd>Deseo: el "más es más", atreverse a llevar varios. La duda que resuelve: "¿cómo se ve puesto en la vida normal?".</dd></div>
+      <div class="f"><dt>A quién atrae</dt><dd>A la que ya usa varios anillos o quiere empezar a hacerlo.</dd></div>
+      <div class="f"><dt>Por qué conecta</dt><dd>Muestra la pieza en su vida, no en un estudio. La frase le da permiso para "exagerar".</dd></div>
+      <div class="f"><dt>Con quién no conecta</dt><dd>Con la minimalista de un solo anillo.</dd></div>
+      <div class="f"><dt>Por qué vende</dt><dd><b>Sube el ticket:</b> enseña a comprar más de uno, y con 2 el envío es gratis. Astrid &amp; Miyu usa el stack en más de la mitad de sus anuncios por esto.</dd></div>
+      <div class="f"><dt>Lleva a</dt><dd><span class="mono">mar-i-rio.com/colecciones?categoria=anillos&amp;…&amp;utm_content=c2-stack</span></dd></div>
+    </dl>
+  </article>
+
+  <!-- D1 -->
+  <article class="ad">
+    <div class="ad-head">
+      <div class="row"><span class="code">D1</span><h3>"¿$250.000 por un anillo?"</h3></div>
+      <div class="row"><span class="pill fill">Cerrar</span><span class="pill">Caliente</span><span class="pill">Carrusel · fotos</span></div>
+    </div>
+    <dl class="ad-body">
+      <div class="f"><dt>Qué es</dt><dd>Carrusel de 4 fotos. 1: Delta en la palma, "¿$250.000 por un anillo? Esto es lo que pagas". 2: el modelo de cera, "modelado a mano en Medellín". 3: la textura, "plata 925, no baño". 4: puesto, "hecho a tu talla · edición de 30 · 3 meses de garantía".</dd></div>
+      <div class="f"><dt>Gancho</dt><dd><p class="hook">"¿$250.000 por un anillo? Esto es lo que pagas:"</p></dd></div>
+      <div class="f"><dt>Dolor o deseo</dt><dd>La objeción del precio: "está caro, en otro lado lo consigo más barato".</dd></div>
+      <div class="f"><dt>A quién atrae</dt><dd>A quien ya visitó la ficha de Delta y no compró. Lo más probable es que el precio la frenó.</dd></div>
+      <div class="f"><dt>Por qué conecta</dt><dd>Dice en voz alta lo que ella está pensando. Eso desarma la objeción en vez de esconderla.</dd></div>
+      <div class="f"><dt>Con quién no conecta</dt><dd>Con quien no te conoce: por eso solo va a las calientes.</dd></div>
+      <div class="f"><dt>Por qué vende</dt><dd>Convierte el precio en <b>valor</b>: cada tarjeta es una razón. Ataca justo el punto donde se cayó la venta.</dd></div>
+      <div class="f"><dt>Lleva a</dt><dd><span class="mono">mar-i-rio.com/producto/delta-ring?…&amp;utm_content=d1-precio</span></dd></div>
+    </dl>
+  </article>
+
+  <!-- D2 -->
+  <article class="ad">
+    <div class="ad-head">
+      <div class="row"><span class="code">D2</span><h3>"¿Y si no me queda?"</h3></div>
+      <div class="row"><span class="pill fill">Cerrar</span><span class="pill">Caliente</span><span class="pill">Nuevo · video corto</span></div>
+    </div>
+    <dl class="ad-body">
+      <div class="f"><dt>Qué es</dt><dd>10–15 segundos: tú midiendo un dedo con un hilo o con un anillo que ya tiene, mostrando la guía de tallas de la web y diciendo que la ayudas por WhatsApp.</dd></div>
+      <div class="f"><dt>Gancho</dt><dd><p class="hook">"¿Te da miedo comprar un anillo por internet y que no te quede?"</p></dd></div>
+      <div class="f"><dt>Dolor o deseo</dt><dd><b>El miedo número 1</b> de comprar anillos en línea.</dd></div>
+      <div class="f"><dt>A quién atrae</dt><dd>A quien agregó al carrito o visitó la ficha y no terminó el pago.</dd></div>
+      <div class="f"><dt>Por qué conecta</dt><dd>Nombra un miedo que casi ninguna marca nombra, y lo resuelve en 10 segundos. Se siente acompañada.</dd></div>
+      <div class="f"><dt>Con quién no conecta</dt><dd>Con quien no ha pensado en comprar todavía.</dd></div>
+      <div class="f"><dt>Por qué vende</dt><dd>Baja el <b>esfuerzo y el miedo</b> (la parte de abajo de la fórmula). Si además ofreces el ajuste de talla gratis, este anuncio se vuelve el que más cierra.</dd></div>
+      <div class="f"><dt>Lleva a</dt><dd><span class="mono">mar-i-rio.com/producto/delta-ring?…&amp;utm_content=d2-talla</span></dd></div>
+    </dl>
+  </article>
+
+  <!-- D3 -->
+  <article class="ad">
+    <div class="ad-head">
+      <div class="row"><span class="code">D3</span><h3>"Arma tu stack antes del 5"</h3></div>
+      <div class="row"><span class="pill fill">Cerrar</span><span class="pill">Caliente</span><span class="pill">Foto o carrusel</span></div>
+    </div>
+    <dl class="ad-body">
+      <div class="f"><dt>Qué es</dt><dd>Una foto del stack de 4 colores con el texto de la oferta y la fecha. Simple y directo.</dd></div>
+      <div class="f"><dt>Gancho</dt><dd><p class="hook">"Pide antes del 5 de diciembre y te llega antes del 24."</p></dd></div>
+      <div class="f"><dt>Dolor o deseo</dt><dd>El deseo de regalarse algo en diciembre, y el miedo a quedarse sin él a tiempo.</dd></div>
+      <div class="f"><dt>A quién atrae</dt><dd>A quien ya lo quiere y lo está dejando para después.</dd></div>
+      <div class="f"><dt>Por qué conecta</dt><dd>Le da una razón para decidir hoy y no "otro día". La fecha es real, no inventada.</dd></div>
+      <div class="f"><dt>Con quién no conecta</dt><dd>Con quien no conoce la marca.</dd></div>
+      <div class="f"><dt>Por qué vende</dt><dd><b>Urgencia + oferta:</b> fecha límite, edición de 30 y envío gratis llevando 2. Es el empujón final.</dd></div>
+      <div class="f"><dt>Texto del anuncio</dt><dd>Este diciembre, regálate algo que nadie más tenga. 🎁<br>Delta, plata 925 hecha a tu talla, edición de 30. Arma tu stack: llevando 2, el envío es gratis.<br>Pide antes del 5 de diciembre y te llega antes del 24.</dd></div>
+      <div class="f"><dt>Lleva a</dt><dd><span class="mono">mar-i-rio.com/producto/delta-ring?…&amp;utm_content=d3-navidad</span></dd></div>
+    </dl>
+  </article>
+</section>
+
+<section id="armado">
+  <p class="eyebrow">En Meta</p>
+  <h2>Cómo se arma</h2>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Conjunto</th><th>A quién</th><th>Presupuesto</th><th>Anuncios</th></tr></thead>
+    <tbody>
+      <tr><td><b>Descubrir</b></td><td>Mujeres de 22 a 40 en Colombia que no te conocen</td><td>$45.000/día</td><td>A1 matcha, A2 origen, A3 fundadora, C3 mismas joyas</td></tr>
+      <tr><td><b>Calientes</b></td><td>Quien vio tus videos, siguió tu Instagram o visitó la web en los últimos 30 días</td><td>$15.000/día</td><td>C1 clientas, C2 stack, D1 precio, D2 talla, D3 Navidad</td></tr>
+    </tbody>
+  </table></div>
+  <ul>
+    <li><b>Objetivo de la campaña:</b> Ventas, optimizando por compra.</li>
+    <li><b>Arrancas con lo que tengas:</b> A1 ya está. C1 y D1 salen de fotos y pantallazos que ya tienes. Lo demás se suma a medida que lo grabes.</li>
+    <li><b>Días 1 a 3:</b> no se toca nada. Meta está aprendiendo.</li>
+    <li><b>Día 7:</b> se apagan los 2 anuncios con el peor costo por "agregar al carrito", y del mejor se hacen 2 versiones cambiando solo el gancho.</li>
+  </ul>
+</section>
+
+<section id="medir">
+  <p class="eyebrow">Sin enredos</p>
+  <h2>Cómo saber si sirve</h2>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Pregunta</th><th>El número en Meta</th><th>Bien si…</th><th>Si no, se cambia…</th></tr></thead>
+    <tbody>
+      <tr><td>¿Para el dedo?</td><td>Reproducciones de 3 s ÷ impresiones</td><td>Más de 25 %</td><td>El primer segundo</td></tr>
+      <tr><td>¿Dan ganas de entrar?</td><td>CTR (clics en el enlace)</td><td>Más de 1 %</td><td>El gancho o el texto</td></tr>
+      <tr><td>¿La web convence?</td><td>Agregar al carrito ÷ visitas</td><td>Más de 5 %</td><td>La ficha, el precio o la oferta</td></tr>
+      <tr><td>¿Compran?</td><td>Costo por compra</td><td>Menos de ~$120.000</td><td>El paso del carrito al pago (talla, envío)</td></tr>
+    </tbody>
+  </table></div>
+  <p class="no">Con $60.000 al día, en una semana habrá pocas compras. Por eso el día 7 se decide con "agregar al carrito", que llega antes.</p>
+</section>
+
+<footer>Mar i Río · Campaña de pauta v3 · 1 de noviembre de 2026 · Reemplaza las versiones 1 y 2. Basado en la propuesta de valor (03), el embudo (04), el análisis de Meta (05 y 05b) y las políticas publicadas en mar-i-rio.com (garantía de 3 meses, entrega de 10 a 15 días, envío gratis llevando 2).</footer>
+</div>
