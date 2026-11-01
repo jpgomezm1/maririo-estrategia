@@ -214,3 +214,41 @@ text, logos, extra objects, background color changes, flickering artifacts.
 3. **"Lo perfecto lo derrito"**: un anillo de cera perfecto, liso y simétrico, se derrite con calor y queda con la forma orgánica de Delta. Corte a la plata. Texto: *"Perfecto era aburrido."* Es el proceso real, contado como una postura.
 4. **"Las reglas"**: una página de manual de etiqueta (*"Una joya a la vez. No mezcles colores. Menos es más."*). Una mano con 4 Delta tacha cada regla con un marcador. Cierre: *"Menos es más. ¿Según quién?"*
 5. **"Mi dress code: yo"**: una tarjeta de invitación que dice *"Dress code: joyas discretas"*. La mano con el stack de 4 colores la dobla y la bota. Texto: *"Mi dress code: yo."*
+
+---
+
+## Concepto escogido (1 nov): "El matcha" — caos bonito en lo cotidiano
+
+**Recorrido:** la vela se descartó por muy usada. Mariana pidió algo más auténtico y atrevido, que hable duro y exagere el caos bonito ("ser como quieras, no como se debe ser"). Se propusieron 6 conceptos ("¿Otro anillo?", "Lo perfecto se derrite", fiesta con flash, "Nada en mí es simétrico", "No los escojo", "Las reglas"). Mariana propuso el suyo, que se queda como pieza principal: alguien batiendo matcha con el batidor de bambú, y al batir todo se vuelve un desastre.
+**Ajuste de Mariana al final:** no termina en una sonrisa a cámara. Queda un desastre "bien hecho"; ella intenta limpiar medio de afán, se rinde y se va feliz con su matcha.
+
+### Brief general
+
+**Marca:** Mar i Río, joyería de autor en plata, orgánica y derretida, hecha a mano en Medellín.
+**Pieza:** Delta, plata 925, $250.000, edición de 30, hecho a tu talla. En stack de 4 colores: amarillo sol, verde alga, coral y azul profundo.
+**Formato:** video vertical 9:16, 10–12 s, Instagram (reel y anuncio).
+**Objetivo:** detener a quien no conoce la marca y llevarla a la página de Delta.
+**Mensaje:** caos bonito. Nada sale perfecto y así está bien: ser como quieras, no como se debe ser.
+**Tono:** cotidiano, atrevido, divertido y real. Lujo sin pose.
+
+**La escena:** vista cenital, desde arriba. Una mesa con mantel de lino arrugado, un tazón de cerámica hecho a mano, el batidor de bambú, matcha en polvo, un vaso con hielo y leche, un croissant a medio comer. Luz de ventana de la mañana. Solo se ven las manos y los brazos, nunca la cara. En el índice, el stack de los 4 Delta.
+
+| Tiempo | Qué se ve | Texto en pantalla |
+|---|---|---|
+| 0–2 s | Todo en orden, casi de revista. La mano con el stack empieza a batir. | — |
+| 2–6 s | Bate cada vez más rápido. El matcha salpica el mantel, la mano y los anillos; sale una nube de polvo y la espuma se desborda. Cámara lenta en las salpicaduras. | *"Ni mi matcha sale perfecto."* |
+| 6–8 s | Mira el desastre. Pasa una servilleta de afán, regándolo más. Se rinde. | — |
+| 8–10 s | Sirve el matcha en el vaso con hielo, lo agarra (el stack en primer plano, con una gota verde en la plata) y sale de cuadro. | — |
+| 10–12 s | Queda solo la mesa: el desastre bien hecho, casi una obra. | *"Caos bonito."* → *"Delta · Plata 925 · Edición de 30 · $250.000"* |
+
+**El desastre tiene que verse bonito, no sucio:** salpicaduras verdes con forma, el polvo como nube, el contraste del verde con el lino. Que la última toma parezca una pintura.
+
+**Cómo es Delta (no puede cambiar):** banda delgada de plata con textura orgánica, martillada y como derretida, con un solo circón redondo pequeño engastado en bisel. Se graba con los anillos reales.
+
+**Sonido:** el sonido real del batidor, el tazón y el hielo, más fuerte de lo normal. Una música con ritmo que acelere con el batido y pare en seco en el desastre.
+
+**Evitar:** la cara, logos al inicio y que se vea como un error o una torpeza: es una mujer que goza su caos.
+
+**Texto del anuncio:** Ni mi matcha sale perfecto. Mis anillos tampoco. 🍵 Delta se modela a mano en cera y se funde en plata 925: cada uno sale distinto. Llévalo solo o en stack, en verde alga, azul profundo, coral o amarillo sol. Hecho a tu talla. $250.000. Pide antes del 5 de diciembre y te llega antes del 24.
+**Titular:** Delta · **Descripción:** Hecho a tu talla · Envíos a toda Colombia · **Botón:** Comprar
+**Enlace:** https://mar-i-rio.com/producto/delta-ring?utm_source=meta&utm_medium=paid&utm_campaign=ventas-v2&utm_content=delta-matcha
