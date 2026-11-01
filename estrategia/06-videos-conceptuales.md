@@ -55,3 +55,52 @@ no text, no logos, no people.
 - 8–10 s: *"Pídelo antes del 5 de diciembre, llega antes del 24."*
 
 **Pendiente del brief:** prompt de movimiento para Higgsfield, sonido, texto del anuncio y versión para el Día de las Velitas (7 de diciembre, solo en Instagram, porque la fecha para que llegue antes del 24 es el 5).
+
+---
+
+## Versión 2 del concepto: "Una vela" (recomendada sobre la playa)
+
+**Idea de Mariana (31 oct):** fondo rojo con el tono de Mar i Río, una sola vela que ya lleva puesto el stack de 4 Delta (uno de cada color), y la cera se derrite sobre los anillos hasta cubrirlos todos. Es un solo clip. Referencia: una vela con anillos dorados en stack sobre fondo rojo oscuro (de otra marca; se toma el concepto, no la estética dorada).
+
+**Por qué es mejor que la playa:** un solo objeto y una sola toma, así que la IA tiene menos para equivocarse con el anillo. El fondo es el color de la marca y la idea se entiende en 1 segundo.
+
+**Colores:** fondo pasión #3F1212 (con el brillo de la llama tirando a pulso #912626); vela esencial #F5EEDE.
+
+**Paso 1 · Primer cuadro en ChatGPT** (adjuntar las 2 fotos de referencia de Delta)
+```
+Using the two attached photos as exact product reference, create a photorealistic
+studio shot. One slim cream-colored taper candle (#F5EEDE), centered, standing
+vertically against a seamless deep oxblood red background (#3F1212). The candle
+is lit, with a tall warm flame that is the only light source, creating a soft red
+glow around it (#912626). Around the upper middle of the candle, stacked tightly
+like rings on a finger, are exactly four thin sterling silver rings identical to
+the reference: a thin organic band with a hammered, molten texture and one small
+round bezel-set zircon. Each ring has a different zircon color, from top to
+bottom: sun yellow, coral pink, alga green, deep blue. Keep the ring shape
+identical to the reference; do not add stones, do not make the bands wide, flat
+or gold. A first drop of melted wax is just starting to run down from the top of
+the candle. Macro lens, shallow depth of field, focus on the rings, cinematic,
+editorial luxury jewelry photography. Vertical 9:16. No text, no logos, no hands.
+```
+
+**Paso 2 · Movimiento en Higgsfield** (imagen a video, el primer cuadro del paso 1 + la foto real de referencia)
+```
+Static locked-off camera, very slow push-in. The candle flame flickers gently.
+Melted cream wax runs down the candle in slow, thick, organic drips, flowing over
+the four silver rings one by one from top to bottom, until the wax covers all of
+them completely. The rings keep their exact shape and position under the wax.
+Time-lapse feel, smooth. Warm flame light, deep red background unchanged.
+No camera shake, no new objects, no text.
+```
+
+**Montaje (8–10 s):**
+| Tiempo | Qué se ve | Texto |
+|---|---|---|
+| 0–1 s | La vela encendida con el stack, fondo rojo. Gancho, sin logo. | — |
+| 1–6 s | La cera baja y cubre los anillos uno por uno. | *"Nació en cera."* |
+| 6–9 s | Corte al stack real de Delta en una mano. | *"Delta · Plata 925 · Edición de 30"* |
+| 9–10 s | Se mantiene. | *"Pídelo antes del 5 de diciembre, llega antes del 24."* |
+
+**Sonido:** la llama y un crepitar suave, sin música épica.
+
+**Alternativa sin IA para probar:** grabarlo de verdad con una vela delgada y los 4 Delta reales, acelerando el derretido con una pistola de calor y en cámara rápida. La cera se quita de la plata con agua caliente. Así el anillo es 100 % el real.
