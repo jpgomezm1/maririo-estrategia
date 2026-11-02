@@ -107,4 +107,5 @@ Registro resumido de la entrevista. Las respuestas conservan las palabras de Mar
 84. **¿Quién protagoniza el anuncio: tú o una clienta real?** Lo quiere hacer con IA en Higgsfield. Pidió explorar todas sus funciones y además investigar cómo compran las mujeres: cree que es "ay, qué lindo, lo quiero" y que una se crea la necesidad. Respuesta en 08-higgsfield-y-como-compra-ella.md: tiene razón, con un matiz; primero viene el deseo y después la justificación, y el anuncio tiene que dar las dos cosas.
 85. **¿Qué plan de Higgsfield tienes?** Ultra, el más alto: debería incluir todas las herramientas, incluidas las de voz (Speak y Lipsync).
 86. **¿La modelo habla a cámara, o el anuncio va con imagen, texto en pantalla y música?** No habla (siguió la recomendación). Va con imagen, texto en pantalla y música, con cortes rápidos.
-87. **PENDIENTE:** ¿En qué momento de su día mostramos a la modelo con el stack?
+87. **¿En qué momento de su día mostramos a la modelo con el stack?** Arreglándose para salir (siguió la recomendación). Pidió combinar los Delta en varios dedos, repitiendo colores: por ejemplo 3 en un dedo y 1 o 2 en otro.
+88. **PENDIENTE:** ¿Cómo es ella, la modelo?
