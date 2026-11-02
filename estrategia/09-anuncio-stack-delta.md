@@ -47,3 +47,9 @@ Escena: su cuarto al atardecer, luz cálida. Estilo old money con color: paredes
 - Se editó la prueba 2 con la foto real de su mano como referencia exacta. Se mantuvo la composición de 3 + 2 anillos (su prompt hablaba de 4 en un mismo dedo, pero también pedía conservar la pose).
 - Resultado (2 de 2 sin bloqueo): uñas más cortas; bandas separadas y legibles, con textura orgánica, biseles con volumen y piedras con facetas. En el encuadre completo los anillos se ven pequeños, así que la fidelidad fina se juzga mejor en los planos de detalle del video.
 - Guardadas en `mar i rio planeacion/prueba-delta-ia-3a.png` y `prueba-delta-ia-3b.png`.
+
+### Prueba 4 (corrección final de anillos) y borrador del video
+- Mariana corrigió la indicación: los Delta **no** son perfectamente redondos (biseles y bandas orgánicos), pero en la imagen la irregularidad se veía torpe e inflada, y los anillos muy grandes y pesados para la mano. Pidió proporción equilibrada, irregularidad elegante y bien construida, piedras bien asentadas, stack legible y ajuste anatómico. Decidió no seguir puliendo el detalle: **para verlo a fondo está la web**.
+- Resultado: anillos más finos y mejor integrados a la mano. Guardadas en `mar i rio planeacion/prueba-delta-ia-4a.png` y `4b.png`. Se usa la 4a como referencia del video.
+- **Borrador del video** (Seedance 2.5, 15 s, borrador en 480p por 45 créditos; la versión final en 1080p cuesta 240): 5 tomas sin texto. 1) Los anillos caen en un platico de vidrio. 2) Se los pone: 3 en el índice y 2 en el anular. 3) En el espejo redondo se acomoda el pelo y se toca los labios. 4) Agarra el bolso y sale. 5) Cierre de cerca del stack sobre la solapa del blazer.
+- El texto en pantalla y la música se ponen en la edición (CapCut o la agencia): la IA no escribe bien textos y la música tiene que ser con licencia.
