@@ -60,3 +60,7 @@ Escena: su cuarto al atardecer, luz cálida. Estilo old money con color: paredes
 - **Toma 2 (se los pone): funciona.** El stack se arma en el índice con piedras de colores y uñas vinotinto.
 - **Tomas 3 a 5 (espejo, bolso, sonrisa, cierre en la solapa): funcionan.** Escena, vestuario y luz consistentes. Se le ve la cara completa a la modelo.
 - Guardado en `mar i rio planeacion/borrador-video-delta-1.mp4`.
+
+### Borrador 2 del video
+- Mariana: el borrador se ve muy bien y va por buen camino, pero el fondo de la habitación se ve falso, el video está muy "tostado" y no es fluido, hay mucha espera entre toma y toma, y el contexto debe verse más hermoso, acogedor y auténtico. Sin cojines vinotinto y con el fondo un poco difuminado.
+- Cambios en el borrador 2 (45 créditos): cuarto real y vivido (ropa de cama de lino blanco, flores, libros, ropa sobre la cama), luz natural con color neutro (no naranja), fondo desenfocado, cortes sobre la acción sin pausas y sin cojines vinotinto. La toma 1 ya no son los anillos cayendo al platico: empieza con ella poniéndoselos.
