@@ -79,3 +79,8 @@ Escena: su cuarto al atardecer, luz cálida. Estilo old money con color: paredes
 | 5–9 s | En el espejo, se acomoda el pelo | — | La sensación | Se imagina con el stack, segura y cool |
 | 9–12 s | Agarra el bolso, sonríe y sale | *"Regálatelo. Plata 925, para todos los días."* | La justificación | Se da permiso: me lo merezco, lo voy a usar siempre |
 | 12–15 s | Su mano apaga la lámpara | *"Delta · $250.000 cada uno · hecho a tu talla · llevando 2, envío gratis · pide antes del 5 de diciembre"* | Quitar la duda que frena + llamado final | Precio claro, talla, envío gratis con 2 y fecha: decide hoy |
+
+### Resultado del borrador 3 (no cumple)
+- Al usar el borrador 2 como video de referencia, la IA lo copió casi igual: **siguen saliendo 9 anillos** en la toma de la ventana y **el escote sigue profundo** en el espejo. Solo cambió la toma final (la mano apaga la lámpara), y ahí los anillos se ven deformados y son más de 5.
+- **Lección:** el video de referencia amarra todo lo que trae, errores incluidos. Para corregir hay que cambiar la **imagen de referencia** (5 anillos, blazer cerrado, sin cojines) y generar sin el video viejo.
+- Archivo: `mar i rio planeacion/borrador-video-delta-3.mp4`. Visor actualizado.
