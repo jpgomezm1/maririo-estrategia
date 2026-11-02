@@ -112,4 +112,5 @@ Registro resumido de la entrevista. Las respuestas conservan las palabras de Mar
 89. **¿Cuál es el gancho del primer segundo?** El formato "POV" le parece pasado de moda. Quiere ir hacia "nos gusta vernos más, extra" y pidió más propuestas de gancho.
 90. **¿Cuál de los ganchos "extra" escoges?** El 1: "Yo no salgo con uno solo."
 91. **¿Qué energía tiene la música?** Lo que se recomiende: house latino / afro house. Preguntó qué escucharía una clienta de Mar i Río.
-92. **PENDIENTE:** ¿Cómo es el cuarto donde se arregla?
+92. **¿Cómo es el cuarto donde se arregla?** Sí a paredes beige y espejo orgánico. Es una habitación tipo old money sin miedo al color, quizás con espaldar de cama en tela de cebra. El vinotinto va en un cuadro o en los cojines, no en el labial.
+93. **PENDIENTE:** ¿Qué tiene puesto ella?

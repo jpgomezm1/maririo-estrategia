@@ -11,10 +11,11 @@
 | 87 | Momento | Arreglándose para salir. Los Delta repartidos en varios dedos, repitiendo colores: 3 en el índice (amarillo, verde, coral) y 2 en el anular (azul, verde). |
 | 89–90 | Gancho | **"Yo no salgo con uno solo."** Doble sentido (los anillos y la salida): atrevido, con humor, habla duro. |
 | 91 | Música | House latino / afro house con golpe marcado, para cortar en cada anillo. Referencia de energía (no se usan en el anuncio por derechos): el house orgánico tipo Keinemusik, Bomba Estéreo, Kali Uchis. Pista con licencia de la Sound Collection de Meta (buscar "afro house", "latin house", "groovy"). |
+| 92 | El cuarto | Estilo *old money* sin miedo al color. Paredes beige (esencial), espaldar de cama tapizado en **cebra**, toques vinotinto en **un cuadro y los cojines** (el labial no es vinotinto). Espejo de forma orgánica, como derretido. |
 | 88 | La modelo | Colombiana de unos 27 años, femenina, cool y no tradicional. Pelo natural (rizos o suelto), maquillaje ligero, **uñas largas, almendradas y femeninas**, outfit con personalidad, actitud segura y atrevida, sin pose. |
 
 ## Borrador del guion (15 s, vertical 9:16, sin voz, música con ritmo)
-Escena: su cuarto o tocador al atardecer, luz cálida, tonos de la marca (vinotinto y beige), espejo, ropa sobre la cama. Sin comida.
+Escena: su cuarto al atardecer, luz cálida. Estilo old money con color: paredes beige, espaldar de cebra, cuadro y cojines vinotinto, espejo orgánico, ropa sobre la cama. Sin comida.
 
 | Tiempo | Qué se ve | Texto en pantalla | Parte de la anatomía |
 |---|---|---|---|
