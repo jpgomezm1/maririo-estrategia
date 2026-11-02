@@ -116,4 +116,5 @@ Registro resumido de la entrevista. Las respuestas conservan las palabras de Mar
 93. **¿Qué tiene puesto ella?** Vestido (se entiende el recomendado: lencero de satén chocolate). El espejo puede ser circular.
 94. **¿Hacemos primero una prueba corta en Higgsfield?** Sí. Se conectó el MCP de Higgsfield a Claude Code y se hizo la prueba desde aquí (resultado en 09-anuncio-stack-delta.md).
 95. **¿El anillo de la prueba se parece lo suficiente al Delta real?** No del todo: la mano se ve muy grande, el anillo desescalado (el real es más robusto) y con aspecto plástico. Pidió uñas vinotinto, espaldar de cebra blanco y negro, vestido con más personalidad (encaje) e incluso un blazer negro oversize. Se hizo la prueba 2 con esas correcciones.
-96. **PENDIENTE:** ¿La prueba 2 ya se acerca al Delta real?
+96. **¿La prueba 2 ya se acerca al Delta real?** La mujer mejoró mucho, pero el anillo aún se ve irreal. Uñas un poco más cortas. Entregó un prompt detallado de corrección y pidió conservar la legibilidad de cada anillo. Se hizo la prueba 3.
+97. **PENDIENTE:** ¿En la prueba 3 los anillos ya se ven como el Delta real?

@@ -41,3 +41,9 @@ Escena: su cuarto al atardecer, luz cálida. Estilo old money con color: paredes
 - **Espaldar de cebra en blanco y negro**, no beige y negro (referencia: panel tapizado tipo Pinterest de Soft Visions Studio).
 - **Vestido con más personalidad:** satén chocolate con **encaje**, y **blazer negro oversize** encima.
 - **Prueba 2** (mismo método, foto real en la mano como referencia principal): anillos más robustos y derretidos, a mejor escala, uñas vinotinto, encaje y blazer. La cebra todavía sale cálida por la luz del atardecer. Una de las dos imágenes volvió a bloquearse por el filtro (escote). Guardada en `mar i rio planeacion/prueba-delta-ia-2.png`; el video 1 en `prueba-delta-ia-video-1.mp4`.
+
+### Prueba 3 (edición de la prueba 2, solo anillos y uñas)
+- Mariana: la mujer mejoró mucho, pero el anillo aún se veía irreal. Uñas un poco más cortas, elegantes, nada vulgares. Entregó un prompt detallado de corrección (geometría orgánica, plata 925 real, biseles con volumen, zirconias con facetas, anillos separados y legibles, escala real, mismo nivel fotográfico que la piel) y pidió conservar la legibilidad de cada anillo.
+- Se editó la prueba 2 con la foto real de su mano como referencia exacta. Se mantuvo la composición de 3 + 2 anillos (su prompt hablaba de 4 en un mismo dedo, pero también pedía conservar la pose).
+- Resultado (2 de 2 sin bloqueo): uñas más cortas; bandas separadas y legibles, con textura orgánica, biseles con volumen y piedras con facetas. En el encuadre completo los anillos se ven pequeños, así que la fidelidad fina se juzga mejor en los planos de detalle del video.
+- Guardadas en `mar i rio planeacion/prueba-delta-ia-3a.png` y `prueba-delta-ia-3b.png`.
