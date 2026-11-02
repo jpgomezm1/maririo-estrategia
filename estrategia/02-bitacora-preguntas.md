@@ -114,4 +114,5 @@ Registro resumido de la entrevista. Las respuestas conservan las palabras de Mar
 91. **¿Qué energía tiene la música?** Lo que se recomiende: house latino / afro house. Preguntó qué escucharía una clienta de Mar i Río.
 92. **¿Cómo es el cuarto donde se arregla?** Sí a paredes beige y espejo orgánico. Es una habitación tipo old money sin miedo al color, quizás con espaldar de cama en tela de cebra. El vinotinto va en un cuadro o en los cojines, no en el labial.
 93. **¿Qué tiene puesto ella?** Vestido (se entiende el recomendado: lencero de satén chocolate). El espejo puede ser circular.
-94. **PENDIENTE:** ¿Hacemos primero una prueba corta en Higgsfield, con un solo plano, para ver si la IA respeta el Delta?
+94. **¿Hacemos primero una prueba corta en Higgsfield?** Sí. Se conectó el MCP de Higgsfield a Claude Code y se hizo la prueba desde aquí (resultado en 09-anuncio-stack-delta.md).
+95. **PENDIENTE:** ¿El anillo de la prueba se parece lo suficiente al Delta real?

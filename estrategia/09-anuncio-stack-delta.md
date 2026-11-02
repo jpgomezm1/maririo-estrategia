@@ -26,3 +26,10 @@ Escena: su cuarto al atardecer, luz cálida. Estilo old money con color: paredes
 | 6–9 s | Frente al espejo: se acomoda el pelo y se pinta los labios. El stack brilla en cada gesto. | — | La sensación |
 | 9–11 s | Agarra el bolso, se mira una última vez, sonríe y sale. | *"Regálatelo. Plata 925, para todos los días."* | La justificación |
 | 11–15 s | Cierre: la mano con el stack, de cerca. | *"Delta · $250.000 cada uno · hecho a tu talla"* · *"Llevando 2, envío gratis · pide antes del 5 de diciembre"* | Quitar la duda + llamado final |
+
+## Prueba de precisión en Higgsfield (1 nov, conectado por MCP desde Claude)
+- **Imagen** (GPT Image 2.5, calidad alta, 2k, ~3 créditos, con 3 fotos reales de Delta como referencia): **pasa en lo esencial.** Banda delgada de plata, textura orgánica y una piedra redonda pequeña en bisel. Mano realista, uñas almendradas nude, vestido de satén chocolate, espaldar de cebra y cojín vinotinto.
+- **Lo que falló:** salieron 4 anillos y no 5, repartidos distinto a lo pedido (1 en el índice, 2 en el medio y 1 en el anular). El coral salió más rojo que el real, las piedras se ven un poco más grandes y la textura de la banda más pareja.
+- **Una de las dos imágenes la bloqueó el filtro de contenido** (posiblemente por el escote del vestido lencero). Para el anuncio conviene encuadrar con menos escote: también reduce el riesgo de rechazo en Meta.
+- **Video** (Seedance 2.5, 5 s, 1080p, 35 créditos): en proceso al momento de escribir esto.
+- Imagen guardada en `mar i rio planeacion/prueba-delta-ia.png` (fuera del repo).
