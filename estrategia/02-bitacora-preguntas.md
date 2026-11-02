@@ -121,4 +121,5 @@ Registro resumido de la entrevista. Las respuestas conservan las palabras de Mar
 98. **¿El borrador del video va, o qué cambiamos antes de la versión final?** Va por buen camino. Pidió un fondo más real y difuminado, un video menos "tostado" y más fluido, menos espera entre tomas, un contexto más hermoso, acogedor y auténtico, y quitar los cojines vinotinto. La imagen 4b quedó descartada. Se generó el borrador 2.
 99. **¿El borrador 2 ya va para la versión final?** Casi. Solo 5 anillos (3 + 2), no 9. Cambiar la última toma y corregir el escote. Pidió recordar la estructura del anuncio y por qué vende. Se generó el borrador 3.
 100. **¿El borrador 3 ya va para la versión final?** No: seguían saliendo 9 anillos. Pidió corregirlo como fuera necesario. Se hizo una nueva imagen de referencia con 5 anillos y se generó el borrador 4.
-101. **PENDIENTE:** ¿El borrador 4 ya va para la versión final?
+101. **¿El borrador 4 ya va para la versión final? / ¿Lo hago toma por toma?** Sí, toma por toma. El "más es más" con 9 anillos se ve exagerado: solo 5, 3 en el índice y 2 en el dedo del medio, nada en el anular.
+102. **PENDIENTE:** ¿Las 5 tomas animadas van, o cuál cambiamos?

@@ -92,3 +92,9 @@ Escena: su cuarto al atardecer, luz cálida. Estilo old money con color: paredes
 - **Resultado del borrador 4:** mejoró el blazer (cerrado), el cuarto (real, sin cojines) y la toma final (la mano apaga la lámpara). **Sigue fallando el número de anillos** en la toma hacia la ventana (salen unos 8, también en el dedo del medio) y en la de la lámpara (unos 6). La toma 2 sí sale con 5.
 - **Conclusión:** en un video de 15 s con varias tomas, la IA no respeta el número exacto de anillos. **La solución es generar toma por toma**, cada una a partir de una imagen inicial con exactamente 5 anillos, y unirlas en la edición.
 - Archivo: `mar i rio planeacion/borrador-video-delta-4.mp4`. Visor actualizado.
+
+### Toma por toma (2 nov)
+- Mariana: 9 anillos es demasiado. **Solo 5: 3 en el índice y 2 en el dedo del medio. Nada en el anular.**
+- Método nuevo: una imagen de arranque por toma, con exactamente 5 anillos, y cada toma animada aparte (4 s, borrador). Después se unen en la edición.
+- Correcciones de las imágenes: anillos en plata neutra (salían dorados por la luz cálida) y la misma modelo en todas las tomas (se usó como referencia de identidad un cuadro del borrador 2).
+- Imágenes de arranque en `mar i rio planeacion/tomas-delta/toma1..5.png`.
