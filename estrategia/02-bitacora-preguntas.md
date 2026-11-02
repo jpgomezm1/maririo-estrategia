@@ -108,4 +108,5 @@ Registro resumido de la entrevista. Las respuestas conservan las palabras de Mar
 85. **¿Qué plan de Higgsfield tienes?** Ultra, el más alto: debería incluir todas las herramientas, incluidas las de voz (Speak y Lipsync).
 86. **¿La modelo habla a cámara, o el anuncio va con imagen, texto en pantalla y música?** No habla (siguió la recomendación). Va con imagen, texto en pantalla y música, con cortes rápidos.
 87. **¿En qué momento de su día mostramos a la modelo con el stack?** Arreglándose para salir (siguió la recomendación). Pidió combinar los Delta en varios dedos, repitiendo colores: por ejemplo 3 en un dedo y 1 o 2 en otro.
-88. **PENDIENTE:** ¿Cómo es ella, la modelo?
+88. **¿Cómo es ella, la modelo?** Va como se propuso (colombiana de ~27, femenina, cool, pelo natural, maquillaje ligero, outfit con personalidad, segura). Agregó: uñas largas y femeninas. Se armó el borrador del guion en 09-anuncio-stack-delta.md.
+89. **PENDIENTE:** ¿Cuál es el gancho del primer segundo?
