@@ -10,6 +10,7 @@
 | 86 | ¿Habla? | No. Imagen, texto en pantalla y música, con cortes rápidos. |
 | 87 | Momento | Arreglándose para salir. Los Delta repartidos en varios dedos, repitiendo colores: 3 en el índice (amarillo, verde, coral) y 2 en el anular (azul, verde). |
 | 89–90 | Gancho | **"Yo no salgo con uno solo."** Doble sentido (los anillos y la salida): atrevido, con humor, habla duro. |
+| 91 | Música | House latino / afro house con golpe marcado, para cortar en cada anillo. Referencia de energía (no se usan en el anuncio por derechos): el house orgánico tipo Keinemusik, Bomba Estéreo, Kali Uchis. Pista con licencia de la Sound Collection de Meta (buscar "afro house", "latin house", "groovy"). |
 | 88 | La modelo | Colombiana de unos 27 años, femenina, cool y no tradicional. Pelo natural (rizos o suelto), maquillaje ligero, **uñas largas, almendradas y femeninas**, outfit con personalidad, actitud segura y atrevida, sin pose. |
 
 ## Borrador del guion (15 s, vertical 9:16, sin voz, música con ritmo)
