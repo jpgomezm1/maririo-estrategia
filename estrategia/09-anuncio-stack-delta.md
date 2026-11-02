@@ -31,5 +31,13 @@ Escena: su cuarto al atardecer, luz cálida. Estilo old money con color: paredes
 - **Imagen** (GPT Image 2.5, calidad alta, 2k, ~3 créditos, con 3 fotos reales de Delta como referencia): **pasa en lo esencial.** Banda delgada de plata, textura orgánica y una piedra redonda pequeña en bisel. Mano realista, uñas almendradas nude, vestido de satén chocolate, espaldar de cebra y cojín vinotinto.
 - **Lo que falló:** salieron 4 anillos y no 5, repartidos distinto a lo pedido (1 en el índice, 2 en el medio y 1 en el anular). El coral salió más rojo que el real, las piedras se ven un poco más grandes y la textura de la banda más pareja.
 - **Una de las dos imágenes la bloqueó el filtro de contenido** (posiblemente por el escote del vestido lencero). Para el anuncio conviene encuadrar con menos escote: también reduce el riesgo de rechazo en Meta.
-- **Video** (Seedance 2.5, 5 s, 1080p, 35 créditos): en proceso al momento de escribir esto.
+- **Video** (Seedance 2.5, 5 s, 1080p, 35 créditos): **los anillos se mantienen iguales cuadro a cuadro** mientras la mano se mueve. El video respeta lo que trae la imagen inicial; por eso el trabajo fino está en la imagen.
 - Imagen guardada en `mar i rio planeacion/prueba-delta-ia.png` (fuera del repo).
+
+### Correcciones de Mariana a la prueba 1 y prueba 2
+- **Escala:** la mano se veía muy grande y el anillo muy delgado. El Delta real es **robusto**: banda de 4–5 mm, textura derretida marcada y piedra de ~5 mm en un bisel grueso (referencia: foto del stack en su mano, `images/9.jpg`).
+- **El anillo se veía plástico:** pedir plata real muy pulida, con reflejos fuertes y recovecos más oscuros.
+- **Uñas vinotinto** (largas, almendradas).
+- **Espaldar de cebra en blanco y negro**, no beige y negro (referencia: panel tapizado tipo Pinterest de Soft Visions Studio).
+- **Vestido con más personalidad:** satén chocolate con **encaje**, y **blazer negro oversize** encima.
+- **Prueba 2** (mismo método, foto real en la mano como referencia principal): anillos más robustos y derretidos, a mejor escala, uñas vinotinto, encaje y blazer. La cebra todavía sale cálida por la luz del atardecer. Una de las dos imágenes volvió a bloquearse por el filtro (escote). Guardada en `mar i rio planeacion/prueba-delta-ia-2.png`; el video 1 en `prueba-delta-ia-video-1.mp4`.
