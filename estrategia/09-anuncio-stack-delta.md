@@ -98,3 +98,4 @@ Escena: su cuarto al atardecer, luz cálida. Estilo old money con color: paredes
 - Método nuevo: una imagen de arranque por toma, con exactamente 5 anillos, y cada toma animada aparte (4 s, borrador). Después se unen en la edición.
 - Correcciones de las imágenes: anillos en plata neutra (salían dorados por la luz cálida) y la misma modelo en todas las tomas (se usó como referencia de identidad un cuadro del borrador 2).
 - Imágenes de arranque en `mar i rio planeacion/tomas-delta/toma1..5.png`.
+- **Borrador 5 (toma por toma):** 5 tomas de 4 s animadas desde su imagen de arranque (Seedance 2.5, borrador) y unidas en 15 s (3 + 2,5 + 3,5 + 3 + 3). En todas se mantienen los 5 anillos (3 en el índice, 2 en el del medio), la plata neutra, la misma modelo y el blazer cerrado. Archivos: `mar i rio planeacion/borrador-video-delta-5.mp4` y las tomas sueltas en `tomas-delta/`. Visor: https://claude.ai/artifact/MxpaQf3P8WedFWx58vQ86n
