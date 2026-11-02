@@ -105,4 +105,5 @@ Registro resumido de la entrevista. Las respuestas conservan las palabras de Mar
 82. **¿Quién protagoniza el anuncio: tú o una clienta real?** (Sin respuesta.) Pidió diseñar un solo anuncio muy dinámico que incentive la compra en el e-commerce, preguntando de a una cosa, porque las propuestas anteriores tuvieron muchos errores. Se empieza por la base: qué vende el anuncio.
 83. **¿Qué vende el anuncio: Delta solo, Limo solo o el stack?** El stack de Delta en los 4 colores (siguió la recomendación): muestra la actitud, cada pieza vale $250.000 y con 2 el envío es gratis. Lleva a la ficha de Delta.
 84. **¿Quién protagoniza el anuncio: tú o una clienta real?** Lo quiere hacer con IA en Higgsfield. Pidió explorar todas sus funciones y además investigar cómo compran las mujeres: cree que es "ay, qué lindo, lo quiero" y que una se crea la necesidad. Respuesta en 08-higgsfield-y-como-compra-ella.md: tiene razón, con un matiz; primero viene el deseo y después la justificación, y el anuncio tiene que dar las dos cosas.
-85. **PENDIENTE:** ¿Qué plan de Higgsfield tienes?
+85. **¿Qué plan de Higgsfield tienes?** Ultra, el más alto: debería incluir todas las herramientas, incluidas las de voz (Speak y Lipsync).
+86. **PENDIENTE:** ¿La modelo habla a cámara, o el anuncio va con imagen, texto en pantalla y música?
