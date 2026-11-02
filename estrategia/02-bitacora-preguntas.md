@@ -113,4 +113,5 @@ Registro resumido de la entrevista. Las respuestas conservan las palabras de Mar
 90. **¿Cuál de los ganchos "extra" escoges?** El 1: "Yo no salgo con uno solo."
 91. **¿Qué energía tiene la música?** Lo que se recomiende: house latino / afro house. Preguntó qué escucharía una clienta de Mar i Río.
 92. **¿Cómo es el cuarto donde se arregla?** Sí a paredes beige y espejo orgánico. Es una habitación tipo old money sin miedo al color, quizás con espaldar de cama en tela de cebra. El vinotinto va en un cuadro o en los cojines, no en el labial.
-93. **PENDIENTE:** ¿Qué tiene puesto ella?
+93. **¿Qué tiene puesto ella?** Vestido (se entiende el recomendado: lencero de satén chocolate). El espejo puede ser circular.
+94. **PENDIENTE:** ¿Hacemos primero una prueba corta en Higgsfield, con un solo plano, para ver si la IA respeta el Delta?
