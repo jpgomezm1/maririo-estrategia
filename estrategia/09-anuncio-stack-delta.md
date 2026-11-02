@@ -53,3 +53,10 @@ Escena: su cuarto al atardecer, luz cálida. Estilo old money con color: paredes
 - Resultado: anillos más finos y mejor integrados a la mano. Guardadas en `mar i rio planeacion/prueba-delta-ia-4a.png` y `4b.png`. Se usa la 4a como referencia del video.
 - **Borrador del video** (Seedance 2.5, 15 s, borrador en 480p por 45 créditos; la versión final en 1080p cuesta 240): 5 tomas sin texto. 1) Los anillos caen en un platico de vidrio. 2) Se los pone: 3 en el índice y 2 en el anular. 3) En el espejo redondo se acomoda el pelo y se toca los labios. 4) Agarra el bolso y sale. 5) Cierre de cerca del stack sobre la solapa del blazer.
 - El texto en pantalla y la música se ponen en la edición (CapCut o la agencia): la IA no escribe bien textos y la música tiene que ser con licencia.
+
+### Revisión del borrador del video (cuadro por cuadro)
+- Mariana descartó la imagen 4b ("está fatal"); el video usó la 4a.
+- **Toma 1 (anillos cayendo al platico): falla.** Los anillos se ven como plástico o vidrio derretido, no como plata. Es el primer segundo, el más importante, así que hay que cambiarla.
+- **Toma 2 (se los pone): funciona.** El stack se arma en el índice con piedras de colores y uñas vinotinto.
+- **Tomas 3 a 5 (espejo, bolso, sonrisa, cierre en la solapa): funcionan.** Escena, vestuario y luz consistentes. Se le ve la cara completa a la modelo.
+- Guardado en `mar i rio planeacion/borrador-video-delta-1.mp4`.
