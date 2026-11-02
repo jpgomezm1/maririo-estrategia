@@ -84,3 +84,8 @@ Escena: su cuarto al atardecer, luz cálida. Estilo old money con color: paredes
 - Al usar el borrador 2 como video de referencia, la IA lo copió casi igual: **siguen saliendo 9 anillos** en la toma de la ventana y **el escote sigue profundo** en el espejo. Solo cambió la toma final (la mano apaga la lámpara), y ahí los anillos se ven deformados y son más de 5.
 - **Lección:** el video de referencia amarra todo lo que trae, errores incluidos. Para corregir hay que cambiar la **imagen de referencia** (5 anillos, blazer cerrado, sin cojines) y generar sin el video viejo.
 - Archivo: `mar i rio planeacion/borrador-video-delta-3.mp4`. Visor actualizado.
+
+### Borrador 4 del video
+- Mariana: corregir los 9 anillos, "haz lo que sea necesario".
+- Nueva imagen de referencia (`mar i rio planeacion/referencia-5-anillos.png`): exactamente 5 anillos en la mano derecha (3 en el índice, 2 en el anular), blazer cerrado, sin cojines vinotinto, cuarto real con flores y lino.
+- Borrador 4 generado **sin** el video viejo como referencia, solo con esa imagen y la foto real.

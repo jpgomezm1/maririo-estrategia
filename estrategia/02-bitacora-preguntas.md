@@ -120,4 +120,5 @@ Registro resumido de la entrevista. Las respuestas conservan las palabras de Mar
 97. **¿En la prueba 3 los anillos ya se ven como el Delta real?** Hizo las últimas correcciones (irregularidad orgánica pero bien construida, menos pesados, stack legible) y pidió sacar la versión del video. El detalle importa, pero para verlo a fondo está la web. Se hizo la prueba 4 y el borrador del video.
 98. **¿El borrador del video va, o qué cambiamos antes de la versión final?** Va por buen camino. Pidió un fondo más real y difuminado, un video menos "tostado" y más fluido, menos espera entre tomas, un contexto más hermoso, acogedor y auténtico, y quitar los cojines vinotinto. La imagen 4b quedó descartada. Se generó el borrador 2.
 99. **¿El borrador 2 ya va para la versión final?** Casi. Solo 5 anillos (3 + 2), no 9. Cambiar la última toma y corregir el escote. Pidió recordar la estructura del anuncio y por qué vende. Se generó el borrador 3.
-100. **PENDIENTE:** ¿El borrador 3 ya va para la versión final?
+100. **¿El borrador 3 ya va para la versión final?** No: seguían saliendo 9 anillos. Pidió corregirlo como fuera necesario. Se hizo una nueva imagen de referencia con 5 anillos y se generó el borrador 4.
+101. **PENDIENTE:** ¿El borrador 4 ya va para la versión final?
