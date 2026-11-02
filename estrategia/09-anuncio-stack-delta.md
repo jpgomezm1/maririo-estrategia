@@ -66,3 +66,16 @@ Escena: su cuarto al atardecer, luz cálida. Estilo old money con color: paredes
 - Cambios en el borrador 2 (45 créditos): cuarto real y vivido (ropa de cama de lino blanco, flores, libros, ropa sobre la cama), luz natural con color neutro (no naranja), fondo desenfocado, cortes sobre la acción sin pausas y sin cojines vinotinto. La toma 1 ya no son los anillos cayendo al platico: empieza con ella poniéndoselos.
 - **Resultado del borrador 2:** mucho más natural. El cuarto se ve real (flores, lino blanco, libros) con el fondo desenfocado, el color es natural y los cortes son más fluidos. Faltas: en la toma hacia la ventana salieron 9 anillos (3 en cada dedo), en el cierre se colaron los cojines vinotinto que traía la imagen de referencia, y en el espejo el escote se ve profundo.
 - Visor con los dos borradores: https://claude.ai/artifact/MxpaQf3P8WedFWx58vQ86n. Archivo: `mar i rio planeacion/borrador-video-delta-2.mp4`.
+
+### Borrador 3 del video
+- Mariana: 9 anillos es demasiado, solo 5 (3 + 2). La última toma no le gusta. Corregir el escote.
+- Cambios: exactamente 5 anillos en toda toma (3 en el índice, 2 en el anular de la misma mano), blazer cerrado más arriba (escote discreto) y sin cojines vinotinto. **Nueva toma final:** en la puerta, su mano con los 5 anillos nítidos en primer plano apaga la lámpara, el cuarto se oscurece suave y ella sale; queda un cuadro tranquilo para poner el cierre con precio. Se usó el borrador 2 como referencia de estilo.
+
+## La estructura del anuncio y por qué vende (según 07 y 08)
+| Tiempo | Qué se ve | Texto | Parte de la anatomía | Qué pasa en ella |
+|---|---|---|---|---|
+| 0–3 s | Se pone los anillos en el índice, uno tras otro | *"Yo no salgo con uno solo."* | Gancho: la joya en el primer cuadro, en movimiento, más una frase que habla duro | "Ay, qué lindo" + "esa soy yo" |
+| 3–5 s | Dos más en el anular; levanta la mano a la luz | *"Elige tus colores."* | La pieza como respuesta + llamado suave a la mitad | Ve el stack completo brillando: lo desea |
+| 5–9 s | En el espejo, se acomoda el pelo | — | La sensación | Se imagina con el stack, segura y cool |
+| 9–12 s | Agarra el bolso, sonríe y sale | *"Regálatelo. Plata 925, para todos los días."* | La justificación | Se da permiso: me lo merezco, lo voy a usar siempre |
+| 12–15 s | Su mano apaga la lámpara | *"Delta · $250.000 cada uno · hecho a tu talla · llevando 2, envío gratis · pide antes del 5 de diciembre"* | Quitar la duda que frena + llamado final | Precio claro, talla, envío gratis con 2 y fecha: decide hoy |
