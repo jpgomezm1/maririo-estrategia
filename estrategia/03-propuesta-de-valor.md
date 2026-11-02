@@ -37,6 +37,10 @@ Caso real: 27 años, creadora de contenido independiente, muy estética, autént
 - **Regálatelo:** en diciembre, regalarse a una misma.
 - **La prueba:** clientas reales, con su cara y sus palabras.
 
+**Las 2 reglas de los anuncios que venden** (lección del análisis de anuncios de venta, 05c, validada por Mariana el 1 nov 2026):
+1. **Cada anuncio responde una duda que frena la compra:** por qué cuesta eso, si se pela, cuál escoger, si llega a tiempo, quién está detrás, si me va a quedar.
+2. **El precio siempre a la vista:** filtra más rápido a la clienta. Quien hace clic ya aceptó el precio y llega a comprar, no a preguntar.
+
 **Lo que no hacemos:**
 - No explicar el significado. Las piezas son un lienzo en blanco y eso se vive, no se explica.
 - No vender como "joyas con significado": la gente no compra eso, compra cómo se siente.
