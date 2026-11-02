@@ -9,6 +9,7 @@
 | 84 | Cómo se hace | Con IA, en Higgsfield. |
 | 86 | ¿Habla? | No. Imagen, texto en pantalla y música, con cortes rápidos. |
 | 87 | Momento | Arreglándose para salir. Los Delta repartidos en varios dedos, repitiendo colores: 3 en el índice (amarillo, verde, coral) y 2 en el anular (azul, verde). |
+| 89–90 | Gancho | **"Yo no salgo con uno solo."** Doble sentido (los anillos y la salida): atrevido, con humor, habla duro. |
 | 88 | La modelo | Colombiana de unos 27 años, femenina, cool y no tradicional. Pelo natural (rizos o suelto), maquillaje ligero, **uñas largas, almendradas y femeninas**, outfit con personalidad, actitud segura y atrevida, sin pose. |
 
 ## Borrador del guion (15 s, vertical 9:16, sin voz, música con ritmo)
@@ -16,7 +17,7 @@ Escena: su cuarto o tocador al atardecer, luz cálida, tonos de la marca (vinoti
 
 | Tiempo | Qué se ve | Texto en pantalla | Parte de la anatomía |
 |---|---|---|---|
-| 0–1,5 s | Plano muy cerrado: su mano de uñas largas deja caer 5 Delta en una bandeja de vidrio. Suenan, la luz pega en las piedras. | (el gancho, pregunta 89) | Gancho + "qué lindo" |
+| 0–1,5 s | Plano muy cerrado: su mano de uñas largas deja caer 5 Delta en una bandeja de vidrio. Suenan, la luz pega en las piedras. | *"Yo no salgo con uno solo."* | Gancho + "qué lindo" |
 | 1,5–4 s | Cortes al ritmo: se pone uno, dos, tres en el índice. | — | La pieza como respuesta |
 | 4–6 s | Se pone dos en el anular. | *"Elige tus colores."* | Llamado suave a la mitad |
 | 6–9 s | Frente al espejo: se acomoda el pelo y se pinta los labios. El stack brilla en cada gesto. | — | La sensación |

@@ -110,4 +110,5 @@ Registro resumido de la entrevista. Las respuestas conservan las palabras de Mar
 87. **¿En qué momento de su día mostramos a la modelo con el stack?** Arreglándose para salir (siguió la recomendación). Pidió combinar los Delta en varios dedos, repitiendo colores: por ejemplo 3 en un dedo y 1 o 2 en otro.
 88. **¿Cómo es ella, la modelo?** Va como se propuso (colombiana de ~27, femenina, cool, pelo natural, maquillaje ligero, outfit con personalidad, segura). Agregó: uñas largas y femeninas. Se armó el borrador del guion en 09-anuncio-stack-delta.md.
 89. **¿Cuál es el gancho del primer segundo?** El formato "POV" le parece pasado de moda. Quiere ir hacia "nos gusta vernos más, extra" y pidió más propuestas de gancho.
-90. **PENDIENTE:** ¿Cuál de los ganchos "extra" escoges?
+90. **¿Cuál de los ganchos "extra" escoges?** El 1: "Yo no salgo con uno solo."
+91. **PENDIENTE:** ¿Qué energía tiene la música?
